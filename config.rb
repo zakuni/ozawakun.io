@@ -1,4 +1,4 @@
-set :slim, { :ugly => true, :format => :html5 }
+set :slim, { :format => :html5 }
 set :frontmatter_extensions, %w(.html .modt)
 
 ###
