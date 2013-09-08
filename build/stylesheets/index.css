@@ -1,16 +1,55 @@
-/* line 1, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 10, /Users/zakuni/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%; }
+
+/* line 12, /Users/zakuni/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -54px; }
+  /* line 18, /Users/zakuni/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+  #root #root_footer {
+    height: 54px; }
+
+/* line 20, /Users/zakuni/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+footer {
+  clear: both;
+  position: relative;
+  height: 54px; }
+
+/* line 6, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 * {
   color: #121212; }
 
-/* line 4, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 9, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 body {
-  margin: 8px;
-  background-color: #fcfdfc; }
+  background: #fcfdfc; }
 
-/* line 8, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 12, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#root {
+  margin-left: 8px;
+  margin-right: 8px; }
+
+/* line 17, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a {
-  color: #555555; }
+  color: #555555;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
 
-/* line 10, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 21, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a:hover {
-  color: #999999; }
+  color: #cccccc; }
+
+/* line 24, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+footer {
+  text-align: center;
+  color: #333333;
+  background: #fcfdfc; }

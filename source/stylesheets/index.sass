@@ -1,11 +1,27 @@
+@import compass/css3
+@import compass/layout
+
++sticky-footer(54px, "#root", "#root_footer", "footer")
+
 *
   color: #121212
-          
+
 body
-  margin: 8px
-  background-color: #fcfdfc
+  background: #fcfdfc          
+
+#root
+  margin:
+    left: 8px
+    right: 8px
 
 a
   color: #555555
+  +transition-property(color)
+  +transition-duration(0.2s)
 a:hover
-  color: #999999
+  color: #cccccc
+
+footer
+  text-align: center
+  color: #333333
+  background: #fcfdfc
