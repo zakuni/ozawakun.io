@@ -6,3 +6,11 @@
 body {
   margin: 8px;
   background-color: #fcfdfc; }
+
+/* line 8, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+a {
+  color: #555555; }
+
+/* line 10, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+a:hover {
+  color: #999999; }
