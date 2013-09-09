@@ -29,10 +29,11 @@ body {
 
 /* line 12, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 #root {
-  margin-left: 8px;
-  margin-right: 8px; }
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; }
 
-/* line 17, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 18, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a {
   color: #555555;
   -webkit-transition-property: color;
@@ -44,11 +45,11 @@ a {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s; }
 
-/* line 21, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 22, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a:hover {
   color: #cccccc; }
 
-/* line 24, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 25, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 footer {
   text-align: center;
   color: #333333;
