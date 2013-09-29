@@ -100,7 +100,11 @@ a:hover {
 footer {
   text-align: center;
   color: #333333;
-  background: #fcfdfc; }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfdfc), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #fcfdfc, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fcfdfc, #eeeeee);
+  background-image: -o-linear-gradient(top, #fcfdfc, #eeeeee);
+  background-image: linear-gradient(top, #fcfdfc, #eeeeee); }
   /* line 70, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
   footer a {
     text-decoration: none; }
