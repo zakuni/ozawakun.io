@@ -8,11 +8,16 @@
 
 body
   font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif"
-  background: #fcfdfc   
+  background: #fcfdfc
+  height: 100%
+  margin: 0
+  +background-image(linear-gradient(left, #fcfdfc, #fcfdfc, #eeeeee))
+  background-repeat: no-repeat
+  background-attachment: fixed
 
 section
   margin-bottom: 30px
-@media screen and (min-width: 1000px)
+@media screen and (min-width: 500px)
   h1
     font-size: 82px
     margin-top: 20px
@@ -25,7 +30,7 @@ section
     margin-bottom: 15px
     color: #222222
 
-@media screen and (max-width: 999px)
+@media screen and (max-width: 499px)
   h1
     font-size: 48px
     margin-top: 20px
@@ -65,7 +70,6 @@ a:hover
 footer
   text-align: center
   color: #333333
-  +background-image(linear-gradient(top, #fcfdfc, #eeeeee))
 
   a 
     text-decoration: none
