@@ -36,60 +36,105 @@ body {
   background-image: linear-gradient(left, #fcfdfc, #fcfdfc, #eeeeee);
   background-repeat: no-repeat;
   background-attachment: fixed; }
+<<<<<<< HEAD
 
 /* line 18, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+
+/* line 18, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+main {
+  display: block; }
+
+/* line 21, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
 section {
   margin-bottom: 30px; }
 
 @media screen and (min-width: 500px) {
+<<<<<<< HEAD
   /* line 21, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+  /* line 24, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
   h1 {
     font-size: 82px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #111111; }
 
+<<<<<<< HEAD
   /* line 27, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+  /* line 30, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
   h2 {
     font-size: 38px;
     text-indent: 0.5em;
     margin-bottom: 15px;
     color: #222222; } }
 @media screen and (max-width: 499px) {
+<<<<<<< HEAD
   /* line 34, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+  /* line 37, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
   h1 {
     font-size: 48px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #111111; }
 
+<<<<<<< HEAD
   /* line 40, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+  /* line 43, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
   h2 {
     font-size: 30px;
     text-indent: 0.5em;
     margin-bottom: 15px;
     color: #222222; } }
+<<<<<<< HEAD
 /* line 46, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+/* line 49, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
 #root {
   margin-left: auto;
   margin-right: auto;
   width: 90%; }
 
+<<<<<<< HEAD
 /* line 52, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+/* line 55, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
 #description {
   font-size: 18px;
   text-indent: 2em; }
 
+<<<<<<< HEAD
 /* line 56, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+/* line 59, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
 .coderwall.coderwall-root.horizontal {
   margin-left: 30px;
   margin-bottom: 30px; }
 
+<<<<<<< HEAD
 /* line 60, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 #links {
   font-size: 17px; }
 
 /* line 63, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+/* line 63, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#links {
+  font-size: 17px; }
+
+/* line 66, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
 a {
   color: #555555;
   -webkit-transition-property: color;
@@ -101,6 +146,7 @@ a {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s; }
 
+<<<<<<< HEAD
 /* line 67, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a:hover {
   color: #cccccc; }
@@ -110,5 +156,16 @@ footer {
   text-align: center;
   color: #333333; }
   /* line 74, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+=======
+/* line 70, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+a:hover {
+  color: #cccccc; }
+
+/* line 73, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+footer {
+  text-align: center;
+  color: #333333; }
+  /* line 77, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+>>>>>>> work
   footer a {
     text-decoration: none; }
