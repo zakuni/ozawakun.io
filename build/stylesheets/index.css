@@ -26,61 +26,70 @@ footer {
 /* line 9, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 body {
   font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
-  background: #fcfdfc; }
+  background: #fcfdfc;
+  height: 100%;
+  margin: 0;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #fcfdfc), color-stop(50%, #fcfdfc), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(left, #fcfdfc, #fcfdfc, #eeeeee);
+  background-image: -moz-linear-gradient(left, #fcfdfc, #fcfdfc, #eeeeee);
+  background-image: -o-linear-gradient(left, #fcfdfc, #fcfdfc, #eeeeee);
+  background-image: linear-gradient(left, #fcfdfc, #fcfdfc, #eeeeee);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
-/* line 13, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 18, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 section {
   margin-bottom: 30px; }
 
-@media screen and (min-width: 1000px) {
-  /* line 16, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+@media screen and (min-width: 500px) {
+  /* line 21, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
   h1 {
     font-size: 82px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #111111; }
 
-  /* line 22, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  /* line 27, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
   h2 {
     font-size: 38px;
     text-indent: 0.5em;
     margin-bottom: 15px;
     color: #222222; } }
-@media screen and (max-width: 999px) {
-  /* line 29, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+@media screen and (max-width: 499px) {
+  /* line 34, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
   h1 {
     font-size: 48px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #111111; }
 
-  /* line 35, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  /* line 40, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
   h2 {
     font-size: 30px;
     text-indent: 0.5em;
     margin-bottom: 15px;
     color: #222222; } }
-/* line 41, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 46, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 #root {
   margin-left: auto;
   margin-right: auto;
   width: 90%; }
 
-/* line 47, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 52, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 #description {
   font-size: 18px;
   text-indent: 2em; }
 
-/* line 51, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 56, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 .coderwall.coderwall-root.horizontal {
   margin-left: 30px;
   margin-bottom: 30px; }
 
-/* line 55, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 60, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 #links {
   font-size: 17px; }
 
-/* line 58, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 63, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a {
   color: #555555;
   -webkit-transition-property: color;
@@ -92,19 +101,14 @@ a {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s; }
 
-/* line 62, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 67, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 a:hover {
   color: #cccccc; }
 
-/* line 65, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+/* line 70, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
 footer {
   text-align: center;
-  color: #333333;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfdfc), color-stop(100%, #eeeeee));
-  background-image: -webkit-linear-gradient(top, #fcfdfc, #eeeeee);
-  background-image: -moz-linear-gradient(top, #fcfdfc, #eeeeee);
-  background-image: -o-linear-gradient(top, #fcfdfc, #eeeeee);
-  background-image: linear-gradient(top, #fcfdfc, #eeeeee); }
-  /* line 70, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  color: #333333; }
+  /* line 74, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
   footer a {
     text-decoration: none; }
