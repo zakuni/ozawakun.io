@@ -37,6 +37,15 @@ namespace :deploy do
     end
   end
 
+  after 'bundler:install', 'middleman:build' do
+    on roles(:app) do
+      within release_path do
+        execute "cd #{release_path}"
+        execute :bundle, "exec middleman build"
+      end
+    end
+  end
+
   after :finishing, 'deploy:cleanup'
 
 end
