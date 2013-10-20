@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~>3.1.3"
-gem "rb-inotify"
 gem "therubyracer"
 gem "slim"
 
