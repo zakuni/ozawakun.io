@@ -16,7 +16,7 @@ set :deploy_to, '~/ozawakun.io'
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
 set :rbenv_custom_path, '/opt/rbenv'
-set :rbenv_ruby, '2.0.0-p247'
+set :rbenv_ruby, '2.0.0-p353'
 
 namespace :deploy do
 
