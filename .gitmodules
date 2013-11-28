@@ -1,0 +1,3 @@
+[submodule "source/sakurafubuki"]
+	path = source/sakurafubuki
+	url = https://github.com/zakuni/sakurafubuki.git
