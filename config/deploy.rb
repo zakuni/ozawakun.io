@@ -1,6 +1,6 @@
 set :application, 'ozawakun.io'
 set :repo_url, 'git@github.com:zakuni/ozawakun.io.git'
-set :git_enable_submodules, 1
+
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 set :deploy_to, '~/ozawakun.io'
