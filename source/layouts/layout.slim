@@ -9,10 +9,11 @@ meta name="viewport" content="width=device-width"
 / Use title if it's in the page YAML frontmatter
 title = current_page.data.title || "ozawakun.io"
 
-= stylesheet_link_tag "normalize", "index"
+= stylesheet_link_tag "normalize"
 = javascript_include_tag  "all"
 script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css"
+= stylesheet_link_tag "index"
 script src="http://coderwall.com/javascripts/jquery.coderwall.js"
   
 body class= page_classes
