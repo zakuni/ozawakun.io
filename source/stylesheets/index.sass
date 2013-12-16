@@ -1,5 +1,6 @@
 @import compass/css3
 @import compass/layout
+@import url(http://weloveiconfonts.com/api/?family=fontawesome)
 
 +sticky-footer(54px, "#root", "#root_footer", "footer")
 
@@ -20,6 +21,31 @@ main
 
 h1, h2
   +text-shadow(-1px 1px 0 rgba(255, 255, 255, 1))
+
+#about:before
+  content: "\f05a"
+  font-family: "FontAwesome",sans-serif
+  margin-right: 15px
+
+#services:before
+  content: "\f02e"
+  font-family: "FontAwesome",sans-serif
+  margin-right: 15px
+
+#otherservices:before
+  content: "\f097"
+  font-family: "FontAwesome",sans-serif
+  margin-right: 15px
+
+#activities:before
+  content: "\f073"
+  font-family: "FontAwesome",sans-serif
+  margin-right: 15px
+
+#coderwall:before
+  content: "\f121"
+  font-family: "FontAwesome",sans-serif
+  margin-right: 15px  
 
 section
   margin-bottom: 50px
@@ -45,7 +71,7 @@ section
     text-indent: 3em
 
   ul
-    text-indent: 1.5em
+    text-indent: 1.6em
 
   li
     font-size: 17px
