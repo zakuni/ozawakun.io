@@ -23,6 +23,22 @@ main
 h1, h2
   +text-shadow(-1px 1px 0 rgba(255, 255, 255, 1))
 
+.flexcontainer
+  display: flex
+  display: -webkit-flex
+
+  flex-direction: row
+  -webkit-flex-direction: row
+
+  flex-wrap: wrap
+  -webkit-flex-wrap: wrap
+
+  justify-content: center
+  -webkit-justify-content: center
+
+.box
+  flex: none
+
 #about:before
   content: "\f05a"
   font-family: "FontAwesome",sans-serif
@@ -50,6 +66,8 @@ h1, h2
 
 section
   margin-bottom: 70px
+
+// for pc
 @media screen and (min-width: 520px)
   h1
     font-size: 84px
@@ -78,18 +96,37 @@ section
     font-size: 18px
     line-height: 26px
 
+// for mobile
 @media screen and (max-width: 519px)
   h1
     font-size: 48px
     margin-top: 20px
-    margin-bottom: 20px
+    margin-bottom: 50px
     color: #111111
 
   h2
     font-size: 26px
-    text-indent: 0.5em
-    margin-bottom: 15px
+    text-indent: 0.2em
+    margin-bottom: 5px
     color: #222222
+
+  #about:before
+    margin-right: 6px
+
+  #services:before
+    margin-right: 7px
+
+  #otherservices:before
+    margin-right: 7px
+
+  #activities:before
+    margin-right: 7px
+
+  #coderwall:before
+    margin-right: 5px
+
+  section
+    margin-bottom: 40px
 
   #root
     width: 90%  
@@ -100,6 +137,7 @@ section
 
   li
     font-size: 16px
+    line-height: 24px
 
 #root
   margin:
