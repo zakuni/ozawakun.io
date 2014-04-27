@@ -18,7 +18,3 @@ gem "middleman-deploy"
 platforms :mri_18 do
   gem "ruby18_source_location"
 end
-
-gem 'capistrano'
-gem 'capistrano-bundler'
-gem 'capistrano-rbenv', github: "capistrano/rbenv"
