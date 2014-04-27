@@ -1,0 +1,225 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* line 10, /opt/boxen/rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%; }
+
+/* line 12, /opt/boxen/rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -54px; }
+  /* line 18, /opt/boxen/rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+  #root #root_footer {
+    height: 54px; }
+
+/* line 20, /opt/boxen/rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+footer {
+  clear: both;
+  position: relative;
+  height: 54px; }
+
+/* line 7, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+* {
+  color: #121212; }
+
+/* line 10, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+body {
+  font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+  background: #f0f1f0;
+  height: 100%;
+  margin: 0;
+  /* subtlepatterns.com */
+  background-image: url("../images/handmadepaper.png");
+  background-repeat: repeat;
+  background-attachment: scroll; }
+
+/* line 20, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+main {
+  display: block; }
+
+/* line 23, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+h1, h2 {
+  text-shadow: -1px 1px 0 white; }
+
+/* line 26, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+h1 {
+  text-align: center; }
+
+/* line 29, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+.flexcontainer {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+  -webkit-justify-content: center; }
+
+/* line 42, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+.box {
+  flex: none; }
+
+/* line 45, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#about:before {
+  content: "\f05a";
+  font-family: "FontAwesome", sans-serif;
+  margin-right: 12px; }
+
+/* line 50, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#services:before {
+  content: "\f02e";
+  font-family: "FontAwesome", sans-serif;
+  margin-right: 14px; }
+
+/* line 55, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#otherservices:before {
+  content: "\f097";
+  font-family: "FontAwesome", sans-serif;
+  margin-right: 14px; }
+
+/* line 60, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#activities:before {
+  content: "\f073";
+  font-family: "FontAwesome", sans-serif;
+  margin-right: 12px; }
+
+/* line 65, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#coderwall:before {
+  content: "\f121";
+  font-family: "FontAwesome", sans-serif;
+  margin-right: 7px; }
+
+/* line 70, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+section {
+  margin-bottom: 58px; }
+
+@media screen and (min-width: 520px) {
+  /* line 75, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  h1 {
+    font-size: 84px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: #111111;
+    text-indent: 0.2em; }
+
+  /* line 82, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  h2 {
+    font-size: 32px;
+    text-indent: 0.5em;
+    margin-bottom: 10px;
+    color: #222222; }
+
+  /* line 88, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #root {
+    width: 530px; }
+
+  /* line 91, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #description {
+    font-size: 21px;
+    text-indent: 3.5em; }
+
+  /* line 95, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  ul {
+    text-indent: 2em; }
+
+  /* line 98, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  li {
+    font-size: 18px;
+    line-height: 26px; } }
+@media screen and (max-width: 519px) {
+  /* line 104, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #111111; }
+
+  /* line 110, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  h2 {
+    font-size: 26px;
+    text-indent: 0.2em;
+    margin-bottom: 5px;
+    color: #222222; }
+
+  /* line 116, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #about:before {
+    margin-right: 6px; }
+
+  /* line 119, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #services:before {
+    margin-right: 7px; }
+
+  /* line 122, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #otherservices:before {
+    margin-right: 7px; }
+
+  /* line 125, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #activities:before {
+    margin-right: 7px; }
+
+  /* line 128, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #coderwall:before {
+    margin-right: 5px; }
+
+  /* line 131, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  section {
+    margin-bottom: 40px; }
+
+  /* line 134, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #root {
+    width: 90%; }
+
+  /* line 137, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  #description {
+    font-size: 19px;
+    text-indent: 2em; }
+
+  /* line 141, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  li {
+    font-size: 16px;
+    line-height: 24px; } }
+/* line 145, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+#root {
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 150, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+ul {
+  list-style-type: none;
+  margin: 0px; }
+
+/* line 154, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+li {
+  margin: 0px; }
+
+/* line 157, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+.coderwall.coderwall-root.horizontal {
+  margin-left: 30px;
+  margin-bottom: 30px; }
+
+/* line 161, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+a {
+  color: #555555;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+/* line 165, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+a:hover {
+  color: #cccccc; }
+
+/* line 168, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+footer {
+  text-align: center;
+  color: #333333; }
+  /* line 172, /Users/zakuni/ozawakun.io/source/stylesheets/index.sass */
+  footer a {
+    text-decoration: none; }
