@@ -9,6 +9,8 @@ gem "slim"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
+gem "middleman-deploy"
+
 # For faster file watcher updates:
 # gem "wdm", "~> 0.1.0") # Windows
 
