@@ -1,59 +1,62 @@
-main#root
-  h1
-    | ozawa
-    span#space &nbsp;
-    | kun
-    span#period .
-    | io
-  section
-    h2#about About
-    #description
-      b Kunio Ozawa
-      |  a.k.a.
-      b zakuni
-  section
-    h2#services Products & Services
-    ul
-      li
-        a href="http://machiawase.herokuapp.com" 街合わせ
-      li
-        a href="http://boy2man.herokuapp.com" Boy2Man
-      li
-        a href="smoothsnap/sample.html" SmoothSnap
-      li
-        a href="sakurafubuki/index.html" 桜吹雪
-      li
-        a href="chirimomiji/index.html" 散り紅葉
-  section
-    h2#otherservices Other Services
-    ul
-      li
-        a href="http://zakuni.blogspot.jp/" blog
-      li
-        a href="https://twitter.com/zakuni" twitter
-      li
-        a href="https://www.facebook.com/zakuni" facebook
-      li
-        a href="https://github.com/zakuni" github
-      li
-        a href="http://zakuni.tumblr.com/" tumblr
-      li
-        a href="http://www.flickr.com/photos/zakuni/" flickr
-      li
-        a href="http://glide.so/zakuni" glide
-  section
-    h2#activities Activities
-    ul
-      li 2014.03.24 増井俊之研究会合宿 参加
-      li 2013.09.21 増井俊之研究会合宿 参加
-      li 2013.09.20 YAPC::Asia Tokyo 2013 参加(個人スポンサー)
-  section
-    h2#coderwall coderwall
-    .coderwall data-coderwall-username="zakuni" data-coderwall-orientation="horizontal"
-  #root_footer
-footer.flexcontainer
-  .box
-    a href="http://ozawakun.io" ozawakun.io
-    |, since 2013.&nbsp;
-  .box
-    a href="mailto:contactme&#64;ozawakun.io" contactme&#64;ozawakun.io
+#top.uk-container.uk-container-center.uk-margin-top
+  ul.uk-subnav.uk-subnav-line.uk-flex-right[data-uk-sticky]
+    li
+      a[href="#top" data-uk-smooth-scroll] Top
+    li
+      a[href="#about" data-uk-smooth-scroll] About
+    li
+      a[href="#products" data-uk-smooth-scroll] Products
+    li
+      a[href="#otherservices" data-uk-smooth-scroll] Other Services
+  main#root.uk-grid
+    .uk-width-1-1.uk-height-viewport.uk-vertical-align
+      .uk-vertical-align-middle
+        h1.uk-container-center.uk-heading-large
+          | ozawa
+          span#space &nbsp;
+          | kun
+          span#period .
+          | io
+    section.uk-width-1-3.uk-margin-large-bottom
+      h1#about About
+      #description
+        b Kunio Ozawa
+        |  a.k.a.
+        b zakuni
+    section.uk-width-1-3.uk-margin-large-bottom
+      h1#products Products
+      ul
+        li
+          a href="http://machiawase.herokuapp.com" 街合わせ
+        li
+          a href="http://boy2man.herokuapp.com" Boy2Man
+        li
+          a href="smoothsnap/sample.html" SmoothSnap
+        li
+          a href="sakurafubuki/index.html" 桜吹雪
+        li
+          a href="chirimomiji/index.html" 散り紅葉
+    section.uk-width-1-3.uk-margin-large-bottom
+      h1#otherservices Other Services
+      ul
+        li
+          a href="http://zakuni.blogspot.jp/" blog
+        li
+          a href="https://twitter.com/zakuni" twitter
+        li
+          a href="https://www.facebook.com/zakuni" facebook
+        li
+          a href="https://github.com/zakuni" github
+        li
+          a href="http://zakuni.tumblr.com/" tumblr
+        li
+          a href="http://www.flickr.com/photos/zakuni/" flickr
+        li
+          a href="http://glide.so/zakuni" glide
+    #root_footer
+  footer.flexcontainer.uk-link-muted
+    .box
+      a href="http://ozawakun.io" ozawakun.io
+      |, since 2013.&nbsp;
+    .box
+      a href="mailto:contactme&#64;ozawakun.io" contactme&#64;ozawakun.io

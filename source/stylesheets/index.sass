@@ -4,27 +4,6 @@
 
 +sticky-footer(54px, "#root", "#root_footer", "footer")
 
-*
-  color: #4a2e1b
-
-body
-  font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif"
-  background: #f9efd9
-  height: 100%
-  margin: 0
-  background-repeat: repeat
-  background-attachment: scroll
-
-main
-  display: block
-
-h1, h2
-  +text-shadow(-1px 1px 0 rgba(255, 255, 255, 1))
-  color: #593616
-
-h1
-  text-align: center
-
 .flexcontainer
   display: flex
   display: -webkit-flex
@@ -41,132 +20,19 @@ h1
 .box
   flex: none
 
-#about:before
-  content: "\f05a"
-  font-family: "FontAwesome",sans-serif
-  margin-right: 12px
-
-#services:before
-  content: "\f0ad"
-  font-family: "FontAwesome",sans-serif
-  margin-right: 14px
-
-#otherservices:before
-  content: "\f097"
-  font-family: "FontAwesome",sans-serif
-  margin-right: 14px
-
-#activities:before
-  content: "\f024"
-  font-family: "FontAwesome",sans-serif
-  margin-right: 12px
-
-#coderwall:before
-  content: "\f080"
-  font-family: "FontAwesome",sans-serif
-  margin-right: 7px
-
-section
-  margin-bottom: 58px
-
 // for pc
 @media screen and (min-width: 520px)
-  h1
-    font-size: 84px
-    margin-top: 30px
-    margin-bottom: 70px
-    text-indent: 0.2em
   #space
-    font-size: 22px
+    font-size: 26px
   #period
     font-size: 40px
 
-  h2
-    font-size: 32px
-    text-indent: 0.5em
-    margin-bottom: 10px
-
-  #root
-    width: 570px
-
-  #description
-    font-size: 21px
-    text-indent: 4em
-
-  ul
-    text-indent: 2.5em
-
-  li
-    font-size: 18px
-    line-height: 26px
-
 // for mobile
 @media screen and (max-width: 519px)
-  h1
-    font-size: 48px
-    margin-top: 20px
-    margin-bottom: 50px
   #space
     font-size: 18px
   #period
     font-size: 30px
-
-  h2
-    font-size: 26px
-    text-indent: 0.2em
-    margin-bottom: 5px
-
-  #about:before
-    margin-right: 6px
-
-  #services:before
-    margin-right: 7px
-
-  #otherservices:before
-    margin-right: 7px
-
-  #activities:before
-    margin-right: 7px
-
-  #coderwall:before
-    margin-right: 5px
-
-  section
-    margin-bottom: 40px
-
-  #root
-    width: 90%
-
-  #description
-    font-size: 19px
-    text-indent: 2em
-
-  li
-    font-size: 16px
-    line-height: 24px
-
-#root
-  margin:
-    left: auto
-    right: auto
-
-ul
-  list-style-type: none
-  margin: 0px
-
-li
-  margin: 0px
-
-.coderwall.coderwall-root.horizontal
-  margin-left: 60px
-  margin-bottom: 30px
-
-a
-  color: #4a2e1b
-  +transition-property(color)
-  +transition-duration(0.2s)
-a:hover
-  color: #b4a079
 
 footer
   text-align: center
