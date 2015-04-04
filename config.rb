@@ -1,4 +1,4 @@
-set :slim, { :format => :html5 }
+set :slim, { :format => :html }
 set :frontmatter_extensions, %w(.html .modt)
 
 ###
@@ -73,6 +73,6 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.build_before = true 
+  deploy.build_before = true
   deploy.method = :git
 end
