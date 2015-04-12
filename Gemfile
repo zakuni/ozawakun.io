@@ -9,6 +9,8 @@ gem "slim"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
+gem "middleman-react"
+
 gem "middleman-deploy"
 
 # For faster file watcher updates:
