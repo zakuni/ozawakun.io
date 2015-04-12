@@ -1,4 +1,4 @@
-fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma"]
+fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
 selectors = ["#o", "#z", "#a", "#w", "#a2", "#ku", "#n", "#period", "#i", "#o2"]
 getRandomFont = ->
   fonts[Math.floor(Math.random()*fonts.length)]
@@ -11,8 +11,8 @@ $ ->
   scramble()
 
 scramble = ->
-  firstTimeOut = getRandomInt(0, 200)
-  secondTimeOut = getRandomInt(firstTimeOut, firstTimeOut + 200)
+  firstTimeOut = getRandomInt(0, 300)
+  secondTimeOut = getRandomInt(firstTimeOut, firstTimeOut + 300)
   finalTimeOut = getRandomInt(secondTimeOut, secondTimeOut + 5000)
   jqObj = getRandomJqObj()
   scrambleFont(jqObj)
