@@ -24,71 +24,38 @@ ScrambleMixin =
   componentDidMount: ->
     @scramble()
 
-O = React.createClass
+Letter = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>o</span>`
-
-Z = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>z</span>`
-
-A = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>a</span>`
-
-W = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>w</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>
+      {this.props.character}
+    </span>`
 
 Space = React.createClass
   mixins: [ScrambleMixin]
   render: ->
     `<span className="space" style={{fontFamily: this.state.fontFamily}}>&nbsp;</span>`
 
-K = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>k</span>`
-
-U = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>u</span>`
-
-N = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>n</span>`
-
 Period = React.createClass
   mixins: [ScrambleMixin]
   render: ->
     `<span className="period" style={{fontFamily: this.state.fontFamily}}>.</span>`
 
-I = React.createClass
-  mixins: [ScrambleMixin]
-  render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>i</span>`
-
 ScrambleTitle = React.createClass
   render: ->
     `<h1 className="scrambleTitle uk-container-center uk-heading-large">
-      <O />
-      <Z />
-      <A />
-      <W />
-      <A />
+      <Letter character="o" />
+      <Letter character="z" />
+      <Letter character="a" />
+      <Letter character="w" />
+      <Letter character="a" />
       <Space />
-      <K />
-      <U />
-      <N />
+      <Letter character="k" />
+      <Letter character="u" />
+      <Letter character="n" />
       <Period />
-      <I />
-      <O />
+      <Letter character="i" />
+      <Letter character="o" />
     </h1>`
 
 $ ->
