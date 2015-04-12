@@ -30,7 +30,7 @@ getRandomInt = (min, max) ->
   Math.floor(Math.random() * (max - min)) + min
 
 toDefault = (jqObj) ->
-  changeFont(jqObj, "Helvetica")
+  changeFont(jqObj, "")
 
 changeFont = (jqObj, font) ->
   jqObj.css("font-family", font)
