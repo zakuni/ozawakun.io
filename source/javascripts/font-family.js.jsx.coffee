@@ -27,22 +27,22 @@ ScrambleMixin =
 O = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="o" style={{fontFamily: this.state.fontFamily}}>o</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>o</span>`
 
 Z = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="z" style={{fontFamily: this.state.fontFamily}}>z</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>z</span>`
 
 A = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="a" style={{fontFamily: this.state.fontFamily}}>a</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>a</span>`
 
 W = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="w" style={{fontFamily: this.state.fontFamily}}>w</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>w</span>`
 
 Space = React.createClass
   mixins: [ScrambleMixin]
@@ -52,27 +52,27 @@ Space = React.createClass
 K = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="k" style={{fontFamily: this.state.fontFamily}}>k</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>k</span>`
 
 U = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="u" style={{fontFamily: this.state.fontFamily}}>u</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>u</span>`
 
 N = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="n" style={{fontFamily: this.state.fontFamily}}>n</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>n</span>`
 
 Period = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="period">.</span>`
+    `<span className="period" style={{fontFamily: this.state.fontFamily}}>.</span>`
 
 I = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="i">i</span>`
+    `<span style={{fontFamily: this.state.fontFamily}}>i</span>`
 
 ScrambleTitle = React.createClass
   render: ->
