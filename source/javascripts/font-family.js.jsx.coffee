@@ -12,7 +12,16 @@ ScrambleMixin =
   toDefaultFont: ->
     @setState({style: {}})
   toRandomFont: ->
-    @setState({style: {fontFamily: getRandomFont(), transform: 'rotateY(180deg)', display: 'inline-block'}})
+    randomStyle = {
+      fontFamily: getRandomFont(),
+      display: 'inline-block',
+      transform: 'rotateY(180deg)',
+      WebkitTransform: 'rotateY(180deg)',
+      msTransform: 'rotateY(180deg)',
+      MozTransform: 'rotateY(180deg)',
+      OTransform: 'rotateY(180deg)'
+    }
+    @setState({style: randomStyle})
   scramble: ->
     firstTimeOut = getRandomInt(0, 300)
     secondTimeOut = getRandomInt(firstTimeOut, firstTimeOut + 300)
