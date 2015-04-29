@@ -2,12 +2,12 @@
 # the following line to use "https"
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.1.3"
+gem "middleman"
 gem "therubyracer"
 gem "slim"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload"
 
 gem "middleman-react"
 
