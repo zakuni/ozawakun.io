@@ -10,9 +10,9 @@ ScrambleMixin =
   getInitialState: ->
     fontFamily: ""
   toDefaultFont: ->
-    @setState({fontFamily: ""})
+    @setState({style: {}})
   toRandomFont: ->
-    @setState({fontFamily: getRandomFont()})
+    @setState({style: {fontFamily: getRandomFont(), transform: 'rotateY(180deg)', display: 'inline-block'}})
   scramble: ->
     firstTimeOut = getRandomInt(0, 300)
     secondTimeOut = getRandomInt(firstTimeOut, firstTimeOut + 300)
@@ -27,19 +27,19 @@ ScrambleMixin =
 Letter = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span style={{fontFamily: this.state.fontFamily}}>
+    `<span style={this.state.style}>
       {this.props.character}
     </span>`
 
 Space = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="space" style={{fontFamily: this.state.fontFamily}}>&nbsp;</span>`
+    `<span className="space" style={this.state.style}>&nbsp;</span>`
 
 Period = React.createClass
   mixins: [ScrambleMixin]
   render: ->
-    `<span className="period" style={{fontFamily: this.state.fontFamily}}>.</span>`
+    `<span className="period" style={this.state.style}>.</span>`
 
 ScrambleTitle = React.createClass
   render: ->
