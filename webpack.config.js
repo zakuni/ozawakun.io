@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './source/javascripts/font-family.js.cjsx',
+  entry: './source/javascripts/index.js',
   output: {
     path: path.resolve(__dirname, '.tmp/dist'),
-    filename: 'javascripts/font-family.js'
+    filename: 'javascripts/bundle.js'
   },
   module: {
     rules: [
@@ -14,6 +14,14 @@ module.exports = {
           { loader: 'cjsx-loader' },
           { loader: 'coffee-loader' }
         ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015']
+        }
       }
     ]
   }
