@@ -4,7 +4,7 @@ const ScrambleTitle = require('./font-family.js.cjsx');
 
 $(() => {
   ReactDOM.render(
-    React.createElement(ScrambleTitle),
+    <ScrambleTitle />,
     document.getElementById('title')
   );
 });
