@@ -11,7 +11,5 @@ gem "middleman-livereload"
 
 gem "middleman-react"
 
-gem "middleman-deploy"
-
 # For faster file watcher updates:
 # gem "wdm", "~> 0.1.0") # Windows

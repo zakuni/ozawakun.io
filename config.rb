@@ -76,8 +76,3 @@ activate :react
 after_configuration do
   sprockets.append_path File.dirname(::React::Source.bundled_path_for('react.js'))
 end
-
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.method = :git
-end
