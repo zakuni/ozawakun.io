@@ -67,8 +67,4 @@ ScrambleTitle = React.createClass
       <Letter character="o" />
     </h1>`
 
-$ ->
-  React.render(
-    `<ScrambleTitle />`,
-    document.getElementById('title')
-  )
+module.exports = ScrambleTitle
