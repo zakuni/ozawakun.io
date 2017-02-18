@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "ozawakun.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakuni/ozawakun.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakuni/ozawakun.io/issues"
+  },
+  "homepage": "https://github.com/zakuni/ozawakun.io#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
