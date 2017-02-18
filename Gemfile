@@ -5,11 +5,10 @@ source 'https://rubygems.org'
 gem "middleman"
 gem "therubyracer"
 gem "slim"
+gem 'middleman-compass'
 
 # Live-reloading plugin
 gem "middleman-livereload"
-
-gem "middleman-react"
 
 # For faster file watcher updates:
 # gem "wdm", "~> 0.1.0") # Windows

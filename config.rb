@@ -72,7 +72,8 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
-activate :react
-after_configuration do
-  sprockets.append_path File.dirname(::React::Source.bundled_path_for('react.js'))
-end
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
+  source: ".tmp/dist",
+  latency: 1
