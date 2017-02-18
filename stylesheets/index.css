@@ -1,26 +1,26 @@
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
-/* line 10, /usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%; }
 
-/* line 12, /usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 #root {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin-bottom: -54px; }
-  /* line 18, /usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+  /* line 18, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
   #root #root_footer {
     height: 54px; }
 
-/* line 20, /usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
 footer {
   clear: both;
   position: relative;
   height: 54px; }
 
-/* line 7, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+/* line 7, index.css.sass */
 .flexcontainer {
   display: flex;
   display: -webkit-flex;
@@ -31,30 +31,30 @@ footer {
   justify-content: center;
   -webkit-justify-content: center; }
 
-/* line 20, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+/* line 20, index.css.sass */
 .box {
   flex: none; }
 
 @media screen and (min-width: 520px) {
-  /* line 25, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+  /* line 25, index.css.sass */
   .space {
     font-size: 26px; }
 
-  /* line 27, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+  /* line 27, index.css.sass */
   .period {
     font-size: 40px; } }
 @media screen and (max-width: 519px) {
-  /* line 32, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+  /* line 32, index.css.sass */
   .space {
     font-size: 18px; }
 
-  /* line 34, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+  /* line 34, index.css.sass */
   .period {
     font-size: 30px; } }
-/* line 37, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+/* line 37, index.css.sass */
 footer {
   text-align: center;
   color: #4a2e1b; }
-  /* line 41, /Users/zakuni/dev/ozawakun.io/source/stylesheets/index.sass */
+  /* line 41, index.css.sass */
   footer a {
     text-decoration: none; }
