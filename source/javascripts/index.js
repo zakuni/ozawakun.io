@@ -1,3 +1,4 @@
+import React from 'react';
 const ScrambleTitle = require('./font-family.js.cjsx');
 
 $(() => {

@@ -1,3 +1,5 @@
+React = require('react')
+
 fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
 
 getRandomFont = ->
