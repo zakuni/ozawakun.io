@@ -2,21 +2,20 @@
 import React from 'react';
 import Scramble from './Scramble.cjsx';
 import { Letter, Space, Period } from './font-family.js';
-`
 
-ScrambleTitle = React.createClass
-  render: ->
-    ScrambleO = Scramble(Letter, "o")
-    ScrambleZ = Scramble(Letter, "z")
-    ScrambleA = Scramble(Letter, "a")
-    ScrambleW = Scramble(Letter, "w")
-    ScrambleK = Scramble(Letter, "k")
-    ScrambleU = Scramble(Letter, "u")
-    ScrambleN = Scramble(Letter, "n")
-    ScrambleI = Scramble(Letter, "i")
-    ScrambleSpace = Scramble(Space)
-    ScramblePeriod = Scramble(Period)
-    `<h1 className="scrambleTitle uk-container-center uk-heading-large">
+const ScrambleTitle = (props) => {
+  const ScrambleO = Scramble(Letter, "o");
+  const ScrambleZ = Scramble(Letter, "z");
+  const ScrambleA = Scramble(Letter, "a");
+  const ScrambleW = Scramble(Letter, "w");
+  const ScrambleK = Scramble(Letter, "k");
+  const ScrambleU = Scramble(Letter, "u");
+  const ScrambleN = Scramble(Letter, "n");
+  const ScrambleI = Scramble(Letter, "i");
+  const ScrambleSpace = Scramble(Space);
+  const ScramblePeriod = Scramble(Period);
+  return (
+    <h1 className="scrambleTitle uk-container-center uk-heading-large">
       <ScrambleO />
       <ScrambleZ />
       <ScrambleA />
@@ -29,8 +28,9 @@ ScrambleTitle = React.createClass
       <ScramblePeriod />
       <ScrambleI />
       <ScrambleO />
-    </h1>`
+    </h1>
+  );
+}
 
-`
 export default ScrambleTitle
 `
