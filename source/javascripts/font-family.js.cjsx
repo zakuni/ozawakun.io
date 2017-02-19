@@ -1,5 +1,5 @@
 React = require('react')
-ScrambleMixin = require('./components/ScrambleMixin.cjsx')
+Scramble = require('./components/ScrambleMixin.cjsx')
 
 Letter = (props) ->
   return(
@@ -20,16 +20,16 @@ Period = (props) ->
 
 ScrambleTitle = React.createClass
   render: ->
-    ScrambleO = ScrambleMixin(Letter, "o")
-    ScrambleZ = ScrambleMixin(Letter, "z")
-    ScrambleA = ScrambleMixin(Letter, "a")
-    ScrambleW = ScrambleMixin(Letter, "w")
-    ScrambleK = ScrambleMixin(Letter, "k")
-    ScrambleU = ScrambleMixin(Letter, "u")
-    ScrambleN = ScrambleMixin(Letter, "n")
-    ScrambleI = ScrambleMixin(Letter, "i")
-    ScrambleSpace = ScrambleMixin(Space)
-    ScramblePeriod = ScrambleMixin(Period)
+    ScrambleO = Scramble(Letter, "o")
+    ScrambleZ = Scramble(Letter, "z")
+    ScrambleA = Scramble(Letter, "a")
+    ScrambleW = Scramble(Letter, "w")
+    ScrambleK = Scramble(Letter, "k")
+    ScrambleU = Scramble(Letter, "u")
+    ScrambleN = Scramble(Letter, "n")
+    ScrambleI = Scramble(Letter, "i")
+    ScrambleSpace = Scramble(Space)
+    ScramblePeriod = Scramble(Period)
     `<h1 className="scrambleTitle uk-container-center uk-heading-large">
       <ScrambleO />
       <ScrambleZ />

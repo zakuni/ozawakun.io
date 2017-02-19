@@ -8,7 +8,7 @@ getRandomFont = ->
 getRandomInt = (min, max) ->
   Math.floor(Math.random() * (max - min)) + min
 
-ScrambleMixin = (Component, character) ->
+Scramble = (Component, character) ->
   return React.createClass
     getInitialState: ->
       fontFamily: ""
@@ -38,4 +38,4 @@ ScrambleMixin = (Component, character) ->
     render: ->
      `<Component character={character} style={this.state.style} />`
 
-module.exports = ScrambleMixin
+module.exports = Scramble
