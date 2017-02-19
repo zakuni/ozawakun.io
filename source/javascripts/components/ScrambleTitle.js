@@ -1,4 +1,3 @@
-`
 import React from 'react';
 import Scramble from './Scramble.cjsx';
 import { Letter, Space, Period } from './font-family.js';
@@ -33,4 +32,4 @@ const ScrambleTitle = (props) => {
 }
 
 export default ScrambleTitle
-`
+
