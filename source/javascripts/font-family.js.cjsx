@@ -1,5 +1,5 @@
 React = require('react')
-Scramble = require('./components/ScrambleMixin.cjsx')
+Scramble = require('./components/Scramble.cjsx')
 
 Letter = (props) ->
   return(
