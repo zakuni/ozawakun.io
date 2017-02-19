@@ -1,7 +1,7 @@
 `
 import React from 'react';
 import Scramble from './Scramble.cjsx';
-import { Letter, Space, Period } from '../font-family.js.cjsx';
+import { Letter, Space, Period } from './font-family.js';
 `
 
 ScrambleTitle = React.createClass

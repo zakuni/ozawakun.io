@@ -1,6 +1,5 @@
-`
 import React from 'react';
-import Scramble from './components/Scramble.cjsx';
+import Scramble from './Scramble.cjsx';
 
 export const Letter = (props) => (
   <span style={props.style}>
@@ -15,4 +14,3 @@ export const Space = (props) => (
 export const Period = (props) => (
   <span className="period" style={props.style}>.</span>
 );
-`
