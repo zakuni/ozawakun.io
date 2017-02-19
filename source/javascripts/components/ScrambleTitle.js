@@ -1,6 +1,6 @@
 import React from 'react';
 import Scramble from './Scramble.cjsx';
-import { Letter, Space, Period } from './font-family.js';
+import { Letter, Space, Period } from './font-family';
 
 const ScrambleTitle = (props) => {
   const ScrambleO = Scramble(Letter, "o");

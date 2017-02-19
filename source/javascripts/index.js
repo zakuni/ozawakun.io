@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ScrambleTitle from './components/ScrambleTitle.js'
+import ScrambleTitle from './components/ScrambleTitle'
 
 ReactDOM.render(
   <ScrambleTitle />,
