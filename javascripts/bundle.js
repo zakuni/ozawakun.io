@@ -9511,55 +9511,58 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 /* 81 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__font_family_js__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__font_family_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__font_family_js__);
 
 
-
-
-;
-var ScrambleTitle;
-
-ScrambleTitle = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
-  render: function() {
-    var ScrambleA, ScrambleI, ScrambleK, ScrambleN, ScrambleO, ScramblePeriod, ScrambleSpace, ScrambleU, ScrambleW, ScrambleZ;
-    ScrambleO = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "o");
-    ScrambleZ = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "z");
-    ScrambleA = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "a");
-    ScrambleW = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "w");
-    ScrambleK = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "k");
-    ScrambleU = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "u");
-    ScrambleN = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "n");
-    ScrambleI = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Letter"], "i");
-    ScrambleSpace = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Space"]);
-    ScramblePeriod = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble_cjsx__["default"])(__WEBPACK_IMPORTED_MODULE_2__font_family_js__["Period"]);
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {"className": "scrambleTitle uk-container-center uk-heading-large"},
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleO, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleZ, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleA, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleW, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleA, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleSpace, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleK, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleU, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleN, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScramblePeriod, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleI, null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleO, null)
-    );
-  }
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
 
+var _react = __webpack_require__(25);
 
-/* harmony default export */ __webpack_exports__["default"] = ScrambleTitle;
+var _react2 = _interopRequireDefault(_react);
 
+var _Scramble = __webpack_require__(53);
+
+var _Scramble2 = _interopRequireDefault(_Scramble);
+
+var _fontFamily = __webpack_require__(83);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ScrambleO = (0, _Scramble2.default)(_fontFamily.Letter, "o");
+var ScrambleZ = (0, _Scramble2.default)(_fontFamily.Letter, "z");
+var ScrambleA = (0, _Scramble2.default)(_fontFamily.Letter, "a");
+var ScrambleW = (0, _Scramble2.default)(_fontFamily.Letter, "w");
+var ScrambleK = (0, _Scramble2.default)(_fontFamily.Letter, "k");
+var ScrambleU = (0, _Scramble2.default)(_fontFamily.Letter, "u");
+var ScrambleN = (0, _Scramble2.default)(_fontFamily.Letter, "n");
+var ScrambleI = (0, _Scramble2.default)(_fontFamily.Letter, "i");
+var ScrambleSpace = (0, _Scramble2.default)(_fontFamily.Space);
+var ScramblePeriod = (0, _Scramble2.default)(_fontFamily.Period);
+
+var ScrambleTitle = function ScrambleTitle(props) {
+  return _react2.default.createElement(
+    'h1',
+    { className: 'scrambleTitle uk-container-center uk-heading-large' },
+    _react2.default.createElement(ScrambleO, null),
+    _react2.default.createElement(ScrambleZ, null),
+    _react2.default.createElement(ScrambleA, null),
+    _react2.default.createElement(ScrambleW, null),
+    _react2.default.createElement(ScrambleA, null),
+    _react2.default.createElement(ScrambleSpace, null),
+    _react2.default.createElement(ScrambleK, null),
+    _react2.default.createElement(ScrambleU, null),
+    _react2.default.createElement(ScrambleN, null),
+    _react2.default.createElement(ScramblePeriod, null),
+    _react2.default.createElement(ScrambleI, null),
+    _react2.default.createElement(ScrambleO, null)
+  );
+};
+
+exports.default = ScrambleTitle;
 
 /***/ }),
 /* 82 */
