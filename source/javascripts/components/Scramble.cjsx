@@ -1,4 +1,6 @@
-React = require('react')
+`
+import React from 'react';
+`
 
 fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
 
@@ -38,4 +40,6 @@ Scramble = (Component, character) ->
     render: ->
      `<Component character={character} style={this.state.style} />`
 
-module.exports = Scramble
+`
+export default Scramble
+`

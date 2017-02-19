@@ -1,5 +1,7 @@
-React = require('react')
-Scramble = require('./components/Scramble.cjsx')
+`
+import React from 'react';
+import Scramble from './components/Scramble.cjsx';
+`
 
 Letter = (props) ->
   return(
@@ -45,4 +47,6 @@ ScrambleTitle = React.createClass
       <ScrambleO />
     </h1>`
 
-module.exports = ScrambleTitle
+`
+export default ScrambleTitle
+`
