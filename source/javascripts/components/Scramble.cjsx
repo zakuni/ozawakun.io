@@ -1,8 +1,8 @@
 `
 import React from 'react';
-`
 
-fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
+const fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
+`
 
 getRandomFont = ->
   fonts[Math.floor(Math.random()*fonts.length)]
@@ -28,13 +28,23 @@ Scramble = (Component, character) ->
       }
       @setState({style: randomStyle})
     scramble: ->
-      firstTimeOut = getRandomInt(0, 300)
-      secondTimeOut = getRandomInt(firstTimeOut, firstTimeOut + 300)
-      finalTimeOut = getRandomInt(secondTimeOut, secondTimeOut + 15000)
-      @toRandomFont()
-      setTimeout(@toRandomFont, firstTimeOut)
-      setTimeout(@toDefaultFont, secondTimeOut)
-      setTimeout(@scramble, finalTimeOut)
+      `
+      new Promise((resolve, reject) => {
+        setTimeout(() => {
+          this.toRandomFont();
+          resolve();
+        }, getRandomInt(0, 300));
+      }).then(() => {
+        setTimeout(() => {
+          this.toDefaultFont();
+        }, getRandomInt(0, 300));
+      }).then(() => {
+        setTimeout(() => {
+          this.scramble()
+        }, getRandomInt(0, 14400));
+      });
+      `
+      return
     componentDidMount: ->
       @scramble()
     render: ->
