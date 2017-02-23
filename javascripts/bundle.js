@@ -6736,10 +6736,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 
 
-;
-var Scramble, fonts, getRandomFont, getRandomInt;
 
-fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"];
+const fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
+;
+var Scramble, getRandomFont, getRandomInt;
 
 getRandomFont = function() {
   return fonts[Math.floor(Math.random() * fonts.length)];
@@ -6777,14 +6777,22 @@ Scramble = function(Component, character) {
       });
     },
     scramble: function() {
-      var finalTimeOut, firstTimeOut, secondTimeOut;
-      firstTimeOut = getRandomInt(0, 300);
-      secondTimeOut = getRandomInt(firstTimeOut, firstTimeOut + 300);
-      finalTimeOut = getRandomInt(secondTimeOut, secondTimeOut + 15000);
-      this.toRandomFont();
-      setTimeout(this.toRandomFont, firstTimeOut);
-      setTimeout(this.toDefaultFont, secondTimeOut);
-      return setTimeout(this.scramble, finalTimeOut);
+      
+      new Promise((resolve, reject) => {
+        setTimeout(() => {
+          this.toRandomFont();
+          resolve();
+        }, getRandomInt(0, 300));
+      }).then(() => {
+        setTimeout(() => {
+          this.toDefaultFont();
+        }, getRandomInt(0, 300));
+      }).then(() => {
+        setTimeout(() => {
+          this.scramble()
+        }, getRandomInt(0, 14400));
+      });
+      ;
     },
     componentDidMount: function() {
       return this.scramble();
