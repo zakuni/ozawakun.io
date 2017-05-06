@@ -14,7 +14,7 @@ const ScrambleSpace = Scramble(Space);
 const ScramblePeriod = Scramble(Period);
 
 const ScrambleTitle = (props) => (
-  <h1 className="scrambleTitle uk-heading-primary">
+  <div className="scrambleTitle uk-link-reset">
     <ScrambleO />
     <ScrambleZ />
     <ScrambleA />
@@ -27,7 +27,7 @@ const ScrambleTitle = (props) => (
     <ScramblePeriod />
     <ScrambleI />
     <ScrambleO />
-  </h1>
+  </div>
 );
 
 export default ScrambleTitle
