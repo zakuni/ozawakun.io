@@ -1,29 +1,29 @@
-#top.uk-container.uk-container-center.uk-margin-top
-  ul.uk-subnav.uk-subnav-line.uk-flex-right[data-uk-sticky]
+#top.uk-container.uk-margin-top
+  ul.uk-subnav.uk-subnav-divider.uk-flex-right[uk-sticky]
     li
-      a[href="#top" data-uk-smooth-scroll] Top
+      a[href="#top" uk-scroll] Top
     li
-      a[href="#about" data-uk-smooth-scroll] About
+      a[href="#about" uk-scroll] About
     li
-      a[href="#products" data-uk-smooth-scroll] Products
+      a[href="#products" uk-scroll] Products
     li
-      a[href="#otherservices" data-uk-smooth-scroll] Other Services
+      a[href="#otherservices" uk-scroll] Other Services
   main#root.uk-grid
-    .uk-width-1-1.uk-height-viewport.uk-vertical-align
-      #title.uk-vertical-align-middle
-        h1.uk-container-center.uk-heading-large
+    .uk-width-1-1.uk-height-viewport.uk-flex.uk-flex-middle
+      #title.uk-flex.uk-flex-middle
+        h1.uk-heading-primary
           span ozawa
           span.space &nbsp;
           span kun
           span.period .
           span io
-    section.uk-width-medium-1-3.uk-width-small-1-1.uk-margin-large-bottom
+    section class="uk-width-1-3@m uk-width-1-1@s uk-margin-large-bottom"
       h1#about About
       #description
         b Kunio Ozawa
         |  a.k.a.
         b zakuni
-    section.uk-width-medium-1-3.uk-width-small-1-1.uk-margin-large-bottom
+    section class="uk-width-1-3@m uk-width-1-1@s uk-margin-large-bottom"
       h1#products Products
       ul
         li
@@ -36,7 +36,7 @@
           a href="sakurafubuki/index.html" 桜吹雪
         li
           a href="chirimomiji/index.html" 散り紅葉
-    section.uk-width-medium-1-3.uk-width-small-1-1.uk-margin-large-bottom
+    section class="uk-width-1-3@m uk-width-1-1@s uk-margin-large-bottom"
       h1#otherservices Other Services
       ul
         li
