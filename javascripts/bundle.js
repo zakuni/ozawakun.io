@@ -9542,8 +9542,8 @@ var ScramblePeriod = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__Scramble
 
 var ScrambleTitle = function ScrambleTitle(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'h1',
-    { className: 'scrambleTitle uk-container-center uk-heading-large' },
+    'div',
+    { className: 'scrambleTitle uk-link-reset' },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleO, null),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleZ, null),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ScrambleA, null),

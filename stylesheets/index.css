@@ -1,60 +1,16 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-/* line 10, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%; }
-
-/* line 12, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
-#root {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -54px; }
-  /* line 18, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
-  #root #root_footer {
-    height: 54px; }
-
-/* line 20, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
-footer {
-  clear: both;
-  position: relative;
-  height: 54px; }
-
-/* line 7, index.css.sass */
-.flexcontainer {
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: row;
-  -webkit-flex-direction: row;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  justify-content: center;
-  -webkit-justify-content: center; }
-
-/* line 20, index.css.sass */
-.box {
-  flex: none; }
-
 @media screen and (min-width: 520px) {
-  /* line 25, index.css.sass */
+  /* line 3, index.css.sass */
   .space {
-    font-size: 26px; }
+    font-size: 0.1rem; }
 
-  /* line 27, index.css.sass */
+  /* line 5, index.css.sass */
   .period {
-    font-size: 40px; } }
+    font-size: 0.9rem; } }
 @media screen and (max-width: 519px) {
-  /* line 32, index.css.sass */
+  /* line 10, index.css.sass */
   .space {
-    font-size: 18px; }
+    font-size: 0.1rem; }
 
-  /* line 34, index.css.sass */
+  /* line 12, index.css.sass */
   .period {
-    font-size: 30px; } }
-/* line 37, index.css.sass */
-footer {
-  text-align: center;
-  color: #4a2e1b; }
-  /* line 41, index.css.sass */
-  footer a {
-    text-decoration: none; }
+    font-size: 1rem; } }
