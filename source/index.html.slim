@@ -18,22 +18,47 @@ nav.uk-navbar-container.uk-navbar-transparent[uk-navbar]
         b zakuni
     section.uk-section
       h2#products.uk-h4 WORKS
-      .uk-grid-match.uk-text-center[class="uk-child-width-1-3@s" uk-grid]
-        div
-          .uk-card.uk-card-default.uk-card-body
-            a.uk-link-muted href="http://machiawase.herokuapp.com" 街合わせ
-        div
-          .uk-card.uk-card-default.uk-card-body
-            a.uk-link-muted href="http://boy2man.herokuapp.com" Boy2Man
-        div
-          .uk-card.uk-card-default.uk-card-body
-            a.uk-link-muted href="smoothsnap/sample.html" SmoothSnap
-        div
-          .uk-card.uk-card-default.uk-card-body
-            a.uk-link-muted href="sakurafubuki/index.html" 桜吹雪
-        div
-          .uk-card.uk-card-default.uk-card-body
-            a.uk-link-muted href="chirimomiji/index.html" 散り紅葉
+      .uk-flex-middle[uk-grid]
+        .uk-width-1-4.uk-text-center
+          a.uk-link-reset href="http://machiawase.herokuapp.com"
+            .uk-box-shadow-medium.uk-box-shadow-hover-large.uk-padding 街合わせ
+        div class="uk-width-3-4"
+          h5 街合わせ
+          p 待ち合わせをするためのwebサービス。二つの場所の中間らへんの場所を教えてくれる。
+          p 電車の駅名を入れると中間らへんの駅を教えてくれるようにもしようかと思っていたが、そうこうしているうちに山形に引っ越し、車移動メインになったことで、サービス自体を使う機会がほぼ無くなった。
+      hr
+      .uk-flex-middle[uk-grid]
+        .uk-width-1-4.uk-text-center
+          a.uk-link-reset href="http://boy2man.herokuapp.com"
+            .uk-box-shadow-medium.uk-box-shadow-hover-large.uk-padding Boy2Man
+        div class="uk-width-3-4"
+          h5 Boy2Man
+          p ジャンケンマン。
+          p ユーザーが出す手を選択する → プログラムが出した手と対戦結果が帰ってくる、という作りにしたことで、イカサマを疑われても潔白の証明が難しくなった。
+      hr
+      .uk-flex-middle[uk-grid]
+        .uk-width-1-4.uk-text-center
+          a.uk-link-reset href="smoothsnap/sample.html"
+            .uk-box-shadow-medium.uk-box-shadow-hover-large.uk-padding SmoothSnap
+        div class="uk-width-3-4"
+          h5 SmoothSnap
+          p jQuery UIのプラグインとして作ったのだが、これからjQuery UIを使う人などもういない。
+      hr
+      .uk-flex-middle[uk-grid]
+        div class="uk-width-1-4"
+          a[href="sakurafubuki/index.html"]
+            img.uk-box-shadow-medium.uk-box-shadow-hover-large src="images/sakurafubuki.png" alt="sakurafubuki" width="200px"
+        div class="uk-width-3-4"
+          h5 桜吹雪
+          p 散り紅葉と同じく、single div。こっちの方が後に作ったが、こっちの方が形が簡単。
+      hr
+      .uk-flex-middle[uk-grid]
+        div class="uk-width-1-4"
+          a[href="chirimomiji/index.html"]
+            img.uk-box-shadow-medium.uk-box-shadow-hover-large src="images/chirimomiji.png" alt="chirimomiji" width="200px"
+        div class="uk-width-3-4"
+          h5 散り紅葉
+          p one divとかsingle divとか呼ばれる、divタグ一つにCSSだけで絵を描く試み。葉っぱ一枚が一つのdivタグ。紅葉を降らせているのはJSです。
     section.uk-section
       h2#otherservices.uk-h4 LINKS
       ul.uk-list.uk-list-bullet.uk-link-muted
