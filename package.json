@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "bundle exec middleman build && gh-pages -d build"
   },
@@ -30,7 +31,8 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
