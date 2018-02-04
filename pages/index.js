@@ -94,7 +94,7 @@ export default () => (
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
-              <a href="sakurafubuki/index.html"><img alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="images/sakurafubuki.png" width="200px" /></a>
+              <a href="sakurafubuki/index.html"><img alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/sakurafubuki.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <h5>
@@ -108,7 +108,7 @@ export default () => (
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
-              <a href="chirimomiji/index.html"><img alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="images/chirimomiji.png" width="200px" /></a>
+              <a href="chirimomiji/index.html"><img alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/chirimomiji.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <h5>
