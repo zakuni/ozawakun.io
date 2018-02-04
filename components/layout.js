@@ -17,7 +17,7 @@ export default ({children}) => (
 
       <meta content="width=device-width" name="viewport" />
 
-      <link href="favicon.ico" rel="shortcut icon" />
+      <link href="static/favicon.ico" rel="shortcut icon" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit.min.css" />
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/js/uikit.min.js"></script>
