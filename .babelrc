@@ -1,6 +1,6 @@
 {
   "presets": [
-    "react",
+    "next/babel",
     ["env", {
       "targets": {
         "browsers": ["> 5%", "last 2 versions"]
