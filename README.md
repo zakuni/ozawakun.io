@@ -1,7 +1,7 @@
 
 ## To Run
 ```sh
-bundle exec middleman
+yarn run dev
 ```
 
 ## To Deploy
