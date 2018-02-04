@@ -9,7 +9,7 @@
     "build": "next build",
     "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && gh-pages -d out"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "cjsx-loader": "^3.0.0",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.12.3",
+    "gh-pages": "^1.1.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {
