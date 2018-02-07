@@ -1,10 +1,13 @@
 import Layout from '../components/layout'
+import ScrambleTitle from '../components/ScrambleTitle'
 
 export default () => (
   <Layout>
     <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="">
       <div className="uk-navbar-center">
-        <a className="uk-navbar-item uk-logo" href="/" id="title">ozawakun.io</a>
+        <a className="uk-navbar-item uk-logo" href="/" id="title">
+          <ScrambleTitle />
+        </a>
         <ul className="uk-navbar-nav">
           <li>
             <a href="#about" uk-scroll="">About</a>

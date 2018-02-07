@@ -1,5 +1,5 @@
 import React from 'react';
-import Scramble from './Scramble.cjsx';
+import Scramble from './Scramble.js';
 import { Letter, Space, Period } from './font-family';
 
 const ScrambleO = Scramble(Letter, "o");

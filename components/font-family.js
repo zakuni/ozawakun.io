@@ -1,5 +1,5 @@
 import React from 'react';
-import Scramble from './Scramble.cjsx';
+import Scramble from './Scramble.js';
 
 export const Letter = (props) => (
   <span style={props.style}>
