@@ -9,7 +9,7 @@
     "build": "next build",
     "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && cp CNAME out/CNAME && gh-pages -d out"
   },
   "repository": {
     "type": "git",
