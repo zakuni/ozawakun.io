@@ -24,6 +24,5 @@ export default ({children}) => (
       <link rel="stylesheet" href="static/index.css" />
     </Head>
     {children}
-    <script src="bundle.js"></script>
   </div>
 )
