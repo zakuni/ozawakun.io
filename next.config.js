@@ -5,6 +5,5 @@ module.exports = {
     return {
       '/': { page: '/' }
     }
-  },
-  assetPrefix: !debug ? '/ozawakun.io/' : ''
+  }
 }
