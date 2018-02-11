@@ -1,19 +1,17 @@
 import React from 'react';
 import createReactClass from 'create-react-class';
 
-const fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"]
-;
-var Scramble, getRandomFont, getRandomInt;
+const fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"];
 
-getRandomFont = function() {
+const getRandomFont = function() {
   return fonts[Math.floor(Math.random() * fonts.length)];
 };
 
-getRandomInt = function(min, max) {
+const getRandomInt = function(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 };
 
-Scramble = createReactClass({
+const Scramble = createReactClass({
   getInitialState: function() {
     return {
       fontFamily: ""
@@ -66,5 +64,4 @@ Scramble = createReactClass({
 });
 
 
-export default Scramble
-;
+export default Scramble;
