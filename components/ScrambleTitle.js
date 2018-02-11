@@ -1,31 +1,20 @@
 import Scramble from './Scramble.js';
 import { Letter, Space, Period } from './font-family';
 
-const ScrambleO = Scramble(Letter, "o");
-const ScrambleZ = Scramble(Letter, "z");
-const ScrambleA = Scramble(Letter, "a");
-const ScrambleW = Scramble(Letter, "w");
-const ScrambleK = Scramble(Letter, "k");
-const ScrambleU = Scramble(Letter, "u");
-const ScrambleN = Scramble(Letter, "n");
-const ScrambleI = Scramble(Letter, "i");
-const ScrambleSpace = Scramble(Space);
-const ScramblePeriod = Scramble(Period);
-
 const ScrambleTitle = (props) => (
   <div className="scrambleTitle uk-link-reset">
-    <ScrambleO />
-    <ScrambleZ />
-    <ScrambleA />
-    <ScrambleW />
-    <ScrambleA />
-    <ScrambleSpace />
-    <ScrambleK />
-    <ScrambleU />
-    <ScrambleN />
-    <ScramblePeriod />
-    <ScrambleI />
-    <ScrambleO />
+    <Scramble Component={Letter} character='o' />
+    <Scramble Component={Letter} character='z' />
+    <Scramble Component={Letter} character='a' />
+    <Scramble Component={Letter} character='w' />
+    <Scramble Component={Letter} character='a' />
+    <Scramble Component={Space} />
+    <Scramble Component={Letter} character='k' />
+    <Scramble Component={Letter} character='u' />
+    <Scramble Component={Letter} character='n' />
+    <Scramble Component={Period} />
+    <Scramble Component={Letter} character='i' />
+    <Scramble Component={Letter} character='o' />
   </div>
 );
 
