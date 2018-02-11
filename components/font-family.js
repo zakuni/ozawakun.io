@@ -1,6 +1,3 @@
-import React from 'react';
-import Scramble from './Scramble.js';
-
 export const Letter = (props) => (
   <span style={props.style}>
     {props.character}

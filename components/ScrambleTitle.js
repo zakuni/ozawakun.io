@@ -1,4 +1,3 @@
-import React from 'react';
 import Scramble from './Scramble.js';
 import { Letter, Space, Period } from './font-family';
 
