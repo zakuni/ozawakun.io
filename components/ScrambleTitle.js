@@ -15,6 +15,12 @@ const ScrambleTitle = (props) => (
     <Scramble Component={Period} />
     <Scramble Component={Letter} character='i' />
     <Scramble Component={Letter} character='o' />
+    <style jsx>{`
+      .scrambleTitle {
+        width: 140px;
+        height: 40px;
+      }
+    `}</style>
   </div>
 );
 
