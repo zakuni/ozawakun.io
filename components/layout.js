@@ -15,7 +15,7 @@ export default ({children}) => (
       {/* Always force latest IE rendering engine or request Chrome Frame */}
       <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
-      <meta content="width=device-width" name="viewport" />
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
 
       <link href="static/favicon.ico" rel="shortcut icon" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.22/css/uikit.min.css" />
