@@ -1,5 +1,4 @@
 import React from 'react';
-import createReactClass from 'create-react-class';
 
 const fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"];
 
@@ -11,18 +10,17 @@ const getRandomInt = function(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 };
 
-const Scramble = createReactClass({
-  getInitialState: function() {
-    return {
-      fontFamily: ""
-    };
-  },
-  toDefaultFont: function() {
+class Scramble extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {fontFamily: ""};
+  }
+  toDefaultFont() {
     return this.setState({
       style: {}
     });
-  },
-  toRandomFont: function() {
+  }
+  toRandomFont() {
     var randomStyle;
     randomStyle = {
       fontFamily: getRandomFont(),
@@ -36,9 +34,8 @@ const Scramble = createReactClass({
     return this.setState({
       style: randomStyle
     });
-  },
-  scramble: function() {
-
+  }
+  scramble() {
     new Promise((resolve, reject) => {
       setTimeout(() => {
         this.toRandomFont();
@@ -53,15 +50,13 @@ const Scramble = createReactClass({
         this.scramble()
       }, getRandomInt(0, 14400));
     });
-    ;
-  },
-  componentDidMount: function() {
+  }
+  componentDidMount() {
     return this.scramble();
-  },
-  render: function() {
+  }
+  render() {
     return <this.props.Component character={this.props.character} style={this.state.style} />;
   }
-});
-
+}
 
 export default Scramble;
