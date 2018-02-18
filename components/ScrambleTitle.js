@@ -1,20 +1,19 @@
 import Scramble from './Scramble.js';
-import { Letter } from './font-family';
 
 const ScrambleTitle = (props) => (
   <div className="scrambleTitle uk-link-reset">
-    <Scramble Component={Letter}>o</Scramble>
-    <Scramble Component={Letter}>z</Scramble>
-    <Scramble Component={Letter}>a</Scramble>
-    <Scramble Component={Letter}>w</Scramble>
-    <Scramble Component={Letter}>a</Scramble>
-    <Scramble Component={Letter} className='space'>&nbsp;</Scramble>
-    <Scramble Component={Letter}>k</Scramble>
-    <Scramble Component={Letter}>u</Scramble>
-    <Scramble Component={Letter}>n</Scramble>
-    <Scramble Component={Letter} className='period'>.</Scramble>
-    <Scramble Component={Letter}>i</Scramble>
-    <Scramble Component={Letter}>o</Scramble>
+    <Scramble>o</Scramble>
+    <Scramble>z</Scramble>
+    <Scramble>a</Scramble>
+    <Scramble>w</Scramble>
+    <Scramble>a</Scramble>
+    <Scramble className='space'>&nbsp;</Scramble>
+    <Scramble>k</Scramble>
+    <Scramble>u</Scramble>
+    <Scramble>n</Scramble>
+    <Scramble className='period'>.</Scramble>
+    <Scramble>i</Scramble>
+    <Scramble>o</Scramble>
     <style jsx>{`
       .scrambleTitle {
         width: 140px;

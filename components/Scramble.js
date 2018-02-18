@@ -10,6 +10,12 @@ const getRandomInt = function(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 };
 
+const Letter = (props) => (
+  <span className={props.className} style={props.style}>
+    {props.children}
+  </span>
+);
+
 class Scramble extends React.Component {
   constructor(props) {
     super(props);
@@ -57,9 +63,9 @@ class Scramble extends React.Component {
   }
   render() {
     return (
-      <this.props.Component className={this.props.className} style={this.state.style}>
+      <Letter className={this.props.className} style={this.state.style}>
         {this.props.children}
-      </this.props.Component>
+      </Letter>
     );
   }
 }
