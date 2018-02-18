@@ -1,5 +1,5 @@
 export const Letter = (props) => (
-  <span style={props.style}>
+  <span className={props.className} style={props.style}>
     {props.children}
   </span>
 );

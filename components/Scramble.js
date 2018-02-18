@@ -57,7 +57,7 @@ class Scramble extends React.Component {
   }
   render() {
     return (
-      <this.props.Component style={this.state.style}>
+      <this.props.Component className={this.props.className} style={this.state.style}>
         {this.props.children}
       </this.props.Component>
     );
