@@ -17,7 +17,7 @@ class Scramble extends React.Component {
   }
   toDefaultFont() {
     return this.setState({
-      style: {}
+      style: this.props.style
     });
   }
   toRandomFont() {
@@ -31,6 +31,7 @@ class Scramble extends React.Component {
       MozTransform: 'rotateY(180deg)',
       OTransform: 'rotateY(180deg)'
     };
+    Object.assign(randomStyle, this.props.style);
     return this.setState({
       style: randomStyle
     });
