@@ -56,7 +56,11 @@ class Scramble extends React.Component {
     return this.scramble();
   }
   render() {
-    return <this.props.Component character={this.props.character} style={this.state.style} />;
+    return (
+      <this.props.Component style={this.state.style}>
+        {this.props.children}
+      </this.props.Component>
+    );
   }
 }
 

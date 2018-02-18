@@ -3,18 +3,18 @@ import { Letter, Space, Period } from './font-family';
 
 const ScrambleTitle = (props) => (
   <div className="scrambleTitle uk-link-reset">
-    <Scramble Component={Letter} character='o' />
-    <Scramble Component={Letter} character='z' />
-    <Scramble Component={Letter} character='a' />
-    <Scramble Component={Letter} character='w' />
-    <Scramble Component={Letter} character='a' />
+    <Scramble Component={Letter}>o</Scramble>
+    <Scramble Component={Letter}>z</Scramble>
+    <Scramble Component={Letter}>a</Scramble>
+    <Scramble Component={Letter}>w</Scramble>
+    <Scramble Component={Letter}>a</Scramble>
     <Scramble Component={Space} />
-    <Scramble Component={Letter} character='k' />
-    <Scramble Component={Letter} character='u' />
-    <Scramble Component={Letter} character='n' />
+    <Scramble Component={Letter}>k</Scramble>
+    <Scramble Component={Letter}>u</Scramble>
+    <Scramble Component={Letter}>n</Scramble>
     <Scramble Component={Period} />
-    <Scramble Component={Letter} character='i' />
-    <Scramble Component={Letter} character='o' />
+    <Scramble Component={Letter}>i</Scramble>
+    <Scramble Component={Letter}>o</Scramble>
     <style jsx>{`
       .scrambleTitle {
         width: 140px;

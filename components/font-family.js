@@ -1,6 +1,6 @@
 export const Letter = (props) => (
   <span style={props.style}>
-    {props.character}
+    {props.children}
   </span>
 );
 
