@@ -20,15 +20,8 @@ const ScrambleTitle = (props) => (
         width: 140px;
         height: 40px;
       }
-      @media screen and (max-width: 519px) {
-        :global(.space) {
-          font-size: 0.1rem;
-        }
-      }
-      @media screen and (min-width: 520px) {
-        :global(.space) {
-          font-size: 0.1rem;
-        }
+      :global(.space) {
+        font-size: 0.1rem;
       }
       @media screen and (max-width: 519px) {
         :global(.period) {
