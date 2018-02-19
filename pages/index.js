@@ -13,7 +13,7 @@ export default () => (
             <a href="#about" uk-scroll="">About</a>
           </li>
           <li>
-            <a href="#crafts" uk-scroll="">Crafts</a>
+            <a href="#works" uk-scroll="">WORKS</a>
           </li>
           <li>
             <a href="#otherservices" uk-scroll="">LINKS</a>
@@ -32,8 +32,8 @@ export default () => (
           </p>
         </section>
         <section className="uk-section">
-          <h2 className="uk-h4" id="crafts">
-            CRAFTS
+          <h2 className="uk-h4" id="works">
+            WORKS
           </h2>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
