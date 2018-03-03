@@ -129,28 +129,28 @@ export default () => (
           </h2>
           <ul className="uk-list uk-list-bullet uk-link-muted">
             <li>
-              <a href="https://zakuni.blogspot.jp/">blog</a>
+              <a href="https://zakuni.blogspot.jp/" target="_blank" rel="noopener">blog</a>
             </li>
             <li>
-              <a href="https://twitter.com/zakuni">twitter</a>
+              <a href="https://twitter.com/zakuni" target="_blank" rel="noopener">twitter</a>
             </li>
             <li>
-              <a href="https://www.facebook.com/zakuni">facebook</a>
+              <a href="https://www.facebook.com/zakuni" target="_blank" rel="noopener">facebook</a>
             </li>
             <li>
-              <a href="https://github.com/zakuni">github</a>
+              <a href="https://github.com/zakuni" target="_blank" rel="noopener">github</a>
             </li>
             <li>
-              <a href="https://zakuni.tumblr.com/">tumblr</a>
+              <a href="https://zakuni.tumblr.com/" target="_blank" rel="noopener">tumblr</a>
             </li>
             <li>
-              <a href="https://www.flickr.com/photos/zakuni/">flickr</a>
+              <a href="https://www.flickr.com/photos/zakuni/" target="_blank" rel="noopener">flickr</a>
             </li>
             <li>
-              <a href="http://amzn.asia/hbl49iH">wishlist</a>
+              <a href="http://amzn.asia/hbl49iH" target="_blank" rel="noopener">wishlist</a>
             </li>
             <li>
-              <a href='https://lightroom.adobe.com/gallery/b174cd1e3d6e4e5fb97984c9136b187d'>photos</a>
+              <a href='https://lightroom.adobe.com/gallery/b174cd1e3d6e4e5fb97984c9136b187d' target="_blank" rel="noopener">photos</a>
             </li>
           </ul>
         </section>
