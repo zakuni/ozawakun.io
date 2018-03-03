@@ -146,6 +146,12 @@ export default () => (
             <li>
               <a href="https://www.flickr.com/photos/zakuni/">flickr</a>
             </li>
+            <li>
+              <a href="http://amzn.asia/hbl49iH">wishlist</a>
+            </li>
+            <li>
+              <a href='https://lightroom.adobe.com/gallery/b174cd1e3d6e4e5fb97984c9136b187d'>photos</a>
+            </li>
           </ul>
         </section>
       </main>
