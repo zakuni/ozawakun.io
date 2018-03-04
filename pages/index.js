@@ -40,9 +40,16 @@ export default () => (
           <h2 className="uk-h4" id="about">
             ABOUT
           </h2>
-          <p id="description">
+          <p className="uk-h5">
             <b>Kunio Ozawa</b> a.k.a.&nbsp;<b>zakuni</b>
           </p>
+          <p className='uk-text-small'>
+            世界を便利にしたい。できることなら圧倒的に。
+          </p>
+          <h6>Bio</h6>
+          <p className='uk-text-small'>強いて言うならWebのエンジニア。現在は山形で暮らしている。</p>
+          <h6>Date of birth</h6>
+          <p className='uk-text-small'>Mar. 30, 1987</p>
         </section>
         <section className="uk-section">
           <h2 className="uk-h4" id="gallery">
@@ -174,5 +181,11 @@ export default () => (
         </div>
       </footer>
     </div>
+    <style jsx>{`
+      b {
+        font-weight: 500;
+      }
+    `}
+    </style>
   </Layout>
 )
