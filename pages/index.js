@@ -43,13 +43,15 @@ export default () => (
           <p className="uk-h5">
             <b>Kunio Ozawa</b> a.k.a.&nbsp;<b>zakuni</b>
           </p>
-          <p className='uk-text-small'>
-            世界を便利にしたい。できることなら圧倒的に。
+          <p className='uk-text-small uk-margin-medium-bottom'>
+            ドラえもんの未来が来て欲しい。
           </p>
-          <h6>Bio</h6>
-          <p className='uk-text-small'>強いて言うならWebのエンジニア。現在は山形で暮らしている。</p>
-          <h6>Date of birth</h6>
-          <p className='uk-text-small'>Mar. 30, 1987</p>
+          <dl class="uk-description-list">
+            <dt>Bio</dt>
+            <dd>強いて言うならWebのエンジニア。UIとか情報とかコミュニケーションについて考えたりする。神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
+            <dt>Date of birth</dt>
+            <dd>Mar. 30, 1987</dd>
+          </dl>
         </section>
         <section className="uk-section">
           <h2 className="uk-h4" id="gallery">
