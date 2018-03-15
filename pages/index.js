@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/layout'
 import ScrambleTitle from '../components/ScrambleTitle'
 
@@ -18,6 +19,9 @@ export default () => (
             </li>
             <li>
               <a href="#otherservices" uk-scroll="offset: 100;">LINKS</a>
+            </li>
+            <li>
+              <Link href='/now'>Now</Link>
             </li>
           </ul>
         </div>
