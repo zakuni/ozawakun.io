@@ -46,8 +46,7 @@ export default () => (
             <div className="uk-text-meta">Mar. 15, 2018</div>
           </h2>
           <p>庄内の冬もようやく終わりを迎えそう。今年は長かった。</p>
-          <p>このサイトをnext.jsを使って色々いじりつつ、<a href='http://alpha.editor.p5js.org/zakuni/sketches/ryqQseOYM'>p5.jsで発光表現の練習中</a>。</p>
-          <p><iframe src="http://alpha.editor.p5js.org/embed/ryqQseOYM"></iframe></p>
+          <p>このサイトをnext.jsを使って色々いじりつつ、<a href='http://alpha.editor.p5js.org/full/ryqQseOYM'>p5.jsで発光表現の練習中</a>。</p>
         </section>
       </main>
       <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-small-bottom">
