@@ -63,6 +63,21 @@ export default () => (
           </h2>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
+            <a href="http://alpha.editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
+            </div>
+            <div className="uk-width-3-4@s">
+              <p>
+                p5.jsで発光表現の練習するぞと思って作ってみた、月です。
+              </p>
+              <p>
+                ソースは<a href="http://alpha.editor.p5js.org/zakuni/sketches/ryqQseOYM">こちら</a>。
+              </p>
+              <p>あと、<a href='http://alpha.editor.p5js.org/full/S1uBsjMYM'>オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href='http://alpha.editor.p5js.org/zakuni/sketches/S1uBsjMYM'>ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
+            </div>
+          </div>
+          <hr />
+          <div className="uk-flex-middle" uk-grid="">
+            <div className="uk-width-1-4@s uk-text-center">
               <a className="uk-link-reset" href="http://machiawase.herokuapp.com">
                 <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
                   街合わせ
