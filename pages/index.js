@@ -52,7 +52,8 @@ export default () => (
           </p>
           <dl class="uk-description-list">
             <dt>Bio</dt>
-            <dd>強いて言うならWebのエンジニア。UIとか情報とかコミュニケーションについて考えたりする。神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
+            <dd>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</dd>
+            <dd>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
             <dt>Date of birth</dt>
             <dd>Mar. 30, 1987</dd>
           </dl>
@@ -63,16 +64,30 @@ export default () => (
           </h2>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-            <a href="http://alpha.editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
+            <a href="https://alpha.editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
                 p5.jsで発光表現の練習するぞと思って作ってみた、月です。
               </p>
               <p>
-                ソースは<a href="http://alpha.editor.p5js.org/zakuni/sketches/ryqQseOYM">こちら</a>。
+                ソースは<a href="https://alpha.editor.p5js.org/zakuni/sketches/ryqQseOYM">こちら</a>。
               </p>
-              <p>あと、<a href='http://alpha.editor.p5js.org/full/S1uBsjMYM'>オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href='http://alpha.editor.p5js.org/zakuni/sketches/S1uBsjMYM'>ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
+              <p>あと、<a href='https://alpha.editor.p5js.org/full/S1uBsjMYM'>オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href='https://alpha.editor.p5js.org/zakuni/sketches/S1uBsjMYM'>ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
+            </div>
+          </div>
+          <hr />
+          <div className="uk-flex-middle" uk-grid="">
+            <div className="uk-width-1-4@s uk-text-center">
+            <a href="https://alpha.editor.p5js.org/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/sketch_particle.png" width="200px" /></a>
+            </div>
+            <div className="uk-width-3-4@s">
+              <p>
+                こちらも発光表現の練習に作ってみたサムシング。
+              </p>
+              <p>
+                ソースは<a href="https://alpha.editor.p5js.org/zakuni/sketches/r1kK6YVqf">こちら</a>。
+              </p>
             </div>
           </div>
           <hr />
