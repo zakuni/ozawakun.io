@@ -1,10 +1,10 @@
 
 ## To Run
 ```sh
-yarn run dev
+yarn dev
 ```
 
 ## To Deploy
 ```sh
-yarn run deploy
+yarn deploy
 ```
