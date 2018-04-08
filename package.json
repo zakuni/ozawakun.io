@@ -9,7 +9,7 @@
     "build": "next build",
     "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && cp CNAME out/CNAME && gh-pages -d out"
+    "deploy": "rm -rf node_modules/.cache && next build && next export"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
     "babel-loader": "^6.3.2",
     "babel-plugin-transform-define": "^1.3.0",
     "babel-preset-env": "^1.1.8",
-    "gh-pages": "^1.1.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {

@@ -18,4 +18,3 @@ node_modules
 .tmp
 .next
 out
-!.nojekyll
