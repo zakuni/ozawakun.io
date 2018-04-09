@@ -38,10 +38,10 @@ export default () => (
         color: #333;
       }
     `}</style>
-    <div className="uk-container uk-container-small">
+    <div className="uk-container uk-container-small uk-width-2-3">
       <main>
         <section className="uk-section">
-          <h2 className="uk-h4" id="about">
+          <h2 className="uk-h3" id="about">
             ABOUT
           </h2>
           <p className="uk-h5">
@@ -52,14 +52,14 @@ export default () => (
           </p>
           <dl className="uk-description-list">
             <dt>Bio</dt>
-            <dd>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</dd>
-            <dd>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
+            <dd className='uk-text-small'>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</dd>
+            <dd className='uk-text-small'>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
             <dt>Date of birth</dt>
-            <dd>Mar. 30, 1987</dd>
+            <dd className='uk-text-small'>Mar. 30, 1987</dd>
           </dl>
         </section>
         <section className="uk-section">
-          <h2 className="uk-h4" id="gallery">
+          <h2 className="uk-h3" id="gallery">
             GALLERY
           </h2>
           <div className="uk-flex-middle" uk-grid="">
@@ -180,7 +180,7 @@ export default () => (
           </div>
         </section>
         <section className="uk-section">
-          <h2 className="uk-h4" id="otherservices">
+          <h2 className="uk-h3" id="otherservices">
             LINKS
           </h2>
           <ul className="uk-list uk-list-bullet uk-link-muted">
