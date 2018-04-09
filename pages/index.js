@@ -38,7 +38,7 @@ export default () => (
         color: #333;
       }
     `}</style>
-    <div className="uk-container uk-container-small uk-width-2-3">
+    <div className="uk-container uk-container-small uk-width-2-3 uk-margin-medium-top">
       <main>
         <section className="uk-section">
           <h2 className="uk-h3" id="about">
@@ -179,7 +179,7 @@ export default () => (
             </div>
           </div>
         </section>
-        <section className="uk-section">
+        <section className="uk-section uk-margin-small-top">
           <h2 className="uk-h3" id="otherservices">
             LINKS
           </h2>
@@ -220,6 +220,12 @@ export default () => (
     <style jsx>{`
       b {
         font-weight: 500;
+      }
+      h2 {
+        font-weight: 450;
+      }
+      h5 {
+        font-weight: 580;
       }
     `}
     </style>

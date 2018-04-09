@@ -38,7 +38,7 @@ export default () => (
         color: #333;
       }
     `}</style>
-    <div className="uk-container uk-container-small uk-width-2-3" uk-height-viewport="expand: true">
+    <div className="uk-container uk-container-small uk-width-3-5" uk-height-viewport="expand: true">
       <main>
         <section className="uk-section">
           <h2 className="uk-h4" id="about">
@@ -55,5 +55,11 @@ export default () => (
         </div>
       </footer>
     </div>
+    <style jsx>{`
+      h2 {
+        font-weight: 450;
+      }
+    `}
+    </style>
   </Layout>
 )
