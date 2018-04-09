@@ -32,7 +32,7 @@ export default () => (
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        background: linear-gradient(rgba(255, 255, 255, 0.95) 80%, rgba(255, 255, 255, 0));
+        background: linear-gradient(rgba(252, 252, 252, 0.95) 80%, rgba(252, 252, 252, 0));
       }
       .uk-logo {
         color: #333;
