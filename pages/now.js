@@ -21,7 +21,7 @@ export default () => (
               <Link href="/#otherservices">LINKS</Link>
             </li>
             <li>
-              <Link href='/now'>Now</Link>
+              <Link href='/now'><a>Now</a></Link>
             </li>
           </ul>
         </div>

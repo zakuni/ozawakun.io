@@ -21,7 +21,7 @@ export default () => (
               <a href="#otherservices" uk-scroll="offset: 100;">LINKS</a>
             </li>
             <li>
-              <Link href='/now'>Now</Link>
+              <Link href='/now'><a>Now</a></Link>
             </li>
           </ul>
         </div>
@@ -50,7 +50,7 @@ export default () => (
           <p className='uk-text-small uk-margin-medium-bottom'>
             ドラえもんの未来が来て欲しい。
           </p>
-          <dl class="uk-description-list">
+          <dl className="uk-description-list">
             <dt>Bio</dt>
             <dd>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</dd>
             <dd>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
