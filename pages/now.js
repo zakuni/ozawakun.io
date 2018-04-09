@@ -12,13 +12,13 @@ export default () => (
           </a>
           <ul className="uk-navbar-nav">
             <li>
-              <Link href="/#about">About</Link>
+              <Link href="/#about"><a>About</a></Link>
             </li>
             <li>
-              <Link href="/#gallery">Gallery</Link>
+              <Link href="/#gallery"><a>Gallery</a></Link>
             </li>
             <li>
-              <Link href="/#otherservices">LINKS</Link>
+              <Link href="/#otherservices"><a>LINKS</a></Link>
             </li>
             <li>
               <Link href='/now'><a>Now</a></Link>
