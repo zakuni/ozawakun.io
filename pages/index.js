@@ -38,7 +38,7 @@ export default () => (
         color: #333;
       }
     `}</style>
-    <div className="uk-container uk-container-small uk-width-2-3 uk-margin-medium-top">
+    <div className="uk-container uk-container-small uk-width-2-3@s uk-margin-medium-top">
       <main>
         <section className="uk-section">
           <h2 className="uk-h3" id="about">
