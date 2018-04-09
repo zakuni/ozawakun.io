@@ -32,13 +32,13 @@ export default () => (
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        background: linear-gradient(rgba(255, 255, 255, 0.95) 80%, rgba(255, 255, 255, 0));
+        background: linear-gradient(rgba(252, 252, 252, 0.95) 80%, rgba(252, 252, 252, 0));
       }
       .uk-logo {
         color: #333;
       }
     `}</style>
-    <div className="uk-container uk-container-small">
+    <div className="uk-container uk-container-small uk-width-2-3" uk-height-viewport="expand: true">
       <main>
         <section className="uk-section">
           <h2 className="uk-h4" id="about">
