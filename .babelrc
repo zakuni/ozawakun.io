@@ -1,11 +1,5 @@
 {
   "presets": [
-    "next/babel",
-    ["env", {
-      "targets": {
-        "browsers": ["> 5%", "last 2 versions"]
-      },
-      "modules": false
-    }]
+    "next/babel"
   ]
 }
