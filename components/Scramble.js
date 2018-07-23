@@ -19,9 +19,16 @@ const Letter = (props) => (
 class Scramble extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {fontFamily: ""};
+    this.state = {style: this.props.style};
   }
   toDefaultFont() {
+    var defaultStyle = {
+      fontFamily: 'Georgia'
+    };
+    Object.assign(defaultStyle, this.props.style);
+    return this.setState({
+      style: defaultStyle
+    });
     return this.setState({
       style: this.props.style
     });
