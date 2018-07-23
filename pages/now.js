@@ -43,7 +43,16 @@ export default () => (
         <section className="uk-section">
           <h2 className="uk-h4" id="about">
             NOW
-            <div className="uk-text-meta">Mar. 15, 2018</div>
+            <div className="uk-text-meta">Jul. 23, 2018</div>
+          </h2>
+          <p>冬が長かったと思ったら今度は夏が暑い。</p>
+          <p>初めてペルソナ5をやってみたら、クリアするのに130時間弱も掛かった。</p>
+          <p>色んなことに思いを馳せているが、インプットもアウトプットも少ない。小説でも書いてみようかしら。</p>
+        </section>
+        <section className="uk-section">
+          <h2 className="uk-h4" id="about">
+            WAS
+           <div className="uk-text-meta">Mar. 15, 2018</div>
           </h2>
           <p>庄内の冬もようやく終わりを迎えそう。今年は長かった。</p>
           <p>このサイトをnext.jsを使って色々いじりつつ、<a href='http://alpha.editor.p5js.org/full/ryqQseOYM'>p5.jsで発光表現の練習中</a>。</p>
