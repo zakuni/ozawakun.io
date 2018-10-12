@@ -64,29 +64,29 @@ export default () => (
           </h2>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-            <a href="https://alpha.editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
+            <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
                 p5.jsで発光表現の練習するぞと思って作ってみた、月です。
               </p>
               <p>
-                ソースは<a href="https://alpha.editor.p5js.org/zakuni/sketches/ryqQseOYM">こちら</a>。
+                ソースは<a href="https://editor.p5js.org/zakuni/sketches/ryqQseOYM">こちら</a>。
               </p>
-              <p>あと、<a href='https://alpha.editor.p5js.org/full/S1uBsjMYM'>オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href='https://alpha.editor.p5js.org/zakuni/sketches/S1uBsjMYM'>ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
+              <p>あと、<a href='https://editor.p5js.org/full/S1uBsjMYM'>オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href='https://editor.p5js.org/zakuni/sketches/S1uBsjMYM'>ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
             </div>
           </div>
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-            <a href="https://alpha.editor.p5js.org/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/sketch_particle.png" width="200px" /></a>
+            <a href="https://editor.p5js.org/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/sketch_particle.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
                 こちらも発光表現の練習に作ってみたサムシング。
               </p>
               <p>
-                ソースは<a href="https://alpha.editor.p5js.org/zakuni/sketches/r1kK6YVqf">こちら</a>。
+                ソースは<a href="https://editor.p5js.org/zakuni/sketches/r1kK6YVqf">こちら</a>。
               </p>
             </div>
           </div>
