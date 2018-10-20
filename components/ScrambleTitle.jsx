@@ -1,4 +1,4 @@
-import Scramble from './Scramble.js';
+import Scramble from './Scramble.jsx';
 
 const ScrambleTitle = (props) => (
   <div className="scrambleTitle uk-link-reset">
