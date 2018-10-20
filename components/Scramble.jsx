@@ -28,16 +28,16 @@ class Scramble extends React.Component {
     this.state = {style: this.props.style};
   }
   toDefaultFont() {
-    var defaultStyle = {
+    let defaultStyle = {
       fontFamily: 'Georgia'
     };
-    Object.assign(defaultStyle, this.props.style);
+
     return this.setState({
-      style: defaultStyle
+      style: Object.assign(defaultStyle, this.props.style)
     });
   }
   toRandomFont() {
-    let randomStyle = {
+    const randomStyle = {
       fontFamily: getRandomFont(),
       display: 'inline-block',
       transform: 'rotateY(180deg)',
@@ -46,9 +46,9 @@ class Scramble extends React.Component {
       MozTransform: 'rotateY(180deg)',
       OTransform: 'rotateY(180deg)'
     };
-    Object.assign(randomStyle, this.props.style);
+
     return this.setState({
-      style: randomStyle
+      style: Object.assign({}, this.state.style, randomStyle)
     });
   }
   async scramble() {
