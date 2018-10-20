@@ -39,13 +39,11 @@ export default () => (
           <p className='uk-text-small uk-margin-medium-bottom'>
             ドラえもんの未来が来て欲しい。
           </p>
-          <dl className="uk-description-list">
-            <dt>Bio</dt>
-            <dd className='uk-text-small'>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</dd>
-            <dd className='uk-text-small'>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</dd>
-            <dt>Date of birth</dt>
-            <dd className='uk-text-small'>Mar. 30, 1987</dd>
-          </dl>
+          <h6>Bio</h6>
+          <p>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</p>
+          <p>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</p>
+          <h6>Date of birth</h6>
+          <p>Mar. 30, 1987</p>
         </section>
         <section className="uk-section">
           <h2 className="uk-h4" id="gallery">
