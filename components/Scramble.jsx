@@ -6,9 +6,15 @@ const getRandomFont = function() {
   return fonts[Math.floor(Math.random() * fonts.length)];
 };
 
-const getRandomInt = function(min, max) {
+const randomInt = function(max, min = 0) {
   return Math.floor(Math.random() * (max - min)) + min;
 };
+
+const wait = async function(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
 
 const Letter = (props) => (
   <span className={props.className} style={props.style}>
@@ -49,21 +55,13 @@ class Scramble extends React.Component {
       style: randomStyle
     });
   }
-  scramble() {
-    new Promise((resolve, reject) => {
-      setTimeout(() => {
-        this.toRandomFont();
-        resolve();
-      }, getRandomInt(0, 300));
-    }).then(() => {
-      setTimeout(() => {
-        this.toDefaultFont();
-      }, getRandomInt(0, 300));
-    }).then(() => {
-      setTimeout(() => {
-        this.scramble()
-      }, getRandomInt(0, 14400));
-    });
+  async scramble() {
+    await wait(randomInt(300));
+    this.toRandomFont();
+    await wait(randomInt(300));
+    this.toDefaultFont();
+    await wait(randomInt(14400));
+    this.scramble();
   }
   componentDidMount() {
     return this.scramble();
