@@ -35,9 +35,6 @@ class Scramble extends React.Component {
     return this.setState({
       style: defaultStyle
     });
-    return this.setState({
-      style: this.props.style
-    });
   }
   toRandomFont() {
     let randomStyle = {
