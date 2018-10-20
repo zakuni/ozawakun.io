@@ -3,7 +3,7 @@ import React from 'react';
 const fonts = ["Dotum", "arial black", "Century Gothic", "Gulim", "Impact", "Tahoma", "fantasy", "cursive", "Comic Sans MS"];
 
 const getRandomFont = function() {
-  return fonts[Math.floor(Math.random() * fonts.length)];
+  return fonts[randomInt(fonts.length)];
 };
 
 const randomInt = function(max, min = 0) {
@@ -40,8 +40,7 @@ class Scramble extends React.Component {
     });
   }
   toRandomFont() {
-    var randomStyle;
-    randomStyle = {
+    let randomStyle = {
       fontFamily: getRandomFont(),
       display: 'inline-block',
       transform: 'rotateY(180deg)',
