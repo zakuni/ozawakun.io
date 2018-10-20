@@ -27,17 +27,6 @@ export default () => (
         </div>
       </nav>
     </div>
-    <style jsx>{`
-      .sticky {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        background: linear-gradient(rgba(252, 252, 252, 0.95) 80%, rgba(252, 252, 252, 0));
-      }
-      .uk-logo {
-        color: #333;
-      }
-    `}</style>
     <div className="uk-container uk-container-small uk-width-3-5@s" uk-height-viewport="expand: true">
       <main>
         <section className="uk-section">
@@ -73,11 +62,5 @@ export default () => (
         </div>
       </footer>
     </div>
-    <style jsx>{`
-      h2 {
-        font-weight: 450;
-      }
-    `}
-    </style>
   </Layout>
 )

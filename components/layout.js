@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import "../style.css"
 
 export default ({children}) => (
   <div>
@@ -24,10 +25,5 @@ export default ({children}) => (
       <title>ozawakun.io</title>
     </Head>
     {children}
-    <style global jsx>{`
-        body {
-          background: #fbfbfb;
-        }
-    `}</style>
   </div>
 )
