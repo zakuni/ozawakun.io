@@ -56,11 +56,6 @@ export default () => (
           </article>
         </section>
       </main>
-      <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-small-bottom">
-        <div>
-          <a href="http://ozawakun.io">ozawakun.io</a>, since 2013.&nbsp;<a href="mailto:contactme&amp;#64;ozawakun.io">contactme&#64;ozawakun.io</a>
-        </div>
-      </footer>
     </div>
   </Layout>
 )
