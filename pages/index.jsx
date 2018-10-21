@@ -27,26 +27,32 @@ export default () => (
         </div>
       </nav>
     </div>
-    <div className="uk-container uk-container-small uk-width-2-3@s uk-margin-medium-top">
+    <div className="uk-container uk-container-small uk-width-2-3@s uk-margin-remove-top">
       <main>
-        <section className="uk-section">
-          <h2 className="uk-h3" id="about">
+        <section className="uk-section uk-margin-remove-bottom" id="about">
+          <h2 className="uk-h3 uk-margin-medium-bottom">
             ABOUT
           </h2>
-          <p className="uk-h5">
-            <b>Kunio Ozawa</b> a.k.a.&nbsp;<b>zakuni</b>
-          </p>
-          <p className='uk-text-small uk-margin-medium-bottom'>
-            ドラえもんの未来が来て欲しい。
-          </p>
-          <h6>Bio</h6>
-          <p>Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</p>
-          <p>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</p>
-          <h6>Date of birth</h6>
-          <p>Mar. 30, 1987</p>
+          <div className='uk-margin-medium-bottom'>
+            <p className="uk-margin-small-bottom">
+              Kunio Ozawa a.k.a. zakuni
+            </p>
+            <p className="uk-margin-remove-top">
+              ドラえもんの未来が来て欲しい。
+            </p>
+          </div>
+          <div className='uk-margin-medium-bottom'>
+            <h5 className="uk-margin-small-bottom">Bio</h5>
+            <p className="uk-margin-small-bottom">Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</p>
+            <p className="uk-margin-remove-top">神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</p>
+          </div>
+          <div>
+            <h5>Date of birth</h5>
+            <p>Mar. 30, 1987</p>
+          </div>
         </section>
-        <section className="uk-section">
-          <h2 className="uk-h3" id="gallery">
+        <section className="uk-section" id="gallery">
+          <h2 className="uk-h3 uk-margin-large-bottom">
             GALLERY
           </h2>
           <div className="uk-flex-middle" uk-grid="">
@@ -166,8 +172,8 @@ export default () => (
             </div>
           </div>
         </section>
-        <section className="uk-section uk-margin-small-top">
-          <h2 className="uk-h3" id="otherservices">
+        <section className="uk-section uk-margin-small-top" id="otherservices">
+          <h2 className="uk-h3">
             LINKS
           </h2>
           <ul className="uk-list uk-list-bullet uk-link-muted">
