@@ -36,7 +36,7 @@ export default class Layout extends React.Component {
           <title>ozawakun.io</title>
         </Head>
         {this.props.children}
-        <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-medium-bottom">
+        <footer className="uk-text-center uk-link-muted uk-text-meta">
           <div className="uk-margin-small-bottom">
             <a href="https://twitter.com/zakuni" target="_blank" rel="noopener" className="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
             <a href="https://www.facebook.com/zakuni" target="_blank" rel="noopener" className="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>

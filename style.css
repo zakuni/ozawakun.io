@@ -12,6 +12,10 @@ h5 {
   font-weight: 580;
 }
 
+footer {
+  padding-bottom: 40px;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
