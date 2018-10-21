@@ -29,15 +29,17 @@ export default () => (
     </div>
     <div className="uk-container uk-container-small uk-width-3-5@s" uk-height-viewport="expand: true">
       <main>
-        <section className="uk-section">
+        <section className="uk-section uk-padding-small-bottom">
           <h2 className="uk-h4">
             NOW
           </h2>
-          <div className="uk-text-meta">Aug. 19, 2018</div>
-          <p>クラウドソーシングで副業を始めてみた。</p>
-          <p>1件1円のアンケートとかがたくさんあってすごい。1個やってみたら2分ぐらい掛かった。時給30円ですよ、何なんですか。</p>
-          <p>その後、1件20円ぐらいのアンケートもあったからやってみた。時給が一気に20倍ですよ、どうなってるんですか。</p>
-          <p>アンケートは二度とやりませんが、副業自体は真面目にやっているので、楽しいお仕事とかあれば教えてください。</p>
+          <article className="uk-section-xsmall">
+            <div className="uk-text-meta">Aug. 19, 2018</div>
+            <p>クラウドソーシングで副業を始めてみた。</p>
+            <p>1件1円のアンケートとかがたくさんあってすごい。1個やってみたら2分ぐらい掛かった。時給30円ですよ、何なんですか。</p>
+            <p>その後、1件20円ぐらいのアンケートもあったからやってみた。時給が一気に20倍ですよ、どうなってるんですか。</p>
+            <p>アンケートは二度とやりませんが、副業自体は真面目にやっているので、楽しいお仕事とかあれば教えてください。</p>
+          </article>
         </section>
         <section className="uk-section">
           <h2 className="uk-h4">
