@@ -30,7 +30,7 @@ export default () => (
     <div className="uk-container uk-container-small uk-width-2-3@s uk-margin-medium-top">
       <main>
         <section className="uk-section">
-          <h2 className="uk-h4" id="about">
+          <h2 className="uk-h3" id="about">
             ABOUT
           </h2>
           <p className="uk-h5">
@@ -46,7 +46,7 @@ export default () => (
           <p>Mar. 30, 1987</p>
         </section>
         <section className="uk-section">
-          <h2 className="uk-h4" id="gallery">
+          <h2 className="uk-h3" id="gallery">
             GALLERY
           </h2>
           <div className="uk-flex-middle" uk-grid="">
@@ -167,7 +167,7 @@ export default () => (
           </div>
         </section>
         <section className="uk-section uk-margin-small-top">
-          <h2 className="uk-h4" id="otherservices">
+          <h2 className="uk-h3" id="otherservices">
             LINKS
           </h2>
           <ul className="uk-list uk-list-bullet uk-link-muted">
