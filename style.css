@@ -22,6 +22,10 @@ footer {
   color: #333;
 }
 
+article > p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
