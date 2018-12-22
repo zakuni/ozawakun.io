@@ -44,7 +44,7 @@ export default () => (
           <div className='uk-margin-medium-bottom'>
             <h5 className="uk-margin-small-bottom">Bio</h5>
             <p className="uk-margin-small-bottom">Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</p>
-            <p className="uk-margin-remove-top">神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業勤務を経て、現在は山形の庄内地方で暮らしています。</p>
+            <p className="uk-margin-remove-top">神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業での勤務を経て、現在は山形の庄内地方で暮らしています。</p>
           </div>
           <div>
             <h5>Date of birth</h5>
