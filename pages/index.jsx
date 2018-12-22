@@ -55,6 +55,21 @@ export default () => (
           <h2 className="uk-h3 uk-margin-large-bottom">
             GALLERY
           </h2>
+          <h4>Photos</h4>
+          <div>
+            <div class='lr_embed'
+              style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}
+            >
+              <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/c67a65f7d5f949858cad7eb5b56ef398/slideshow?background_color=%23191919&color=%23cccdcd'
+                frameborder='0'
+                style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}
+              ></iframe>
+            </div>
+            <div>
+              more photos available from <a href='https://lightroom.adobe.com/gallery/b174cd1e3d6e4e5fb97984c9136b187d' target="_blank" rel="noopener">here</a>
+            </div>
+          </div>
+          <h4>Something</h4>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
             <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
@@ -191,9 +206,6 @@ export default () => (
             </li>
             <li>
               <a href="http://amzn.asia/hbl49iH" target="_blank" rel="noopener">wishlist</a>
-            </li>
-            <li>
-              <a href='https://lightroom.adobe.com/gallery/b174cd1e3d6e4e5fb97984c9136b187d' target="_blank" rel="noopener">photos</a>
             </li>
           </ul>
         </section>

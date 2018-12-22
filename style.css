@@ -5,8 +5,12 @@ body {
 b {
   font-weight: 500;
 }
-h2 {
+
+h2, h3, h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
   font-weight: 450;
 }
 h5 {
