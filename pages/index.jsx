@@ -193,6 +193,9 @@ export default () => (
           </h2>
           <ul className="uk-list uk-list-bullet uk-link-muted">
             <li>
+              <a href="https://scrapbox.io/zakuni/" target="_blank" rel="noopener">scrapbox</a>
+            </li>
+            <li>
               <a href="https://zakuni.blogspot.jp/" target="_blank" rel="noopener">blog</a>
             </li>
             <li>
