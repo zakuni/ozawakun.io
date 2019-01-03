@@ -57,7 +57,7 @@ export default () => (
           </h2>
           <h4>Photos</h4>
           <div>
-            <div class='lr_embed'
+            <div className='lr_embed'
               style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}
             >
               <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/c67a65f7d5f949858cad7eb5b56ef398/slideshow?background_color=%23191919&color=%23cccdcd'
