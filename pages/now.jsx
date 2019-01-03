@@ -34,17 +34,23 @@ export default () => (
             NOW
           </h2>
           <article className="uk-section-xsmall">
-            <div className="uk-text-meta">Aug. 19, 2018</div>
-            <p>クラウドソーシングで副業を始めてみた。</p>
-            <p>1件1円のアンケートとかがたくさんあってすごい。1個やってみたら2分ぐらい掛かった。時給30円ですよ、何なんですか。</p>
-            <p>その後、1件20円ぐらいのアンケートもあったからやってみた。時給が一気に20倍ですよ、どうなってるんですか。</p>
-            <p>アンケートは二度とやりませんが、副業自体は真面目にやっているので、楽しいお仕事とかあれば教えてください。</p>
+            <div className="uk-text-meta">Jan. 3, 2019</div>
+            <p>明けましておめでとうございます。</p>
+            <p>冬休みの自由研究に、<a href="https://github.com/zakuni/ALife">人工生命を作ってみました</a>。</p>
+            <p>解説は<a href="https://scrapbox.io/zakuni/人工生命を作ってみた">こちら</a>に。</p>
           </article>
         </section>
         <section className="uk-section">
           <h2 className="uk-h4">
             WAS
           </h2>
+          <article className="uk-section-xsmall">
+            <div className="uk-text-meta">Aug. 19, 2018</div>
+            <p>クラウドソーシングで副業を始めてみた。</p>
+            <p>1件1円のアンケートとかがたくさんあってすごい。1個やってみたら2分ぐらい掛かった。時給30円ですよ、何なんですか。</p>
+            <p>その後、1件20円ぐらいのアンケートもあったからやってみた。時給が一気に20倍ですよ、どうなってるんですか。</p>
+            <p>アンケートは二度とやりませんが、副業自体は真面目にやっているので、楽しいお仕事とかあれば教えてください。</p>
+          </article>
           <article className="uk-section-xsmall">
             <div className="uk-text-meta">Jul. 23, 2018</div>
             <p>冬が長かったと思ったら今度は夏が暑い。</p>
