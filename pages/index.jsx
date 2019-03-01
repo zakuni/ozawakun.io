@@ -61,7 +61,7 @@ export default () => (
               style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}
             >
               <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/c67a65f7d5f949858cad7eb5b56ef398/slideshow?background_color=%23191919&color=%23cccdcd'
-                frameborder='0'
+                frameBorder='0'
                 style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}
               ></iframe>
             </div>
