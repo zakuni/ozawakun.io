@@ -1,33 +1,9 @@
-import Link from 'next/link'
 import Layout from '../components/layout.jsx'
-import ScrambleTitle from '../components/ScrambleTitle.jsx'
-import "../components/topbar.css"
+import TobBar from '../components/TopBar.jsx'
 
 export default () => (
   <Layout>
-    <div className="sticky">
-      <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="">
-        <div className="uk-navbar-center">
-          <a className="uk-navbar-item uk-logo" href="/" id="title">
-            <ScrambleTitle />
-          </a>
-          <ul className="uk-navbar-nav">
-            <li>
-              <a href="#about" uk-scroll="offset: 100;">About</a>
-            </li>
-            <li>
-              <a href="#gallery" uk-scroll="offset: 100;">Gallery</a>
-            </li>
-            <li>
-              <a href="#otherservices" uk-scroll="offset: 100;">LINKS</a>
-            </li>
-            <li>
-              <Link href='/now'><a>Now</a></Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <TobBar />
     <div className="uk-container uk-container-small uk-width-2-3@s uk-margin-remove-top">
       <main>
         <section className="uk-section uk-margin-remove-bottom" id="about">
