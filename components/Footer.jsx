@@ -1,3 +1,5 @@
+import './footer.css'
+
 export default () => (
   <footer className="uk-text-center uk-link-muted uk-text-meta">
     <div className="uk-margin-small-bottom">
