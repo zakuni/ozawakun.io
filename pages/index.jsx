@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '../components/layout.jsx'
 import ScrambleTitle from '../components/ScrambleTitle.jsx'
+import "../components/topbar.css"
 
 export default () => (
   <Layout>
