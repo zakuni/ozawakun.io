@@ -42,7 +42,7 @@ export default () => (
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-            <a href="https://editor.p5js.org/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/sketch_particle.png" width="200px" /></a>
+            <a href="https://editor.p5js.org/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/static/images/sketch_particle.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
@@ -98,7 +98,7 @@ export default () => (
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-              <a className="uk-link-reset" href="static/smoothsnap/sample.html">
+              <a className="uk-link-reset" href="/static/smoothsnap/sample.html">
                 <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
                   SmoothSnap
                 </div>
@@ -116,7 +116,7 @@ export default () => (
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
-              <a href="static/sakurafubuki/index.html"><img alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/sakurafubuki.png" width="200px" /></a>
+              <a href="/static/sakurafubuki/index.html"><img alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/static/images/sakurafubuki.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <h5>
@@ -130,7 +130,7 @@ export default () => (
           <hr />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
-              <a href="static/chirimomiji/index.html"><img alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/chirimomiji.png" width="200px" /></a>
+              <a href="/static/chirimomiji/index.html"><img alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/static/images/chirimomiji.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <h5>

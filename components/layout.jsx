@@ -30,7 +30,7 @@ export default class Layout extends React.Component {
 
           <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-          <link href="static/favicon.ico" rel="shortcut icon" />
+          <link href="/static/favicon.ico" rel="shortcut icon" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/css/uikit.min.css" />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.19/js/uikit-icons.min.js"></script>
