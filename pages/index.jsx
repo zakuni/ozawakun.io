@@ -176,15 +176,6 @@ export default () => (
               <a href="https://zakuni.blogspot.jp/" target="_blank" rel="noopener">blog</a>
             </li>
             <li>
-              <a href="https://github.com/zakuni" target="_blank" rel="noopener">github</a>
-            </li>
-            <li>
-              <a href="https://zakuni.tumblr.com/" target="_blank" rel="noopener">tumblr</a>
-            </li>
-            <li>
-              <a href="https://www.flickr.com/photos/zakuni/" target="_blank" rel="noopener">flickr</a>
-            </li>
-            <li>
               <a href="http://amzn.asia/hbl49iH" target="_blank" rel="noopener">wishlist</a>
             </li>
           </ul>
