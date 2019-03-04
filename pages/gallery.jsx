@@ -27,7 +27,7 @@ export default () => (
           <h4>Something</h4>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-            <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="static/images/gekko.png" width="200px" /></a>
+            <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/static/images/gekko.png" width="200px" /></a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
