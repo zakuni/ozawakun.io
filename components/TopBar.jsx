@@ -16,6 +16,9 @@ export default () => (
           <li>
             <Link href='/now'><a>Now</a></Link>
           </li>
+          <li>
+            <Link href='/links'><a>Links</a></Link>
+          </li>
         </ul>
       </div>
     </nav>
