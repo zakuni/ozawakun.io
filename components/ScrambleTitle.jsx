@@ -15,11 +15,6 @@ const ScrambleTitle = (props) => (
     <Scramble>i</Scramble>
     <Scramble>o</Scramble>
     <style jsx>{`
-      .scrambleTitle {
-        width: 150px;
-        height: 44px;
-        font-size: 1.6rem;
-      }
       :global(.space) {
         font-size: 0.1rem;
       }
