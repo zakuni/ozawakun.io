@@ -11,13 +11,7 @@ export default () => (
         </a>
         <ul className="uk-navbar-nav">
           <li>
-            <a href="#about" uk-scroll="offset: 100;">About</a>
-          </li>
-          <li>
-            <a href="#gallery" uk-scroll="offset: 100;">Gallery</a>
-          </li>
-          <li>
-            <a href="#otherservices" uk-scroll="offset: 100;">LINKS</a>
+            <Link href="/gallery"><a>Gallery</a></Link>
           </li>
           <li>
             <Link href='/now'><a>Now</a></Link>
