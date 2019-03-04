@@ -6,7 +6,9 @@ module.exports = withCSS({
   exportPathMap: function () {
     return {
       '/': { page: '/' },
-      '/now': { page: '/now' }
+      '/gallery': { page: '/gallery' },
+      '/now': { page: '/now' },
+      '/links': { page: '/links' }
     }
   }
 })
