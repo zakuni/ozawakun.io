@@ -4,23 +4,14 @@ import "./topbar.css"
 
 export default () => (
   <div className="sticky">
-    <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="">
-      <div className="uk-navbar-center">
-        <a className="uk-navbar-item uk-logo" href="/" id="title">
-          <ScrambleTitle />
-        </a>
-        <ul className="uk-navbar-nav">
-          <li>
-            <Link href="/gallery"><a>Gallery</a></Link>
-          </li>
-          <li>
-            <Link href='/now'><a>Now</a></Link>
-          </li>
-          <li>
-            <Link href='/links'><a>Links</a></Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <a className="uk-logo" href="/" id="title">
+      <ScrambleTitle />
+    </a>
+    <span className="toplinks uk-link-muted">
+      <Link href="/about"><a className="toplink">About</a></Link>
+      <Link href="/gallery"><a className="toplink">Gallery</a></Link>
+      <Link href='/now'><a className="toplink">Now</a></Link>
+      <Link href='/links'><a className="toplink">Links</a></Link>
+    </span>
   </div>
 )

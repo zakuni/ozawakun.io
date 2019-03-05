@@ -1,7 +1,7 @@
 import Scramble from './Scramble.jsx';
 
 const ScrambleTitle = (props) => (
-  <div className="scrambleTitle uk-link-reset">
+  <span className="scrambleTitle uk-link-reset">
     <Scramble>o</Scramble>
     <Scramble>z</Scramble>
     <Scramble>a</Scramble>
@@ -29,7 +29,7 @@ const ScrambleTitle = (props) => (
         }
       }
     `}</style>
-  </div>
+  </span>
 );
 
 export default ScrambleTitle

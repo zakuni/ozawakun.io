@@ -4,7 +4,7 @@ import TobBar from '../components/TopBar.jsx'
 export default () => (
   <Layout>
     <TobBar />
-    <div className="uk-container uk-container-small uk-width-2-3@s uk-margin-remove-top">
+    <div className="uk-container uk-container-small uk-width-3-5@s uk-margin-remove-top">
       <main>
         <section className="uk-section" id="otherservices">
           <h3 className="uk-h3">
