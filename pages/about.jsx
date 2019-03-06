@@ -28,9 +28,22 @@ export default () => (
 
           <div>
             <h5>Careers</h5>
-            <p>2014.4 ~ Spiber株式会社</p>
-            <p>2011.4 ~ 2014.3 株式会社リコー</p>
-            <p>2007.4 ~ 2011.3 慶應義塾大学 環境情報学部</p>
+            <table className="uk-table uk-table-small uk-table-justify">
+              <tbody>
+                <tr>
+                  <td className="uk-width-small">2014.4 ~</td>
+                  <td>Spiber株式会社</td>
+                </tr>
+                <tr>
+                  <td>2011.4 ~ 2014.3</td>
+                  <td>株式会社リコー</td>
+                </tr>
+                <tr>
+                  <td>2007.4 ~ 2011.3</td>
+                  <td>慶應義塾大学 環境情報学部</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </section>
       </main>
