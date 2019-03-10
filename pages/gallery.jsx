@@ -20,11 +20,11 @@ export default () => (
                 style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}
               ></iframe>
             </div>
-            <div className='uk-align-right'>
+            <div className='uk-align-right uk-margin-small'>
               some more available from <a href='https://portfolio.ozawakun.io' target="_blank" rel="noopener">here...</a>
             </div>
           </div>
-          <h4>Something</h4>
+          <h4 className="uk-margin-xlarge-top">Something</h4>
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
             <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/static/images/gekko.png" width="200px" /></a>
