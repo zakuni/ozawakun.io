@@ -3,12 +3,7 @@
     <a id="title" class="uk-logo" href="/">
       <ScrambleTitle />
     </a>
-    <span class="toplinks uk-link-muted">
-      <a href="/about" class="toplink">About</a>
-      <a href="/gallery" class="toplink">Gallery</a>
-      <a href='/now' class="toplink">Now</a>
-      <a href='/links' class="toplink">Links</a>
-    </span>
+    <span class="toplinks uk-link-muted"><a href="/about" class="toplink">About</a><a href="/gallery" class="toplink">Gallery</a><a href="/now" class="toplink">Now</a><a href="/links" class="toplink">Links</a></span>
   </div>
 </template>
 
