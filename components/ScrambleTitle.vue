@@ -15,9 +15,6 @@
   </span>
 </template>
 
-<script>
-</script>
-
 <style>
 .scrambleTitle {
   font-family: 'Georgia';

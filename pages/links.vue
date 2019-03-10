@@ -1,7 +1,7 @@
 <template>
   <div class="uk-container uk-container-small uk-width-3-5@s uk-margin-remove-top">
     <main>
-      <section class="uk-section" id="otherservices">
+      <section id="otherservices" class="uk-section">
         <h3 class="uk-h3">
           LINKS
         </h3>

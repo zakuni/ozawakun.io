@@ -1,6 +1,6 @@
 <template>
   <div class="sticky">
-    <a class="uk-logo" href="/" id="title">
+    <a id="title" class="uk-logo" href="/">
       <ScrambleTitle />
     </a>
     <span class="toplinks uk-link-muted">
