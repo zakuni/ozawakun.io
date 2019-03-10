@@ -20,8 +20,8 @@ export default () => (
                 style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}
               ></iframe>
             </div>
-            <div>
-              more photos available from <a href='https://lightroom.adobe.com/gallery/b174cd1e3d6e4e5fb97984c9136b187d' target="_blank" rel="noopener">here</a>
+            <div className='uk-align-right'>
+              some more available from <a href='https://portfolio.ozawakun.io' target="_blank" rel="noopener">here...</a>
             </div>
           </div>
           <h4>Something</h4>
