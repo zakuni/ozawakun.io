@@ -1,55 +1,61 @@
 <template>
   <div>
+    <TopBar />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
+<script>
+import TopBar from '~/components/TopBar.vue'
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    TopBar,
+    Footer
+  }
+}
+</script>
+
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+html,
+body {
+  background: #fbfbfb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
+b {
+  font-weight: 500;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+h2,
+h3,
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+h2 {
+  font-weight: 450;
+}
+h5 {
+  font-weight: 500;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+#about {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+article > p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.uk-h3,
+.uk-h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.uk-icon-button {
+  background: #fbfbfb;
 }
 </style>
