@@ -12,21 +12,6 @@
     <span class='period'>.</span>
     <span>i</span>
     <span>o</span>
-    <style jsx>{`
-      :global(.space) {
-        font-size: 0.1rem;
-      }
-      @media screen and (max-width: 519px) {
-        :global(.period) {
-          font-size: 1rem;
-        }
-      }
-      @media screen and (min-width: 520px) {
-        :global(.period) {
-          font-size: 0.9rem;
-        }
-      }
-    `}</style>
   </span>
 </template>
 
