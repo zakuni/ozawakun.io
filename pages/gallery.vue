@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
+  <div class="uk-container uk-container-small uk-width-5-6@s uk-margin-remove-top">
     <main>
       <section id="gallery" class="uk-section">
         <h2 class="uk-h3 uk-margin-large-bottom">
