@@ -27,6 +27,18 @@
         </h4>
         <div class="uk-flex-middle" uk-grid="">
           <div class="uk-width-1-4@s uk-text-center">
+            <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img alt="gekko" class="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/z-cal.png" width="170px"></a>
+            <div style="padding-top: 20px"><a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img src="/images/Download_on_the_App_Store_blk_.svg" /></a></div>
+          </div>
+          <div class="uk-width-3-4@s">
+            <p>
+              ある日僕は思ったのです。電卓を作ってみよう、と。
+            </p>
+            <p>そしたら出来たのです。電卓が。</p>
+          </div>
+        </div>
+        <div class="uk-flex-middle" uk-grid="">
+          <div class="uk-width-1-4@s uk-text-center">
             <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" class="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/gekko.png" width="200px"></a>
           </div>
           <div class="uk-width-3-4@s">
