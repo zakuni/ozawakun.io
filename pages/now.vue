@@ -7,17 +7,25 @@
         </h2>
         <article class="uk-section-xsmall">
           <div class="uk-text-meta">
-            Jan. 3, 2019
+            Jan. 4, 2020
           </div>
           <p>明けましておめでとうございます。</p>
-          <p>冬休みの自由研究に、<a href="https://github.com/zakuni/ALife">人工生命を作ってみました</a>。</p>
-          <p>解説は<a href="https://scrapbox.io/zakuni/人工生命を作ってみた">こちら</a>に。</p>
+          <p>このページを1年間更新していなかったことに驚いております。サイト自体は更新していたんですが。</p>
+          <p>本年も、どうぞよろしくお願い申し上げます。</p>
         </article>
       </section>
       <section class="uk-section">
         <h2 class="uk-h4">
           WAS
         </h2>
+        <article class="uk-section-xsmall">
+          <div class="uk-text-meta">
+            Jan. 3, 2019
+          </div>
+          <p>明けましておめでとうございます。</p>
+          <p>冬休みの自由研究に、<a href="https://github.com/zakuni/ALife">人工生命を作ってみました</a>。</p>
+          <p>解説は<a href="https://scrapbox.io/zakuni/人工生命を作ってみた">こちら</a>に。</p>
+        </article>
         <article class="uk-section-xsmall">
           <div class="uk-text-meta">
             Aug. 19, 2018
