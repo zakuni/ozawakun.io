@@ -1,12 +1,20 @@
+import Link from 'next/link'
 import ScrambleTitle from './ScrambleTitle'
 
 const TopBar = () => (
   <>
     <div className="sticky">
-      <a id="title" className="uk-logo" href="/">
-        <ScrambleTitle />
-      </a>
-      <span className="toplinks uk-link-muted"><a href="/about" className="toplink">About</a><a href="/gallery" className="toplink">Gallery</a><a href="/now" className="toplink">Now</a><a href="/links" className="toplink">Links</a></span>
+      <Link href="/">
+        <a id="title" className="uk-logo">
+          <ScrambleTitle />
+        </a>
+      </Link>
+      <span className="toplinks uk-link-muted">
+        <Link href="/about"><a className="toplink">About</a></Link>
+        <Link href="/gallery"><a className="toplink">Gallery</a></Link>
+        <Link href="/now"><a className="toplink">Now</a></Link>
+        <Link href="/links"><a className="toplink">Links</a></Link>
+      </span>
     </div>
     <style jsx>{`
       .sticky {
