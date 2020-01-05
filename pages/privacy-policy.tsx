@@ -1,11 +1,14 @@
-<template>
-  <div class="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
+import Layout from '../layouts/default'
+
+export default () => (
+  <Layout>
+  <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
-      <section id="about" class="uk-section uk-margin-remove-bottom">
-        <h2 class="uk-h3 uk-margin-medium-bottom">
+      <section id="about" className="uk-section uk-margin-remove-bottom">
+        <h2 className="uk-h3 uk-margin-medium-bottom">
           Privacy Policy
         </h2>
-        <div class="uk-margin-medium-bottom">
+        <div className="uk-margin-medium-bottom">
           <p>
             第三者に個人を特定できる情報を提供することはありません。
           </p>
@@ -19,4 +22,5 @@
       </section>
     </main>
   </div>
-</template>
+</Layout>
+)

@@ -1,11 +1,14 @@
-<template>
-  <div class="uk-container uk-container-small uk-width-3-5@s uk-margin-remove-top">
+import Layout from '../layouts/default'
+
+export default () => (
+  <Layout>
+  <div className="uk-container uk-container-small uk-width-3-5@s uk-margin-remove-top">
     <main>
-      <section id="otherservices" class="uk-section">
-        <h3 class="uk-h3">
+      <section id="otherservices" className="uk-section">
+        <h3 className="uk-h3">
           LINKS
         </h3>
-        <ul class="uk-list uk-list-bullet uk-link-muted">
+        <ul className="uk-list uk-list-bullet uk-link-muted">
           <li>
             <a href="https://scrapbox.io/zakuni/" target="_blank" rel="noopener">scrapbox</a>
           </li>
@@ -19,4 +22,5 @@
       </section>
     </main>
   </div>
-</template>
+  </Layout>
+)

@@ -1,23 +1,39 @@
-<template>
-  <div class="sticky">
-    <a id="title" class="uk-logo" href="/">
-      <ScrambleTitle />
-    </a>
-    <span class="toplinks uk-link-muted"><a href="/about" class="toplink">About</a><a href="/gallery" class="toplink">Gallery</a><a href="/now" class="toplink">Now</a><a href="/links" class="toplink">Links</a></span>
-  </div>
-</template>
-
-<script>
-import ScrambleTitle from '~/components/ScrambleTitle.vue'
-
-export default {
-  components: {
-    ScrambleTitle
-  }
+html, body {
+  background: #fbfbfb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-</script>
 
-<style>
+b {
+  font-weight: 500;
+}
+
+h2, h3, h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-weight: 450;
+}
+h5 {
+  font-weight: 500;
+}
+
+#about {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+}
+
+article > p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.uk-h3, .uk-h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.uk-icon-button {
+  background: #fbfbfb;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -79,4 +95,17 @@ export default {
     left: 0px;
   }
 }
-</style>
+
+.space {
+  font-size: 0.1rem;
+}
+@media screen and (max-width: 519px) {
+  .period {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 520px) {
+  .period {
+    font-size: 0.9rem;
+  }
+}
