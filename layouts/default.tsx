@@ -3,7 +3,7 @@ import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
 
 export default ({children}) => (
-  <div>
+  <>
     <Head>
       // Global site tag (gtag.js) - Google Analytics
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19099790-3"></script>
@@ -28,5 +28,5 @@ export default ({children}) => (
     <TopBar />
     {children}
     <Footer />
-  </div>
+  </>
 )
