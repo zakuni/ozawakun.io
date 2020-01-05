@@ -33,6 +33,10 @@ export default ({children}) => (
         background: #fbfbfb;
         font-family: Georgia, 'Times New Roman', Times, serif;
       }
+      #about {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #333;
+      }
     `}
     </style>
   </>
