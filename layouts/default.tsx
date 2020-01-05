@@ -28,5 +28,12 @@ export default ({children}) => (
     <TopBar />
     {children}
     <Footer />
+    <style jsx global>{`
+      html, body {
+        background: #fbfbfb;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+    `}
+    </style>
   </>
 )
