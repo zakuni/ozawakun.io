@@ -1,13 +1,12 @@
 import Layout from '../layouts/default'
+import PageTitle from '../components/PageTitle'
 
 export default () => (
   <Layout>
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
       <section id="about" className="uk-section uk-margin-remove-bottom">
-        <h2 className="uk-h3 uk-margin-medium-bottom">
-          Privacy Policy
-        </h2>
+        <PageTitle>Privacy Policy</PageTitle>
         <div className="uk-margin-medium-bottom">
           <p>
             第三者に個人を特定できる情報を提供することはありません。

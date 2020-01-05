@@ -1,13 +1,12 @@
 import Layout from '../layouts/default'
+import PageTitle from '../components/PageTitle'
 
 export default () => (
   <Layout>
   <div className="uk-container uk-container-small uk-width-3-5@s uk-margin-remove-top">
     <main>
       <section id="otherservices" className="uk-section">
-        <h3 className="uk-h3">
-          LINKS
-        </h3>
+        <PageTitle>LINKS</PageTitle>
         <ul className="uk-list uk-list-bullet uk-link-muted">
           <li>
             <a href="https://scrapbox.io/zakuni/" target="_blank" rel="noopener">scrapbox</a>

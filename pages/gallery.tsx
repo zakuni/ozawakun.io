@@ -1,14 +1,13 @@
 
 import Layout from '../layouts/default'
+import PageTitle from '../components/PageTitle'
 
 export default () => (
   <Layout>
     <div className="uk-container uk-container-small uk-width-5-6@s uk-margin-remove-top">
       <main>
         <section id="gallery" className="uk-section">
-          <h2 className="uk-h3 uk-margin-large-bottom">
-            GALLERY
-          </h2>
+          <PageTitle>GALLERY</PageTitle>
           <h4>Photos</h4>
           <div>
             <div className='lr_embed' style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}>
