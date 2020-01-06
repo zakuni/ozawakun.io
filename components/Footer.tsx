@@ -1,6 +1,6 @@
 export default () => (
   <>
-    <footer className="uk-text-center uk-link-muted uk-text-meta">
+    <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-medium-top">
       <div className="uk-margin-small-bottom">
         <a href="https://twitter.com/zakuni" target="_blank" rel="noopener" className="uk-icon-button uk-margin-small-right" uk-icon="twitter" />
         <a href="https://www.facebook.com/zakuni" target="_blank" rel="noopener" className="uk-icon-button  uk-margin-small-right" uk-icon="facebook" />
