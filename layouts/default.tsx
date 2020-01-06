@@ -22,7 +22,6 @@ export default ({children}) => (
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
-      <link rel="stylesheet" href="/style.css" />
       <title>ozawakun.io</title>
     </Head>
     <TopBar />
@@ -35,6 +34,92 @@ export default ({children}) => (
       }
       #about {
         color: #333;
+      }
+
+      b {
+        font-weight: 500;
+      }
+
+      h2, h3, h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      h2 {
+        font-weight: 450;
+      }
+      h5 {
+        font-weight: 500;
+      }
+
+      article > p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      .uk-h3, .uk-h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .uk-icon-button {
+        background: #fbfbfb;
+      }
+
+      .scrambleTitle {
+        width: 180px;
+        height: 44px;
+        font-size: 2rem;
+      }
+
+      .uk-logo {
+        color: #333;
+        padding: 0 50px;
+      }
+
+      .topbar {
+        width: 100%;
+      }
+
+      .toplink {
+        padding: 0 15px;
+      }
+
+      .toplinks {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        font-size: 1.1em;
+      }
+
+      @media screen and (max-width: 600px) {
+        .sticky {
+          height: 110px;
+        }
+
+        .uk-logo {
+          padding: 0 15px;
+        }
+
+        .scrambleTitle {
+          font-size: 1.5rem;
+        }
+
+        .toplinks {
+          position: absolute;
+          top: 50px;
+          left: 0px;
+        }
+      }
+
+      .space {
+        font-size: 0.1rem;
+      }
+      @media screen and (max-width: 519px) {
+        .period {
+          font-size: 1rem;
+        }
+      }
+      @media screen and (min-width: 520px) {
+        .period {
+          font-size: 0.9rem;
+        }
       }
     `}
     </style>
