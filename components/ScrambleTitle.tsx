@@ -1,9 +1,17 @@
-import Scramble from './Scramble'
+type Props = {
+  className?: string,
+  children: any
+}
+
+const Scramble: React.FC<Props> = ({className, children}) => (
+  <span className={className}>{children}</span>
+)
+
 
 export default () => (
   <>
     <span className="scrambleTitle uk-link-reset">
-      <Scramble>o</Scramble><Scramble>z</Scramble><Scramble>a</Scramble><Scramble>w</Scramble><Scramble>a</Scramble><Scramble className='space'>&nbsp;</Scramble><Scramble>k</Scramble><Scramble>u</Scramble><Scramble>n</Scramble><Scramble className='period'>.</Scramble><Scramble>i</Scramble><Scramble>o</Scramble>
+      ozawa<Scramble className='space'>&nbsp;</Scramble>kun<Scramble className='period'>.</Scramble>io
     </span>
     <style jsx>{`
       .scrambleTitle {
