@@ -6,7 +6,7 @@ export default () => (
     <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
       <main>
         <section id="about" className="uk-section uk-margin-remove-bottom">
-          <PageTitle>Introduction</PageTitle>
+          <PageTitle>INTRODUCTION</PageTitle>
           <div className="uk-margin-medium-bottom">
             <p className="uk-margin-small-bottom">
               I'm Kunio Ozawa, a.k.a. zakuni

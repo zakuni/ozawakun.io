@@ -9,11 +9,11 @@ const TopBar = () => (
           <ScrambleTitle />
         </a>
       </Link>
-      <span className="toplinks uk-link-muted">
-        <Link href="/about"><a className="toplink">About</a></Link>
-        <Link href="/gallery"><a className="toplink">Gallery</a></Link>
-        <Link href="/now"><a className="toplink">Now</a></Link>
-        <Link href="/links"><a className="toplink">Links</a></Link>
+      <span className="toplinks uk-link-text">
+        <Link href="/about"><a className="toplink">ABOUT</a></Link>
+        <Link href="/gallery"><a className="toplink">GALLERY</a></Link>
+        <Link href="/now"><a className="toplink">NOW</a></Link>
+        <Link href="/links"><a className="toplink">LINKS</a></Link>
       </span>
     </div>
     <style jsx>{`
