@@ -61,66 +61,6 @@ export default ({children}) => (
       .uk-icon-button {
         background: #fbfbfb;
       }
-
-      .scrambleTitle {
-        width: 180px;
-        height: 44px;
-        font-size: 2rem;
-      }
-
-      .uk-logo {
-        color: #333;
-        padding: 0 50px;
-      }
-
-      .topbar {
-        width: 100%;
-      }
-
-      .toplink {
-        padding: 0 15px;
-      }
-
-      .toplinks {
-        position: absolute;
-        top: 10px;
-        right: 50px;
-        font-size: 1.1em;
-      }
-
-      @media screen and (max-width: 600px) {
-        .sticky {
-          height: 110px;
-        }
-
-        .uk-logo {
-          padding: 0 15px;
-        }
-
-        .scrambleTitle {
-          font-size: 1.5rem;
-        }
-
-        .toplinks {
-          position: absolute;
-          top: 50px;
-          left: 0px;
-        }
-      }
-
-      .space {
-        font-size: 0.1rem;
-      }
-      @media screen and (max-width: 519px) {
-        .period {
-          font-size: 1rem;
-        }
-      }
-      @media screen and (min-width: 520px) {
-        .period {
-          font-size: 0.9rem;
-        }
-      }
     `}
     </style>
   </>

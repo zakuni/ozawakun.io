@@ -4,7 +4,25 @@ type Props = {
 }
 
 const Scramble: React.FC<Props> = ({className, children}) => (
-  <span className={className}>{children}</span>
+  <>
+    <span className={className}>{children}</span>
+    <style jsx>{`
+      .space {
+        font-size: 0.1rem;
+      }
+
+      @media screen and (max-width: 519px) {
+        .period {
+          font-size: 1rem;
+        }
+      }
+      @media screen and (min-width: 520px) {
+        .period {
+          font-size: 0.9rem;
+        }
+      }
+    `}</style>
+  </>
 )
 
 
@@ -16,6 +34,9 @@ export default () => (
     <style jsx>{`
       .scrambleTitle {
         font-family: 'Georgia';
+        width: 180px;
+        height: 44px;
+        font-size: 2rem;
       }
     `}</style>
   </>

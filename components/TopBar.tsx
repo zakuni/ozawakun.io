@@ -31,12 +31,6 @@ const TopBar = () => (
         height: 70px;
       }
 
-      .scrambleTitle {
-        width: 180px;
-        height: 44px;
-        font-size: 2rem;
-      }
-
       .uk-logo {
         color: #333;
         padding: 0 50px;
