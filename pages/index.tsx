@@ -4,9 +4,15 @@ import Link from 'next/link'
 
 export default () => (
   <Layout>
-    <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
+    <div className="uk-container uk-container-large uk-width-3-4@s">
       <main>
-        <section className="uk-section uk-margin-remove-bottom">
+        <section className="uk-section uk-margin-remove-bottom uk-padding-remove-bottom">
+          <div className="uk-cover-container">
+            <img src="images/cover.jpg" alt="" uk-cover />
+          </div>
+          <Link href="/gallery"><a className='uk-align-right uk-link-text uk-margin-top'>GALLERY<span uk-icon="arrow-right"></span></a></Link>
+        </section>
+        <section className="uk-section uk-margin-remove-top uk-margin-remove-bottom uk-padding-small-top">
           <div id="about">
             <PageTitle>INTRODUCTION</PageTitle>
             <div className="uk-margin-medium-bottom">
