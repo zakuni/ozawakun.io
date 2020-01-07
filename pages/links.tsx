@@ -2,7 +2,7 @@ import Layout from '../layouts/default'
 import PageTitle from '../components/PageTitle'
 
 export default () => (
-  <Layout>
+  <Layout title="LINKS | ozawakun.io">
   <div className="uk-container uk-container-small uk-width-3-5@s uk-margin-remove-top">
     <main>
       <section id="otherservices" className="uk-section">

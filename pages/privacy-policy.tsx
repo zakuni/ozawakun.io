@@ -2,7 +2,7 @@ import Layout from '../layouts/default'
 import PageTitle from '../components/PageTitle'
 
 export default () => (
-  <Layout>
+  <Layout title="PRIVACY POLICY | ozawakun.io">
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
       <section id="about" className="uk-section uk-margin-remove-bottom">

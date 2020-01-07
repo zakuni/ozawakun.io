@@ -2,7 +2,11 @@ import Head from 'next/head'
 import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
 
-export default ({children}) => (
+type Props = {
+  title?: string
+}
+
+const DefaultLayout: React.FC<Props> = ({title="ozawakun.io", children}) => (
   <>
     <Head>
       // Global site tag (gtag.js) - Google Analytics
@@ -22,7 +26,7 @@ export default ({children}) => (
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
-      <title>ozawakun.io</title>
+      <title>{title}</title>
     </Head>
     <TopBar />
     {children}
@@ -65,3 +69,4 @@ export default ({children}) => (
     </style>
   </>
 )
+export default DefaultLayout;

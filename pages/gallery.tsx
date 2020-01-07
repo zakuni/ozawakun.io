@@ -3,7 +3,7 @@ import Layout from '../layouts/default'
 import PageTitle from '../components/PageTitle'
 
 export default () => (
-  <Layout>
+  <Layout title="GALLERY | ozawakun.io">
     <div className="uk-container uk-container-small uk-width-5-6@s uk-margin-remove-top">
       <main>
         <section id="gallery" className="uk-section">

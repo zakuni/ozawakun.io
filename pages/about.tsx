@@ -1,7 +1,7 @@
 import Layout from '../layouts/default'
 
 export default () => (
-  <Layout>
+  <Layout title="ABOUT | ozawakun.io">
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
       <section id="about" className="uk-section uk-margin-remove-bottom">
