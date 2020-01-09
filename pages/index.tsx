@@ -8,7 +8,7 @@ export default () => (
       <main>
         <section className="uk-section uk-margin-remove-bottom uk-padding-remove-bottom">
           <div className="uk-cover-container">
-            <img src="https://i.gyazo.com/11d73ce76e974ae7abca199fa239008b.jpg" alt="" uk-cover />
+            <img src="https://i.gyazo.com/b83ad83d21b6413c5ec3b5a47b17a526.jpg" alt="" uk-cover />
           </div>
           <Link href="/gallery"><a className='uk-align-right uk-link-text uk-margin-top'>GALLERY<span uk-icon="arrow-right"></span></a></Link>
         </section>
