@@ -9,6 +9,9 @@ export default () => (
         <PageTitle>LINKS</PageTitle>
         <ul className="uk-list uk-list-bullet uk-link-muted">
           <li>
+            <a href="https://muuseo.com/zakuni" target="_blank" rel="noopener">muuseo</a>
+          </li>
+          <li>
             <a href="https://scrapbox.io/zakuni/" target="_blank" rel="noopener">scrapbox</a>
           </li>
           <li>
