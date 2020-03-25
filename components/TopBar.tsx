@@ -48,7 +48,8 @@ const TopBar = () => (
         position: absolute;
         top: 10px;
         right: 50px;
-        font-size: 1.1em;
+        font-size: 1em;
+        letter-spacing: 0.12em;
       }
 
       @media screen and (max-width: 600px) {
