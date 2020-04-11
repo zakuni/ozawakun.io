@@ -4,7 +4,7 @@ import PageTitle from '../components/PageTitle'
 
 export default () => (
   <Layout title="GALLERY | ozawakun.io">
-    <div className="uk-container uk-container-small uk-width-5-6@s uk-margin-remove-top">
+    <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
       <main>
         <section id="gallery" className="uk-section">
           <PageTitle>GALLERY</PageTitle>
