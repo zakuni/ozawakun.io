@@ -2,7 +2,7 @@ import Layout from '../layouts/default'
 import PageTitle from '../components/PageTitle'
 import Link from 'next/link'
 
-export default () => (
+const IndexPage = () => (
   <Layout>
     <div className="uk-container uk-container-large uk-width-3-4@s">
       <main>
@@ -17,7 +17,7 @@ export default () => (
             <PageTitle>INTRODUCTION</PageTitle>
             <div className="uk-margin-medium-bottom">
               <p className="uk-margin-small-bottom">
-                I'm Kunio Ozawa, a.k.a. zakuni
+                I&apos;m Kunio Ozawa, a.k.a. zakuni
               </p>
               <p className="uk-margin-small-bottom">
                 Webのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。
@@ -30,3 +30,5 @@ export default () => (
     </div>
   </Layout>
 );
+
+export default IndexPage;
