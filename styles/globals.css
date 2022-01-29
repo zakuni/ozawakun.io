@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  background: #fbfbfb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about {
+  color: #333;
+}
+
+b {
+  font-weight: 500;
+}
+
+h2, h3, h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-weight: 450;
+}
+h5 {
+  font-weight: 500;
+}
+
+article > p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.uk-h3, .uk-h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.uk-icon-button {
+  background: #fbfbfb;
+}
