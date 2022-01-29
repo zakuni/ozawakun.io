@@ -16,8 +16,6 @@ const DefaultLayout: React.FC<Props> = ({title="ozawakun.io", children}) => (
       <meta content="width=device-width, initial-scale=1" name="viewport" />
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit.min.css" />
-      <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
       <title>{title}</title>
     </Head>
     {/* Global site tag (gtag.js) - Google Analytics */}
@@ -34,6 +32,8 @@ const DefaultLayout: React.FC<Props> = ({title="ozawakun.io", children}) => (
         gtag('config', 'UA-19099790-3');
       `}
     </Script>
+    <Script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></Script>
+    <Script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></Script>
     <TopBar />
     {children}
     <Footer />
