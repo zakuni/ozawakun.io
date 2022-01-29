@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import TopBar from '../components/TopBar'
-import Footer from '../components/Footer'
+import TopBar from './TopBar'
+import Footer from './Footer'
 import Script from 'next/script'
 
 type Props = {

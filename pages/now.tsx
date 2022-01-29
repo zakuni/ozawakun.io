@@ -1,4 +1,4 @@
-import Layout from '../layouts/default'
+import Layout from '../components/layout'
 
 const NowPage = () => (
   <Layout title="NOW | ozawakun.io">
