@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
+import Script from 'next/script'
 
 type Props = {
   title?: string
@@ -9,16 +10,7 @@ type Props = {
 const DefaultLayout: React.FC<Props> = ({title="ozawakun.io", children}) => (
   <>
     <Head>
-      // Global site tag (gtag.js) - Google Analytics
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19099790-3"></script>
-      <script dangerouslySetInnerHTML={{__html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-19099790-3');
-      `}} />
-      // Always force latest IE rendering engine or request Chrome Frame
+      {/* Always force latest IE rendering engine or request Chrome Frame */}
       <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
       <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -28,6 +20,20 @@ const DefaultLayout: React.FC<Props> = ({title="ozawakun.io", children}) => (
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
       <title>{title}</title>
     </Head>
+    {/* Global site tag (gtag.js) - Google Analytics */}
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=UA-19099790-3"
+      strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19099790-3');
+      `}
+    </Script>
     <TopBar />
     {children}
     <Footer />
