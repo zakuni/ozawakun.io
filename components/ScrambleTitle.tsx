@@ -26,7 +26,7 @@ const Scramble: React.FC<Props> = ({className, children}) => (
 )
 
 
-export default () => (
+const ScrambleTitle = () => (
   <>
     <span className="scrambleTitle uk-link-reset">
       ozawa<Scramble className='space'>&nbsp;</Scramble>kun<Scramble className='period'>.</Scramble>io
@@ -41,3 +41,4 @@ export default () => (
     `}</style>
   </>
 )
+export default ScrambleTitle;

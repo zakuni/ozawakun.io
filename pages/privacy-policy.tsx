@@ -1,7 +1,7 @@
 import Layout from '../layouts/default'
 import PageTitle from '../components/PageTitle'
 
-export default () => (
+const PrivacyPolicyPage = () => (
   <Layout title="PRIVACY POLICY | ozawakun.io">
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
@@ -23,3 +23,4 @@ export default () => (
   </div>
 </Layout>
 )
+export default PrivacyPolicyPage;

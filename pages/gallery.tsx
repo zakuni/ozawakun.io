@@ -2,7 +2,7 @@
 import Layout from '../layouts/default'
 import PageTitle from '../components/PageTitle'
 
-export default () => (
+const GalleryPage = () => (
   <Layout title="GALLERY | ozawakun.io">
     <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
       <main>
@@ -14,7 +14,7 @@ export default () => (
               <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/71663dcf01b0433193bbc0d6f04e04f8/slideshow?background_color=%232D2D2D&color=%23999999' frameBorder='0' style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}></iframe>
             </div>
             <div className="uk-align-right uk-margin-small">
-              some more available from <a href="https://portfolio.ozawakun.io" target="_blank" rel="noopener">here...</a>
+              some more available from <a href="https://portfolio.ozawakun.io" target="_blank" rel="noopener noreferrer">here...</a>
             </div>
           </div>
           <h4 className="uk-margin-xlarge-top">
@@ -154,3 +154,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default GalleryPage;

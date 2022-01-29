@@ -1,6 +1,6 @@
 import Layout from '../layouts/default'
 
-export default () => (
+const NowPage = () => (
   <Layout title="NOW | ozawakun.io">
     <div className="uk-container uk-container-small uk-width-3-5@s" uk-height-viewport="expand: true">
       <main>
@@ -58,3 +58,4 @@ export default () => (
     </div>
   </Layout>
 )
+export default NowPage;
