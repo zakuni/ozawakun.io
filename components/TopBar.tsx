@@ -3,7 +3,7 @@ import ScrambleTitle from './ScrambleTitle'
 
 const TopBar = () => (
   <>
-    <div className="sticky">
+    <div className="sticky top-0">
       <Link href="/">
         <a id="title" className="uk-logo">
           <ScrambleTitle />
@@ -18,9 +18,6 @@ const TopBar = () => (
     </div>
     <style jsx>{`
       .sticky {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
         background: linear-gradient(
           rgba(252, 252, 252, 0.95) 80%,
           rgba(252, 252, 252, 0)

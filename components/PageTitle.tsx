@@ -1,6 +1,6 @@
 const PageTitle: React.FC = ({children}) => (
-  <h3 className="uk-margin-medium-bottom">
+  <h2 className="uk-margin-medium-bottom text-2xl">
     {children}
-  </h3>
+  </h2>
 )
 export default PageTitle;

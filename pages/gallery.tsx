@@ -8,7 +8,7 @@ const GalleryPage = () => (
       <main>
         <section id="gallery" className="uk-section">
           <PageTitle>GALLERY</PageTitle>
-          <h4>Photos</h4>
+          <h4 className='text-xl'>Photos</h4>
           <div>
             <div className='lr_embed' style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}>
               <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/71663dcf01b0433193bbc0d6f04e04f8/slideshow?background_color=%232D2D2D&color=%23999999' frameBorder='0' style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}></iframe>
@@ -17,10 +17,10 @@ const GalleryPage = () => (
               some more available from <a href="https://portfolio.ozawakun.io" target="_blank" rel="noopener noreferrer">here...</a>
             </div>
           </div>
-          <h4 className="uk-margin-xlarge-top">
+          <h4 className="uk-margin-xlarge-top text-xl">
             Something
           </h4>
-          <div className="uk-flex-middle" uk-grid="">
+          <div className="uk-flex-middle" data-uk-grid>
             <div className="uk-width-1-4@s uk-text-center">
               <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/z-cal.png" width="170px" /></a>
               <div style={{paddingTop: '20px'}}><a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img src="/images/Download_on_the_App_Store_blk_.svg" /></a></div>
@@ -32,8 +32,8 @@ const GalleryPage = () => (
               <p>そしたら出来たのです。電卓が。</p>
             </div>
           </div>
-          <hr />
-          <div className="uk-flex-middle" uk-grid="">
+          <hr className="my-12" />
+          <div className="uk-flex-middle" data-uk-grid>
             <div className="uk-width-1-4@s uk-text-center">
               <a href="https://editor.p5js.org/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/gekko.png" width="200px" /></a>
             </div>
@@ -47,7 +47,7 @@ const GalleryPage = () => (
               <p>あと、<a href="https://editor.p5js.org/full/S1uBsjMYM">オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href="https://editor.p5js.org/zakuni/sketches/S1uBsjMYM">ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
             </div>
           </div>
-          <hr />
+          <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
               <a href="https://editor.p5js.org/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/sketch_particle.png" width="200px" /></a>
@@ -61,7 +61,7 @@ const GalleryPage = () => (
               </p>
             </div>
           </div>
-          <hr />
+          <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
               <a className="uk-link-reset" href="http://machiawase.herokuapp.com">
@@ -82,7 +82,7 @@ const GalleryPage = () => (
               </p>
             </div>
           </div>
-          <hr />
+          <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
               <a className="uk-link-reset" href="http://boy2man.herokuapp.com">
@@ -103,7 +103,7 @@ const GalleryPage = () => (
               </p>
             </div>
           </div>
-          <hr />
+          <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
               <a className="uk-link-reset" href="/smoothsnap/sample.html">
@@ -121,7 +121,7 @@ const GalleryPage = () => (
               </p>
             </div>
           </div>
-          <hr />
+          <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
               <a href="/sakurafubuki/index.html"><img alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/sakurafubuki.png" width="200px" /></a>
@@ -135,7 +135,7 @@ const GalleryPage = () => (
               </p>
             </div>
           </div>
-          <hr />
+          <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
               <a href="/chirimomiji/index.html"><img alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/chirimomiji.png" width="200px" /></a>
