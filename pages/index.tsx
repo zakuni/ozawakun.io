@@ -14,7 +14,7 @@ const IndexPage = () => (
             alt="Cover image"
             priority
           />
-          <Link href="/gallery"><a className='uk-align-right uk-link-text uk-margin-top'>GALLERY<span uk-icon="arrow-right"></span></a></Link>
+          <Link href="/gallery"><a className='uk-align-right uk-link-text uk-margin-top'>GALLERY<span uk-icon="arrow-right" className='align-text-bottom'></span></a></Link>
         </section>
         <section className="uk-section uk-margin-remove-top uk-margin-remove-bottom uk-padding-small-top">
           <div id="about">
@@ -28,7 +28,7 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <Link href="/about"><a className='uk-align-right uk-link-text'>MORE ABOUT ME <span uk-icon="arrow-right"></span></a></Link>
+          <Link href="/about"><a className='uk-align-right uk-link-text'>MORE ABOUT ME<span uk-icon="arrow-right" className='align-text-bottom'></span></a></Link>
         </section>
       </main>
     </div>
