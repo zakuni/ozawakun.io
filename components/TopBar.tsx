@@ -4,16 +4,16 @@ import ScrambleTitle from './ScrambleTitle'
 const TopBar = () => (
   <>
     <div className="sticky top-0">
-      <Link href="/">
+      <Link href="/" legacyBehavior>
         <a id="title" className="uk-logo">
           <ScrambleTitle />
         </a>
       </Link>
       <span className="toplinks uk-link-text">
-        <Link href="/about"><a className="toplink">ABOUT</a></Link>
-        <Link href="/gallery"><a className="toplink">GALLERY</a></Link>
-        <Link href="/now"><a className="toplink">NOW</a></Link>
-        <Link href="/links"><a className="toplink">LINKS</a></Link>
+        <Link href="/about" legacyBehavior><a className="toplink">ABOUT</a></Link>
+        <Link href="/gallery" legacyBehavior><a className="toplink">GALLERY</a></Link>
+        <Link href="/now" legacyBehavior><a className="toplink">NOW</a></Link>
+        <Link href="/links" legacyBehavior><a className="toplink">LINKS</a></Link>
       </span>
     </div>
     <style jsx>{`
