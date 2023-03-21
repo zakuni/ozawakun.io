@@ -2,7 +2,7 @@ import styles from './scrambletitle.module.css'
 
 type Props = {
   className?: string,
-  children: any
+  children: React.ReactNode
 }
 
 const Scramble: React.FC<Props> = ({className, children}) => (
@@ -12,7 +12,7 @@ const Scramble: React.FC<Props> = ({className, children}) => (
 )
 
 
-const ScrambleTitle = () => (
+const ScrambleTitle: React.FC = () => (
   <>
     <span className={`${styles.scrambleTitle} uk-link-reset`}>
       ozawa<Scramble className={styles.space}>&nbsp;</Scramble>kun<Scramble className={styles.period}>.</Scramble>io
