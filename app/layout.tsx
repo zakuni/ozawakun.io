@@ -37,8 +37,8 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      <Script src="../node_modules/uikit/dist/js/uikit.min.js" />
-      <Script src="../node_modules/uikit/dist/js/uikit-icons.min.js" />
+      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit.min.js" />
+      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit-icons.min.js" />
     </html>
   );
 }
