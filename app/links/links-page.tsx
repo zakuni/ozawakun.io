@@ -1,8 +1,6 @@
-import Layout from '../components/layout'
-import PageTitle from '../components/PageTitle'
+import PageTitle from '../PageTitle';
 
 const LinksPage = () => (
-  <Layout title="LINKS | ozawakun.io">
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
       <section id="otherservices" className="uk-section">
@@ -24,6 +22,5 @@ const LinksPage = () => (
       </section>
     </main>
   </div>
-  </Layout>
 )
 export default LinksPage;
