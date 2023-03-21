@@ -46,7 +46,7 @@ const GalleryPage = () => (
               <p>
                 ソースは<a href="https://editor.p5js.org/zakuni/sketches/ryqQseOYM">こちら</a>。
               </p>
-              <p>あと、<a href="https://editor.p5js.org/full/S1uBsjMYM">オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href="https://editor.p5js.org/zakuni/sketches/S1uBsjMYM">ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
+              <p>あと、<a href="https://editor.p5js.org/zakuni/full/S1uBsjMYM">オマケ</a>。作り始めがこれはこれで味のある感じだっので取っといた。<a href="https://editor.p5js.org/zakuni/sketches/S1uBsjMYM">ソース</a>もとても適当で、申し訳程度に雲に動きをつけてあります。</p>
             </div>
           </div>
           <hr className="my-12" />
