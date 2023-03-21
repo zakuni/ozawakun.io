@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import PageTitle from '../PageTitle'
 
 const GalleryPage = () => (
@@ -13,7 +14,7 @@ const GalleryPage = () => (
               <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/71663dcf01b0433193bbc0d6f04e04f8/slideshow?background_color=%232D2D2D&color=%23999999' frameBorder='0' style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}></iframe>
             </div>
             <div className="uk-align-right uk-margin-small">
-              some more available from <a href="https://portfolio.ozawakun.io" target="_blank" rel="noopener noreferrer">here...</a>
+              <Link href="https://portfolio.ozawakun.io" className='uk-link-text'>Some more photos are available<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
             </div>
           </div>
         </section>
