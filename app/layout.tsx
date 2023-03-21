@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import "./uikit/css/uikit.min.css";
+import "../node_modules/uikit/dist/css/uikit.min.css";
 import TopBar from './TopBar'
 import Footer from './Footer';
 import Script from 'next/script';
@@ -33,8 +33,8 @@ export default function RootLayout({
             gtag('config', 'UA-19099790-3');
           `}
         </Script>
-        <Script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit.min.js" />
-        <Script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit-icons.min.js" />
+        <Script src="../node_modules/uikit/dist/js/uikit.min.js" />
+        <Script src="../node_modules/uikit/dist/js/uikit-icons.min.js" />
         <TopBar />
         {children}
         <Footer />
