@@ -1,5 +1,3 @@
-'use client';
-
 const AboutPage = () => (
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
