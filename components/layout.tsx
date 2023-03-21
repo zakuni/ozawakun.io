@@ -5,6 +5,7 @@ import Script from 'next/script'
 
 type Props = {
   title?: string
+  children: React.ReactNode
 }
 
 const DefaultLayout: React.FC<Props> = ({title="ozawakun.io", children}) => (
