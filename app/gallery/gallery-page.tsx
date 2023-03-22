@@ -1,6 +1,12 @@
 
+import Image from 'next/image';
 import Link from 'next/link';
 import PageTitle from '../PageTitle'
+import zCalImg from '../../public/images/z-cal.png';
+import gekkoImg from '../../public/images/gekko.png';
+import sketchParticleImg from '../../public/images/sketch_particle.png';
+import sakurafubukiImg from '../../public/images/sakurafubuki.png';
+import chirimomijiImg from '../../public/images/chirimomiji.png';
 
 const GalleryPage = () => (
   <div className="uk-container uk-container-small uk-width-3-4@s">
@@ -24,7 +30,9 @@ const GalleryPage = () => (
           </h3>
           <div className="uk-flex-middle" data-uk-grid>
             <div className="uk-width-1-4@s uk-text-center">
-              <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/z-cal.png" width="170px" /></a>
+              <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8">
+                <Image alt="zakuni電卓" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={zCalImg} width="170" />
+              </a>
               <div style={{paddingTop: '20px'}}><a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img src="/images/Download_on_the_App_Store_blk_.svg" /></a></div>
             </div>
             <div className="uk-width-3-4@s">
@@ -37,7 +45,9 @@ const GalleryPage = () => (
           <hr className="my-12" />
           <div className="uk-flex-middle" data-uk-grid>
             <div className="uk-width-1-4@s uk-text-center">
-              <a href="https://editor.p5js.org/zakuni/full/ryqQseOYM"><img alt="gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/gekko.png" width="200px" /></a>
+              <a href="https://editor.p5js.org/zakuni/full/ryqQseOYM">
+                <Image alt="sketch gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={gekkoImg} width="200" />
+              </a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
@@ -52,7 +62,9 @@ const GalleryPage = () => (
           <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s uk-text-center">
-              <a href="https://editor.p5js.org/zakuni/full/r1kK6YVqf"><img alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/sketch_particle.png" width="200px" /></a>
+              <a href="https://editor.p5js.org/zakuni/full/r1kK6YVqf">
+                <Image alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={sketchParticleImg} width="200" />
+              </a>
             </div>
             <div className="uk-width-3-4@s">
               <p>
@@ -126,7 +138,9 @@ const GalleryPage = () => (
           <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
-              <a href="/sakurafubuki/index.html"><img alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/sakurafubuki.png" width="200px" /></a>
+              <a href="/sakurafubuki/index.html">
+                <Image alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={sakurafubukiImg} width="200" />
+              </a>
             </div>
             <div className="uk-width-3-4@s">
               <h5>
@@ -140,7 +154,9 @@ const GalleryPage = () => (
           <hr className="my-12" />
           <div className="uk-flex-middle" uk-grid="">
             <div className="uk-width-1-4@s">
-              <a href="/chirimomiji/index.html"><img alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src="/images/chirimomiji.png" width="200px" /></a>
+              <a href="/chirimomiji/index.html">
+                <Image alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={chirimomijiImg} width="200" />
+              </a>
             </div>
             <div className="uk-width-3-4@s">
               <h5>
