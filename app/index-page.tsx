@@ -1,7 +1,7 @@
 import PageTitle from './PageTitle'
 import Link from 'next/link'
 import Image from 'next/image';
-import coverImg from '../public/images/cover.jpg';
+import coverImg from '../public/images/cover.webp';
 
 const IndexPage = () => (
   <div className="uk-container uk-container-large uk-width-3-4@s">
