@@ -7,6 +7,7 @@ import gekkoImg from '../../public/images/gekko.png';
 import sketchParticleImg from '../../public/images/sketch_particle.png';
 import sakurafubukiImg from '../../public/images/sakurafubuki.png';
 import chirimomijiImg from '../../public/images/chirimomiji.png';
+import appStoreImg from '../../public/images/Download_on_the_App_Store_blk_.svg';
 
 const GalleryPage = () => (
   <div className="uk-container uk-container-small uk-width-3-4@s">
@@ -33,7 +34,11 @@ const GalleryPage = () => (
               <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8">
                 <Image alt="zakuni電卓" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={zCalImg} width="170" />
               </a>
-              <div style={{paddingTop: '20px'}}><a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8"><img src="/images/Download_on_the_App_Store_blk_.svg" /></a></div>
+              <div style={{paddingTop: '20px'}}>
+                <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8">
+                  <Image alt='link to app store' src={appStoreImg} />
+                </a>
+              </div>
             </div>
             <div className="uk-width-3-4@s">
               <p>
