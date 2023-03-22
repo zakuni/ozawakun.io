@@ -7,6 +7,7 @@ import Script from 'next/script';
 
 export const metadata = {
   title: 'ozawakun.io',
+  description: 'ozawakun.io, a portfolio site of zakuni',
 };
 
 export default function RootLayout({
