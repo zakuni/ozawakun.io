@@ -5,7 +5,7 @@
   "author": "zakuni",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev --turbo",
     "lint": "next lint",
     "build": "next build",
     "start": "next start"
