@@ -11,7 +11,7 @@ const Footer = () => (
         <a href="https://www.linkedin.com/in/kunioozawa/" target="_blank" rel="noopener noreferrer" className="uk-icon-button" uk-icon="linkedin" aria-label="linkedin" />
       </div>
       <div>
-        <a href="http://ozawakun.io">ozawakun.io</a>, since 2013.&nbsp;<a href="mailto:contactme&amp;#64;ozawakun.io">contactme&#64;ozawakun.io</a>
+        <a href="http://ozawakun.io">ozawakun.io</a>, since 2013.&nbsp;<a href="mailto:contactme&#64;ozawakun.io">contactme&#64;ozawakun.io</a>
       </div>
     </footer>
     <style jsx>{`
