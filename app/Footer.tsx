@@ -4,7 +4,7 @@ const Footer = () => (
   <>
     <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-medium-top">
       <div className="uk-margin-small-bottom">
-        <a href="https://twitter.com/zakuni" target="_blank" rel="noopener noreferrer" className="uk-icon-button uk-margin-small-right" uk-icon="twitter" aria-label="twitter" />
+        <a href="https://twitter.com/zakuni" target="_blank" rel="noopener noreferrer" className="uk-icon-button uk-margin-small-right" uk-icon="x" aria-label="x" />
         <a href="https://www.facebook.com/zakuni" target="_blank" rel="noopener noreferrer" className="uk-icon-button  uk-margin-small-right" uk-icon="facebook" aria-label="facebook" />
         <a href="https://github.com/zakuni" target="_blank" rel="noopener noreferrer" className="uk-icon-button uk-margin-small-right" uk-icon="github" aria-label="gitbook" />
         <a href="https://www.instagram.com/zakuni/" target="_blank" rel="noopener noreferrer" className="uk-icon-button uk-margin-small-right" uk-icon="instagram" aria-label="instagram" />
