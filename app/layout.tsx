@@ -3,12 +3,20 @@ import './global.css';
 import TopBar from './TopBar'
 import Footer from './Footer';
 import Script from 'next/script';
+import { url } from "inspector";
 
 
 export const metadata = {
   title: 'ozawakun.io',
   description: 'ozawakun.io, a portfolio site of zakuni',
 };
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Website',
+  name: 'ozawakun.io',
+  url: 'https://www.ozawakun.io',
+}
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -20,6 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {/* Global site tag (gtag.js) - Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=UA-19099790-3"
