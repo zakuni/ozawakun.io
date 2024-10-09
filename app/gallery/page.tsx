@@ -1,9 +1,10 @@
+import { Metadata } from 'next';
 import GalleryPage from './gallery-page';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'GALLERY | ozawakun.io',
 };
 
-export default async function Page() {
+export default function Page() {
   return <GalleryPage />;
 }
