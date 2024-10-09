@@ -4,6 +4,7 @@ import TopBar from './TopBar'
 import Footer from './Footer';
 import Script from 'next/script';
 import { url } from "inspector";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 
 export const metadata = {
@@ -27,25 +28,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-K9TLVVM7" />
       <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=UA-19099790-3"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-19099790-3');
-          `}
-        </Script>
         <TopBar />
         {children}
         <Footer />
