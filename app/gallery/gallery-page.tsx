@@ -15,7 +15,7 @@ const GalleryPage = () => (
       <section id="gallery" className="uk-section">
         <PageTitle>GALLERY</PageTitle>
         <section id='photos' className='mb-32'>
-          <h3 className='text-xl mb-4'>Photos</h3>
+          <h3 className='text-xl mb-8'>Photos</h3>
           <div>
             <div className='lr_embed' style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}>
               <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/71663dcf01b0433193bbc0d6f04e04f8/slideshow?background_color=%232D2D2D&color=%23999999' frameBorder='0' style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}></iframe>
@@ -26,31 +26,9 @@ const GalleryPage = () => (
           </div>
         </section>
         <section id="something">
-          <h3 className="text-xl mb-4">
+          <h3 className="text-xl mb-8">
             Something
           </h3>
-          <div className="uk-flex-middle" data-uk-grid>
-            <div className="uk-width-1-4@s uk-text-center">
-              <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8">
-                <Image alt="zakuni電卓" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={zCalImg} width="170" />
-              </a>
-              <div style={{paddingTop: '20px'}}>
-                <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8">
-                  <Image alt='link to app store' src={appStoreImg} />
-                </a>
-              </div>
-            </div>
-            <div className="uk-width-3-4@s">
-              <h5>
-                zakuni電卓
-              </h5>
-              <p>
-                ある日僕は思ったのです。電卓を作ってみよう、と。
-              </p>
-              <p>そしたら出来たのです。電卓が。</p>
-            </div>
-          </div>
-          <hr className="my-12" />
           <div className="uk-flex-middle" data-uk-grid>
             <div className="uk-width-1-4@s uk-text-center">
               <a href="https://editor.p5js.org/zakuni/full/ryqQseOYM">
@@ -80,66 +58,6 @@ const GalleryPage = () => (
               </p>
               <p>
                 ソースは<a href="https://editor.p5js.org/zakuni/sketches/r1kK6YVqf">こちら</a>。
-              </p>
-            </div>
-          </div>
-          <hr className="my-12" />
-          <div className="uk-flex-middle" uk-grid="">
-            <div className="uk-width-1-4@s uk-text-center">
-              <a className="uk-link-reset" href="http://machiawase.herokuapp.com">
-                <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
-                  街合わせ
-                </div>
-              </a>
-            </div>
-            <div className="uk-width-3-4@s">
-              <h5>
-                街合わせ
-              </h5>
-              <p>
-                待ち合わせをするためのwebサービス。二つの場所の中間らへんの場所を教えてくれる。
-              </p>
-              <p>
-                電車の駅名を入れると中間らへんの駅を教えてくれるようにもしようかと思っていたが、そうこうしているうちに山形に引っ越し、車移動メインになったことで、サービス自体を使う機会がほぼ無くなった。
-              </p>
-            </div>
-          </div>
-          <hr className="my-12" />
-          <div className="uk-flex-middle" uk-grid="">
-            <div className="uk-width-1-4@s uk-text-center">
-              <a className="uk-link-reset" href="http://boy2man.herokuapp.com">
-                <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
-                  Boy2Man
-                </div>
-              </a>
-            </div>
-            <div className="uk-width-3-4@s">
-              <h5>
-                Boy2Man
-              </h5>
-              <p>
-                ジャンケンマン。
-              </p>
-              <p>
-                ユーザーが出す手を選択する → プログラムが出した手と対戦結果が帰ってくる、という作りにしたことで、イカサマを疑われても潔白の証明が難しくなった。
-              </p>
-            </div>
-          </div>
-          <hr className="my-12" />
-          <div className="uk-flex-middle" uk-grid="">
-            <div className="uk-width-1-4@s uk-text-center">
-              <a className="uk-link-reset" href="/smoothsnap/sample.html">
-                <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
-                  SmoothSnap
-                </div>
-              </a>
-            </div>
-            <div className="uk-width-3-4@s">
-              <h5>
-                SmoothSnap
-              </h5>
-              <p>
-                jQuery UIのプラグインとして作ったのだが、これからjQuery UIを使う人などもういない。
               </p>
             </div>
           </div>

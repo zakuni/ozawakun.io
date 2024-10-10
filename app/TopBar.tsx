@@ -11,6 +11,7 @@ const TopBar = () => (
       <span className={`${styles.toplinks} uk-link-text`}>
         <Link href="/about" className={styles.toplink}>ABOUT</Link>
         <Link href="/gallery" className={styles.toplink}>GALLERY</Link>
+        <Link href="/products" className={styles.toplink}>PRODUCTS</Link>
         <Link href="/now" className={styles.toplink}>NOW</Link>
         <Link href="/links" className={styles.toplink}>LINKS</Link>
       </span>
