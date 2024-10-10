@@ -1,9 +1,8 @@
 import "../node_modules/uikit/dist/css/uikit.min.css";
 import './global.css';
-import TopBar from './TopBar'
-import Footer from './Footer';
+import TopBar from '@/components/TopBar'
+import Footer from '@/components/Footer';
 import Script from 'next/script';
-import { url } from "inspector";
 import { GoogleTagManager } from '@next/third-parties/google'
 
 

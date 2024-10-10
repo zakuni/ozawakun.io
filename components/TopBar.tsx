@@ -2,7 +2,7 @@ import Link from 'next/link'
 import ScrambleTitle from './ScrambleTitle'
 import styles from './topbar.module.css'
 
-const TopBar = () => (
+export default function TopBar() {
   <>
     <div className={`${styles.sticky} top-0`}>
       <Link href="/" id="title" className={`uk-logo ${styles['uk-logo']}`}>
@@ -17,8 +17,6 @@ const TopBar = () => (
       </span>
     </div>
   </>
-)
-
-export default TopBar;
+}
 
 

@@ -3,10 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/pages/*": ["pages/*"],
       "@/public/*": ["public/*"],
       "@/styles/*": ["styles/*"],
-      "@/utils/*": ["utils/*"]
     },
     "importHelpers": true,
     "target": "es5",

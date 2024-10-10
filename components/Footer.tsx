@@ -1,8 +1,6 @@
-'use client';
-
 const Footer = () => (
   <>
-    <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-medium-top">
+    <footer className="uk-text-center uk-link-muted uk-text-meta uk-margin-medium-top pb-14">
       <div className="uk-margin-small-bottom">
         <a href="https://twitter.com/zakuni" target="_blank" rel="noopener noreferrer" className="uk-icon-button uk-margin-small-right" uk-icon="x" aria-label="x" />
         <a href="https://www.facebook.com/zakuni" target="_blank" rel="noopener noreferrer" className="uk-icon-button  uk-margin-small-right" uk-icon="facebook" aria-label="facebook" />
@@ -14,11 +12,6 @@ const Footer = () => (
         <a href="http://ozawakun.io">ozawakun.io</a>, since 2013.&nbsp;<a href="mailto:contactme&#64;ozawakun.io">contactme&#64;ozawakun.io</a>
       </div>
     </footer>
-    <style jsx>{`
-      footer {
-        padding-bottom: 40px;
-      }
-    `}</style>
   </>
 )
 export default Footer;
