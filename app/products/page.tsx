@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import PageTitle from '../PageTitle'
+import PageTitle from '@/components/PageTitle'
 import zCalImg from '@/public/images/z-cal.png';
 import appStoreImg from '@/public/images/Download_on_the_App_Store_blk_.svg';
 

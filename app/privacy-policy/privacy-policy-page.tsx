@@ -1,4 +1,4 @@
-import PageTitle from '../PageTitle'
+import PageTitle from '@/components/PageTitle'
 
 const PrivacyPolicyPage = () => (
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">

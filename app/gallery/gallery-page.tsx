@@ -1,13 +1,11 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import PageTitle from '../PageTitle'
-import zCalImg from '../../public/images/z-cal.png';
-import gekkoImg from '../../public/images/gekko.png';
-import sketchParticleImg from '../../public/images/sketch_particle.png';
-import sakurafubukiImg from '../../public/images/sakurafubuki.png';
-import chirimomijiImg from '../../public/images/chirimomiji.png';
-import appStoreImg from '../../public/images/Download_on_the_App_Store_blk_.svg';
+import PageTitle from '@/components/PageTitle'
+import gekkoImg from '@/public/images/gekko.png';
+import sketchParticleImg from '@/public/images/sketch_particle.png';
+import sakurafubukiImg from '@/public/images/sakurafubuki.png';
+import chirimomijiImg from '@/public/images/chirimomiji.png';
 
 const GalleryPage = () => (
   <div className="uk-container uk-container-small uk-width-3-4@s">
