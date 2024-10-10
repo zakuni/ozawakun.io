@@ -41,6 +41,9 @@ const GalleryPage = () => (
               </div>
             </div>
             <div className="uk-width-3-4@s">
+              <h5>
+                zakuni電卓
+              </h5>
               <p>
                 ある日僕は思ったのです。電卓を作ってみよう、と。
               </p>
