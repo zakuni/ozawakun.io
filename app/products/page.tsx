@@ -16,8 +16,8 @@ export default function Page() {
           <section id="products">
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s uk-text-center justify-self-center text-center">
-                <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8">
-                  <Image alt="zakuni電卓" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={zCalImg} width="170" />
+                <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8" className='inline-block text-center'>
+                  <Image alt="zakuni電卓" className="shadow hover:shadow-sm rounded-3xl" src={zCalImg} width="170" />
                 </a>
               </div>
               <div className="uk-width-3-4@s">
@@ -40,15 +40,15 @@ export default function Page() {
             <h3 className='text-xl mb-3'>LEGACY</h3>
             <p className='mb-12'>Something I made long long ago...</p>
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s uk-text-center">
+              <div className="uk-width-1-4@s text-center">
                 <a className="uk-link-reset" href="http://machiawase.herokuapp.com">
-                  <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
+                  <div className="shadow hover:shadow-sm p-6 py-10 bg-white text-nowrap">
                     街合わせ
                   </div>
                 </a>
               </div>
               <div className="uk-width-3-4@s">
-                <h5>
+                <h5 className='mb-2'>
                   街合わせ
                 </h5>
                 <p>
@@ -61,15 +61,15 @@ export default function Page() {
             </div>
             <hr className="my-12" />
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s uk-text-center">
+              <div className="uk-width-1-4@s text-center">
                 <a className="uk-link-reset" href="http://boy2man.herokuapp.com">
-                  <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
+                  <div className="shadow hover:shadow-sm p-6 py-10 bg-white">
                     Boy2Man
                   </div>
                 </a>
               </div>
               <div className="uk-width-3-4@s">
-                <h5>
+                <h5 className='mb-2'>
                   Boy2Man
                 </h5>
                 <p>
@@ -82,15 +82,15 @@ export default function Page() {
             </div>
             <hr className="my-12" />
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s uk-text-center">
+              <div className="uk-width-1-4@s text-center">
                 <a className="uk-link-reset" href="/smoothsnap/sample.html">
-                  <div className="uk-box-shadow-medium uk-box-shadow-hover-large uk-padding">
+                  <div className="shadow hover:shadow-sm p-6 py-10 bg-white">
                     SmoothSnap
                   </div>
                 </a>
               </div>
               <div className="uk-width-3-4@s">
-                <h5>
+                <h5 className='mb-2'>
                   SmoothSnap
                 </h5>
                 <p>
