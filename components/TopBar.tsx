@@ -40,13 +40,13 @@ const TopBar = () => {
         </div>
       </div>
       <div className=' w-[100vw] h-[100vh]'>
-        <nav className='inline-flex flex-col mt-20 mx-5 gap-y-4'>
-          <Link href="/" className='text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Top</Link>
-          <Link href="/about" className='text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>About</Link>
-          <Link href="/gallery" className='text-lg text-gray-700 hover:text-black hover:no-underline'>Gallery</Link>
-          <Link href="/products" className='text-lg text-gray-700 hover:text-black hover:no-underline'>Products</Link>
-          <Link href="/now" className='text-lg text-gray-700 hover:text-black hover:no-underline'>Now</Link>
-          <Link href="/links" className='text-lg text-gray-700 hover:text-black hover:no-underline'>Links</Link>
+        <nav className='inline-flex flex-col mt-20 px-5 w-full gap-y-4'>
+          <Link href="/" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Top</Link>
+          <Link href="/about" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>About</Link>
+          <Link href="/gallery" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline'>Gallery</Link>
+          <Link href="/products" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline'>Products</Link>
+          <Link href="/now" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline'>Now</Link>
+          <Link href="/links" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline'>Links</Link>
         </nav>
       </div>
     </dialog>
