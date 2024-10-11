@@ -1,4 +1,3 @@
-import "../node_modules/uikit/dist/css/uikit.min.css";
 import './global.css';
 import TopBar from '@/components/TopBar'
 import Footer from '@/components/Footer';
