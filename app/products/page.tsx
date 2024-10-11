@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <div className="mx-4 sm:mx-20">
       <main>
-        <section className='sm:mt-24 mb-36'>
+        <section className='mt-12 sm:mt-24 mb-36'>
           <PageTitle>PRODUCTS</PageTitle>
           <section id="products">
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
