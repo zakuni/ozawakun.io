@@ -23,7 +23,7 @@ const MobileMenu = () => {
           <div className='hamburger-bottom w-full h-[2px] bg-black'></div>
         </div>
       </div>
-      <dialog ref={dialogRef} className='max-w-[100vw] max-h-[100vh] open:animate-fadein backdrop:animate-fadein'>
+      <dialog ref={dialogRef} className='max-w-[100vw] max-h-[100svh] open:animate-fadein backdrop:animate-fadein open:overflow-y-hidden'>
         <div className='inline-block absolute lg:hidden right-4 top-5' onClick={closeModal}>
           <div className="toggle-menu flex flex-col justify-center w-5 h-5">
             <div className='hamburger-up w-full h-[2px] mb-[4px] bg-black rotate-45 translate-y-[3px]'></div>
