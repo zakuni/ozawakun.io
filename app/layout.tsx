@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GoogleTagManager gtmId="GTM-K9TLVVM7" />
-      <body>
+      <body className='has-[:modal]:overflow-hidden has-[:modal]:overscroll-none'>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
