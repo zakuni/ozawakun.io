@@ -29,16 +29,16 @@ export default function Page() {
             </div>
           </section>
           <section id="something">
-            <h3 className="text-xl tracking-wide mb-8">
+            <h3 className="text-xl tracking-wide mb-14">
               Something
             </h3>
-            <div className="uk-flex-middle text-[#101010]" data-uk-grid>
-              <div className="uk-width-1-4@s uk-text-center">
+            <div className="flex flex-col sm:flex-row place-items-center text-[#101010]" data-uk-grid>
+              <div className="basis-1/4 uk-text-center">
                 <a href="https://editor.p5js.org/zakuni/full/ryqQseOYM">
                   <Image alt="sketch gekko" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={gekkoImg} width="200" />
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="basis-3/4">
                 <p>
                   p5.jsで発光表現の練習するぞと思って作ってみた、月です。
                 </p>
@@ -49,13 +49,13 @@ export default function Page() {
               </div>
             </div>
             <hr className="my-12" />
-            <div className="uk-flex-middle text-[#101010]" uk-grid="">
-              <div className="uk-width-1-4@s uk-text-center">
+            <div className="flex flex-col sm:flex-row place-items-center text-[#101010]" uk-grid="">
+              <div className="basis-1/4 uk-text-center">
                 <a href="https://editor.p5js.org/zakuni/full/r1kK6YVqf">
                   <Image alt="sketch particle" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={sketchParticleImg} width="200" />
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="basis-3/4">
                 <p>
                   こちらも発光表現の練習に作ってみたサムシング。
                 </p>
@@ -65,13 +65,13 @@ export default function Page() {
               </div>
             </div>
             <hr className="my-12" />
-            <div className="uk-flex-middle text-[#101010]" uk-grid="">
-              <div className="uk-width-1-4@s">
+            <div className="flex flex-col sm:flex-row place-items-center text-[#101010]" uk-grid="">
+              <div className="basis-1/4">
                 <a href="/chirimomiji/index.html">
                   <Image alt="chirimomiji" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={chirimomijiImg} width="200" />
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="basis-3/4">
                 <h5 className='text-md mb-2'>
                   散り紅葉
                 </h5>
@@ -81,13 +81,13 @@ export default function Page() {
               </div>
             </div>
             <hr className="my-12" />
-            <div className="uk-flex-middle text-[#101010]" uk-grid="">
-              <div className="uk-width-1-4@s">
+            <div className="flex flex-col sm:flex-row place-items-center text-[#101010]" uk-grid="">
+              <div className="basis-1/4">
                 <a href="/sakurafubuki/index.html">
                   <Image alt="sakurafubuki" className="uk-box-shadow-medium uk-box-shadow-hover-large" src={sakurafubukiImg} width="200" />
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="basis-3/4">
                 <h5 className='text-md mb-2'>
                   桜吹雪
                 </h5>

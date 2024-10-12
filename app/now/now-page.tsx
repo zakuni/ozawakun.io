@@ -1,10 +1,10 @@
+import PageTitle from "@/components/PageTitle";
+
 const NowPage = () => (
   <div className="uk-container uk-container-small uk-width-3-5@s" uk-height-viewport="expand: true">
     <main>
       <section className="uk-section uk-padding-small-bottom">
-        <h2 className="uk-h4">
-          Now
-        </h2>
+        <PageTitle>Now</PageTitle>
         <article className="uk-section-xsmall">
           <div className="uk-text-meta">
             Jan. 4, 2020

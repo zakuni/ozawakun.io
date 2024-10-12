@@ -14,7 +14,7 @@ export default function Page() {
         <section className='mt-12 sm:mt-24 mb-36'>
           <PageTitle>Products</PageTitle>
           <section id="products">
-            <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
+            <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s uk-text-center justify-self-center text-center">
                 <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8" className='inline-block text-center'>
                   <Image alt="zakuni電卓" className="shadow hover:shadow-sm rounded-3xl" src={zCalImg} width="170" />
@@ -37,9 +37,9 @@ export default function Page() {
             </div>
           </section>
           <section id='legacy' className='mt-24'>
-            <h3 className='text-xl mb-3'>Legacy</h3>
+            <h3 className='text-xl tracking-wide mb-3'>Legacy</h3>
             <p className='mb-12'>Something I made long long ago...</p>
-            <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
+            <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s text-center">
                 <a className="uk-link-reset" href="http://machiawase.herokuapp.com">
                   <div className="shadow hover:shadow-sm p-6 py-10 bg-white text-nowrap">
@@ -60,7 +60,7 @@ export default function Page() {
               </div>
             </div>
             <hr className="my-12" />
-            <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
+            <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s text-center">
                 <a className="uk-link-reset" href="http://boy2man.herokuapp.com">
                   <div className="shadow hover:shadow-sm p-6 py-10 bg-white">
@@ -81,7 +81,7 @@ export default function Page() {
               </div>
             </div>
             <hr className="my-12" />
-            <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
+            <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s text-center">
                 <a className="uk-link-reset" href="/smoothsnap/sample.html">
                   <div className="shadow hover:shadow-sm p-6 py-10 bg-white">
