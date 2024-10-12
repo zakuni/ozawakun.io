@@ -6,6 +6,11 @@ const MobileMenu = () => {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const openModal = () => {
     dialogRef.current?.showModal();
+
+    // don't focus first item when dialog is opened
+    setTimeout(() => {
+      dialogRef.current?.focus();
+    }, 0);
   }
   const closeModal = () => {
     dialogRef.current?.close();
@@ -18,11 +23,11 @@ const MobileMenu = () => {
           <div className='hamburger-bottom w-full h-[2px] bg-black'></div>
         </div>
       </div>
-      <dialog ref={dialogRef} className='max-w-[100vw] max-h-[100vh] transition'>
+      <dialog ref={dialogRef} className='max-w-[100vw] max-h-[100vh] open:animate-fadein backdrop:animate-fadein'>
         <div className='inline-block absolute lg:hidden right-4 top-5' onClick={closeModal}>
           <div className="toggle-menu flex flex-col justify-center w-5 h-5">
-            <div className='hamburger-up w-full h-[2px] mb-[4px] bg-black'></div>
-            <div className='hamburger-bottom w-full h-[2px] bg-black'></div>
+            <div className='hamburger-up w-full h-[2px] mb-[4px] bg-black rotate-45 translate-y-[3px]'></div>
+            <div className='hamburger-bottom w-full h-[2px] bg-black rotate-[-45deg] translate-y-[-3px]'></div>
           </div>
         </div>
         <div className='w-[100vw] h-[100vh]'>
