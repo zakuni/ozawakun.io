@@ -32,12 +32,12 @@ const MobileMenu = () => {
         </div>
         <div className='w-[100vw] h-fit'>
           <nav className='fixed top-24 inline-flex flex-col px-5 w-full gap-y-4'>
-            <Link href="/" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Top</Link>
-            <Link href="/about" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>About</Link>
-            <Link href="/gallery" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Gallery</Link>
-            <Link href="/products" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Products</Link>
-            <Link href="/now" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Now</Link>
-            <Link href="/links" className='inline-block w-full text-lg text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Links</Link>
+            <Link href="/" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Top</Link>
+            <Link href="/about" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>About</Link>
+            <Link href="/gallery" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Gallery</Link>
+            <Link href="/products" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Products</Link>
+            <Link href="/now" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Now</Link>
+            <Link href="/links" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Links</Link>
           </nav>
         </div>
       </dialog>

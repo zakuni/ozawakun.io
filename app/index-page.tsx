@@ -12,11 +12,11 @@ const IndexPage = () => (
           alt="Cover image"
           priority
         />
-        <Link href="/gallery" className='uk-align-right uk-link-text uk-margin-top'>GALLERY<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
+        <Link href="/gallery" className='uk-align-right uk-link-text uk-margin-top'>Gallery<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
       </section>
       <section className="uk-section uk-margin-remove-top uk-margin-remove-bottom uk-padding-small-top">
         <div id="about">
-          <PageTitle>INTRODUCTION</PageTitle>
+          <PageTitle>Introduction</PageTitle>
           <div className="uk-margin-medium-bottom">
             <p className="uk-margin-small-bottom">
               I&apos;m Kunio Ozawa, a.k.a. zakuni
@@ -26,7 +26,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <Link href="/about" className='uk-align-right uk-link-text'>MORE ABOUT ME<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
+        <Link href="/about" className='uk-align-right uk-link-text'>More about me<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
       </section>
     </main>
   </div>

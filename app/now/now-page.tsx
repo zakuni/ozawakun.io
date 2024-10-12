@@ -3,7 +3,7 @@ const NowPage = () => (
     <main>
       <section className="uk-section uk-padding-small-bottom">
         <h2 className="uk-h4">
-          NOW
+          Now
         </h2>
         <article className="uk-section-xsmall">
           <div className="uk-text-meta">
@@ -16,7 +16,7 @@ const NowPage = () => (
       </section>
       <section className="uk-section">
         <h2 className="uk-h4">
-          WAS
+          Was
         </h2>
         <article className="uk-section-xsmall">
           <div className="uk-text-meta">

@@ -3,7 +3,7 @@ const AboutPage = () => (
     <main>
       <section id="about" className="uk-section uk-margin-remove-bottom">
         <h2 className="uk-h3 uk-margin-medium-bottom">
-          ABOUT
+          About
         </h2>
         <div className="uk-margin-medium-bottom">
           <p>

@@ -4,7 +4,7 @@ import zCalImg from '@/public/images/z-cal.png';
 import appStoreImg from '@/public/images/Download_on_the_App_Store_blk_.svg';
 
 export const metadata = {
-  title: 'PRODUCTS | ozawakun.io',
+  title: 'Products | ozawakun.io',
 };
 
 export default function Page() {
@@ -12,7 +12,7 @@ export default function Page() {
     <div className="mx-4 sm:mx-20">
       <main>
         <section className='mt-12 sm:mt-24 mb-36'>
-          <PageTitle>PRODUCTS</PageTitle>
+          <PageTitle>Products</PageTitle>
           <section id="products">
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s uk-text-center justify-self-center text-center">
@@ -37,7 +37,7 @@ export default function Page() {
             </div>
           </section>
           <section id='legacy' className='mt-24'>
-            <h3 className='text-xl mb-3'>LEGACY</h3>
+            <h3 className='text-xl mb-3'>Legacy</h3>
             <p className='mb-12'>Something I made long long ago...</p>
             <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
               <div className="uk-width-1-4@s text-center">

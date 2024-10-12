@@ -1,7 +1,7 @@
 import PrivacyPolicyPage from './privacy-policy-page';
 
 export const metadata = {
-  title: 'PRIVACY POLICY | ozawakun.io',
+  title: 'Privacy Policy | ozawakun.io',
 };
 
 export default async function Page() {

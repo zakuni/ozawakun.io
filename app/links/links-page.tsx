@@ -4,7 +4,7 @@ const LinksPage = () => (
   <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
     <main>
       <section id="otherservices" className="uk-section">
-        <PageTitle>LINKS</PageTitle>
+        <PageTitle>Links</PageTitle>
         <ul className="uk-list uk-list-bullet uk-link-muted">
           <li>
             <a href="https://muuseo.com/zakuni" target="_blank" rel="noopener noreferrer">muuseo</a>

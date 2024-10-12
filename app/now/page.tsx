@@ -1,7 +1,7 @@
 import NowPage from './now-page';
 
 export const metadata = {
-  title: 'NOW | ozawakun.io',
+  title: 'Now | ozawakun.io',
 };
 
 export default async function Page() {
