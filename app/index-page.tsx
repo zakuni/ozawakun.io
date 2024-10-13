@@ -4,7 +4,7 @@ import Image from 'next/image';
 import coverImg from '@/public/images/cover.webp';
 
 const IndexPage = () => (
-  <div className="uk-container uk-container-large uk-width-3-4@s">
+  <div className="mx-4 md:mx-32">
     <main>
       <section className="uk-section uk-margin-remove-bottom uk-padding-remove-bottom">
         <Image
