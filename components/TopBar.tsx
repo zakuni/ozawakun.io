@@ -6,7 +6,7 @@ import styles from './topbar.module.css'
 const TopBar = () => {
   return (
   <>
-    <div className={`w-full sticky flex justify-between place-items-center h-14 ${styles.sticky} top-0 backdrop-blur-xl bg-[#fbfbfb]/95 z-10`}>
+    <div className={`w-full sticky flex justify-between place-items-center h-14 ${styles.sticky} top-0 backdrop-blur-xl bg-[#fbfbfb]/90 z-10`}>
       <Link href="/" id="title" className={`uk-logo ${styles['uk-logo']}`}>
         <ScrambleTitle />
       </Link>
