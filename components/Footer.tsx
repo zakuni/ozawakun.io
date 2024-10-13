@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => (
   <>
-    <footer className="text-center uk-link-muted uk-text-meta mt-36 mb-6">
+    <footer className="text-center uk-link-muted uk-text-meta mt-24 sm:mt-36 mb-6">
       <div className="inline-flex place-items-center gap-x-5 sm:gap-x-8 mb-4">
         <a href="https://bsky.app/profile/zakuni.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">
           <FontAwesomeIcon icon={faBluesky} className="w-5 text-gray-500 hover:text-gray-400 transition duration-150" />

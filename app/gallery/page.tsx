@@ -23,8 +23,13 @@ export default function Page() {
               <div className='lr_embed' style={{position: 'relative', paddingBottom: '50%', height: 0, overflow: 'hidden'}}>
                 <iframe id='iframe' src='https://lightroom.adobe.com/embed/shares/71663dcf01b0433193bbc0d6f04e04f8/slideshow?background_color=%232D2D2D&color=%23999999' frameBorder='0' style={{width:'100%', height:'100%', position: 'absolute', top:0, left:0}}></iframe>
               </div>
-              <div className="uk-align-right uk-margin-small">
-                <Link href="https://portfolio.ozawakun.io" className='uk-link-text'>Some more photos are available<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
+              <div className="mt-6">
+                <Link href="https://portfolio.ozawakun.io" className='inline-flex place-items-center uk-align-right uk-margin-small hover:text-gray-400 hover:no-underline transition duration-150'>
+                  Some more photos are available
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 stroke-[1.1px] ml-[2px]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </Link>
               </div>
             </div>
           </section>

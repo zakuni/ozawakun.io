@@ -12,7 +12,12 @@ const IndexPage = () => (
           alt="Cover image"
           priority
         />
-        <Link href="/gallery" className='uk-align-right uk-link-text uk-margin-top'>Gallery<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
+        <Link href="/gallery" className='inline-flex place-items-center uk-align-right uk-margin-top hover:text-gray-400 hover:no-underline transition duration-150'>
+          <span className='tracking-wide'>Gallery</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 stroke-[1.1px] ml-[2px]">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </Link>
       </section>
       <section className="uk-section uk-margin-remove-top uk-margin-remove-bottom uk-padding-small-top">
         <div id="about">
@@ -26,7 +31,12 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <Link href="/about" className='uk-align-right uk-link-text'>More about me<span uk-icon="arrow-right" className='align-text-bottom'></span></Link>
+        <Link href="/about" className='inline-flex uk-align-right hover:text-gray-400 hover:no-underline transition duration-150'>
+          More about me
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 stroke-[1.1px] ml-[2px]">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </Link>
       </section>
     </main>
   </div>
