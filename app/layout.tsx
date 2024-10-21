@@ -26,7 +26,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-H8MM5LTX5J" />
       <body className='has-[:modal]:overflow-hidden has-[:modal]:overscroll-none'>
         <script
           type="application/ld+json"
@@ -36,6 +35,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-H8MM5LTX5J" />
       <Script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js" />
       <Script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js" />
     </html>
