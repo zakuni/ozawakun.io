@@ -16,12 +16,12 @@ export default function Page() {
           <PageTitle>Products</PageTitle>
           <section id="products">
             <article className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s uk-text-center justify-self-center text-center">
+              <div className="w-1/4 uk-text-center justify-self-center text-center">
                 <a href="https://apps.apple.com/jp/app/%E6%8F%9A%E3%81%92%E7%89%A9%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC/id6736895253" target='_blank' className='inline-block text-center'>
                   <Image alt="揚げ物タイマーのアイコン" className="shadow-lg hover:shadow-sm rounded-3xl" src={deepfryTimerIcon} width="170" />
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="w-3/4">
                 <h5 className='mb-2'>
                   揚げ物タイマー
                 </h5>
@@ -40,14 +40,14 @@ export default function Page() {
             </article>
             <hr className="my-12" />
             <article className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s uk-text-center justify-self-center text-center">
-                <a className="cursor-pointer hover:no-underline hover:text-gray-600" href="https://zakuni-components.pages.dev" target='_blank'>
+              <div className="w-1/4 justify-self-center text-center">
+                <a className="block cursor-pointer hover:no-underline hover:text-gray-600" href="https://zakuni-components.pages.dev" target='_blank'>
                   <div className="shadow hover:shadow-sm p-6 py-10 bg-white">
                     zakuni components
                   </div>
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="w-3/4">
                 <h5 className='mb-2'>
                   zakuni components
                 </h5>
@@ -64,12 +64,12 @@ export default function Page() {
             </article>
             <hr className="my-12" />
             <article className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s uk-text-center justify-self-center text-center">
+              <div className="w-1/4 uk-text-center justify-self-center text-center">
                 <a href="https://itunes.apple.com/us/app/zakuni電卓/id1465087955?l=ja&ls=1&mt=8" className='inline-block text-center' target='_blank'>
                   <Image alt="zakuni電卓のアイコン" className="shadow hover:shadow-sm rounded-3xl" src={zCalImg} width="170" />
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="w-3/4">
                 <h5 className='mb-2'>
                   zakuni電卓
                 </h5>
@@ -89,12 +89,12 @@ export default function Page() {
             <h3 className='text-xl tracking-wide mb-3'>Legacy</h3>
             <p className='mb-12'>Something I made long, long ago...</p>
             <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s text-center">
+              <div className="w-1/4 text-center">
                 <div className="p-6 py-10 bg-gray-100 text-nowrap">
                   街合わせ
                 </div>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="w-3/4">
                 <h5 className='mb-2'>
                   街合わせ(公開停止)
                 </h5>
@@ -108,12 +108,12 @@ export default function Page() {
             </div>
             <hr className="my-12" />
             <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s text-center">
+              <div className="w-1/4 text-center">
                 <div className="p-6 py-10 bg-gray-100">
                   Boy2Man
                 </div>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="w-3/4">
                 <h5 className='mb-2'>
                   Boy2Man(公開停止)
                 </h5>
@@ -127,14 +127,14 @@ export default function Page() {
             </div>
             <hr className="my-12" />
             <div className="flex flex-col sm:flex-row place-items-center gap-y-8 sm:gap-y-0 sm:gap-x-8">
-              <div className="uk-width-1-4@s text-center">
+              <div className="w-1/4 text-center">
                 <a className="uk-link-reset" href="/smoothsnap/sample.html">
                   <div className="shadow hover:shadow-sm p-6 py-10 bg-white">
                     SmoothSnap
                   </div>
                 </a>
               </div>
-              <div className="uk-width-3-4@s">
+              <div className="w-3/4">
                 <h5 className='mb-2'>
                   SmoothSnap
                 </h5>
