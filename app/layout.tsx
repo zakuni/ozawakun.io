@@ -2,7 +2,7 @@ import './global.css';
 import TopBar from '@/components/TopBar'
 import Footer from '@/components/Footer';
 import Script from 'next/script';
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 export const metadata = {
@@ -26,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-K9TLVVM7" />
+      <GoogleAnalytics gaId="G-H8MM5LTX5J" />
       <body className='has-[:modal]:overflow-hidden has-[:modal]:overscroll-none'>
         <script
           type="application/ld+json"
