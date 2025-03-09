@@ -8,6 +8,6 @@
   ],
   "scope": "atproto",
   "response_types": ["code"],
-  "redirect_uris": ["https://www.ozawakun.io/oauth/callback"],
+  "redirect_uris": ["io.ozawakun.www:/callback"],
   "drop_bound_access_tokens": true
 }
