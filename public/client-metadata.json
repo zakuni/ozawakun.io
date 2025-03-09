@@ -6,7 +6,7 @@
     "authorization_code",
     "refresh_token"
   ],
-  "scope": "atproto",
+  "scope": "atproto transition:generic transition:chat.bsky",
   "response_types": ["code"],
   "redirect_uris": ["io.ozawakun.www:/callback"],
   "dpop_bound_access_tokens": true,
