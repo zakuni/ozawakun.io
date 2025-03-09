@@ -1,0 +1,13 @@
+{
+  "client_id": "https://helico/client-metadata.json",
+  "client_name": "Helico",
+  "application_type": "native",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "scope": "atproto",
+  "response_types": ["code"],
+  "redirect_uris": ["helico:/callback"],
+  "drop_bound_access_tokens": true
+}
