@@ -14,7 +14,6 @@ const TopBar = () => {
         <Link href="/about" className='text-[#101010] tracking-wider hover:text-[#737373] transition-colors duration-150 hover:no-underline'>About</Link>
         <Link href="/gallery" className='text-[#101010] tracking-wider hover:text-[#737373] transition-colors duration-150 hover:no-underline'>Gallery</Link>
         <Link href="/products" className='text-[#101010] tracking-wider hover:text-[#737373] transition-colors duration-150 hover:no-underline'>Products</Link>
-        <Link href="/now" className='text-[#101010] tracking-wider hover:text-[#737373] transition-colors duration-150 hover:no-underline'>Now</Link>
         <Link href="/links" className='text-[#101010] tracking-wider hover:text-[#737373] transition-colors duration-150 hover:no-underline'>Links</Link>
       </nav>
       <MobileMenu />

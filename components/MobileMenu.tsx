@@ -36,7 +36,6 @@ const MobileMenu = () => {
             <Link href="/about" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>About</Link>
             <Link href="/gallery" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Gallery</Link>
             <Link href="/products" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Products</Link>
-            <Link href="/now" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Now</Link>
             <Link href="/links" className='inline-block w-full text-lg tracking-wide text-gray-700 hover:text-black hover:no-underline' onClick={closeModal}>Links</Link>
           </nav>
         </div>
