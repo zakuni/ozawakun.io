@@ -2,6 +2,7 @@ import './global.css';
 import TopBar from '@/components/TopBar'
 import Footer from '@/components/Footer';
 import Script from 'next/script';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata = {
   title: 'ozawakun.io',
@@ -24,16 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-H8MM5LTX5J"></Script>
-      <Script id='google-analytics'>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-H8MM5LTX5J');
-        `}
-      </Script>
+      <GoogleTagManager gtmId="GTM-K9TLVVM7" />
       <body className='has-[:modal]:overflow-hidden has-[:modal]:overscroll-none'>
         <script
           type="application/ld+json"
