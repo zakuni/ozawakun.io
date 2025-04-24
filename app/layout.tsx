@@ -25,6 +25,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.23.6/dist/js/uikit.min.js" />
+      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.23.6/dist/js/uikit-icons.min.js" />
       <GoogleTagManager gtmId="GTM-K9TLVVM7" />
       <body className='has-[:modal]:overflow-hidden has-[:modal]:overscroll-none'>
         <script
@@ -35,8 +37,6 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js" />
-      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js" />
     </html>
   );
 }
