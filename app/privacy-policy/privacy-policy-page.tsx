@@ -1,11 +1,11 @@
 import PageTitle from '@/components/PageTitle'
 
 const PrivacyPolicyPage = () => (
-  <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
+  <div className="mx-auto px-10 sm:w-3/4 box-border max-w-full mt-0">
     <main>
-      <section id="about" className="uk-section uk-margin-remove-bottom">
+      <section id="about" className="py-[70px] flow-root mb-0">
         <PageTitle>Privacy Policy</PageTitle>
-        <div className="uk-margin-medium-bottom">
+        <div className="mb-10">
           <p>
             第三者に個人を特定できる情報を提供することはありません。
           </p>
