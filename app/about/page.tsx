@@ -6,20 +6,20 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="uk-container uk-container-small uk-width-3-4@s mt-0">
+    <div className="mx-auto px-10 sm:w-3/4 box-border max-w-full mt-0">
       <main>
-        <section id="about" className="uk-section mb-0">
+        <section id="about" className="py-[70px] mb-0">
           <PageTitle>About</PageTitle>
-          <div className="uk-margin-medium-bottom">
+          <div className="mb-10">
             <p>
               Kunio Ozawa a.k.a. zakuni
             </p>
           </div>
-          <div className="uk-margin-medium-bottom">
+          <div className="mb-10">
             <h5>Date of birth</h5>
             <p>Mar. 30, 1987</p>
           </div>
-          <div className="uk-margin-medium-bottom">
+          <div className="mb-10">
             <h5>Bio</h5>
             <p>主にWebやソフトウェアのエンジニア的な何か。UIとか情報とかコミュニケーションについて考えていることが多い。</p>
             <p>神奈川出身。アメリカ滞在、ドイツ留学、湘南藤沢の大学、ジャパニーズトラディショナル大企業での勤務を経てベンチャーに転職し、現在は山形の庄内地方で暮らしています。</p>
