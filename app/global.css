@@ -1,38 +1,57 @@
-@import 'uikit/dist/css/uikit.min.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import 'uikit/dist/css/uikit.min.css' layer(base);
 
-html, body {
-  background: #fbfbfb;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#about {
-  color: #333;
-}
+@source "../app/**/*.{js,ts,jsx,tsx}";
+@source "../components/**/*.{js,ts,jsx,tsx}";
 
-b {
-  font-weight: 500;
+@theme {
+  --animate-fadein: fadein 0.2s ease-in forwards;
+
+  @keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 }
 
-h1, h2, h3, h4 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+@layer base {
+  html, body {
+    background: #fbfbfb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
 
-h2 {
-  font-weight: 450;
-}
-h5 {
-  font-weight: 500;
-}
+  a {
+    color: inherit;
+  }
 
-article > p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  #about {
+    color: #333;
+  }
 
-.uk-h3, .uk-h4 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.uk-icon-button {
-  background: #fbfbfb;
+  b {
+    font-weight: 500;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h2 {
+    font-weight: 450;
+  }
+
+  h5 {
+    font-weight: 500;
+  }
+
+  article > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .uk-h3, .uk-h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .uk-icon-button {
+    background: #fbfbfb;
+  }
 }
