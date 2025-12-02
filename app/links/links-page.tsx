@@ -1,9 +1,9 @@
 import PageTitle from '@/components/PageTitle';
 
 const LinksPage = () => (
-  <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
+  <div className="mx-auto px-10 sm:w-3/4 box-border max-w-full mt-0">
     <main>
-      <section id="otherservices" className="uk-section">
+      <section id="otherservices" className="py-[70px] flow-root [&>:last-child]:mb-0">
         <PageTitle>Links</PageTitle>
         <ul className="uk-list uk-list-bullet uk-link-muted">
           <li>
