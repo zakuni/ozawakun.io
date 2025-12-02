@@ -1,7 +1,7 @@
 import './global.css';
 import TopBar from '@/components/TopBar'
 import Footer from '@/components/Footer';
-import Script from 'next/script';
+import UIKitProvider from '@/components/UIKitProvider';
 import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata = {
@@ -31,12 +31,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <TopBar />
-        {children}
-        <Footer />
+        <UIKitProvider>
+          <TopBar />
+          {children}
+          <Footer />
+        </UIKitProvider>
       </body>
-      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js" />
-      <Script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js" />
     </html>
   );
 }
