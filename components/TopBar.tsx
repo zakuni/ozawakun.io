@@ -7,7 +7,7 @@ const TopBar = () => {
   return (
   <>
     <div className={`w-full sticky flex justify-between place-items-center h-14 ${styles.sticky} top-0 backdrop-blur-xl bg-[#fbfbfb]/90 z-10`}>
-      <Link href="/" id="title" className={`uk-logo ${styles['uk-logo']}`}>
+      <Link href="/" id="title" className={`${styles.logo} hover:no-underline`}>
         <ScrambleTitle />
       </Link>
       <nav className='hidden lg:inline-flex text-lg mr-10 gap-8'>

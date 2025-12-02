@@ -1,10 +1,10 @@
-.uk-logo {
+.logo {
   color: #333;
   padding: 0 50px;
 }
 
 @media screen and (max-width: 600px) {
-  .uk-logo {
+  .logo {
     padding: 0 15px;
   }
 

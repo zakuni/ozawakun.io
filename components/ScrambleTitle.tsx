@@ -14,7 +14,7 @@ const Scramble: React.FC<Props> = ({className, children}) => (
 
 const ScrambleTitle: React.FC = () => (
   <>
-    <span className={`${styles.scrambleTitle} uk-link-reset`}>
+    <span className={`${styles.scrambleTitle} no-underline text-inherit`}>
       ozawa<Scramble className={styles.space}>&nbsp;</Scramble>kun<Scramble className={styles.period}>.</Scramble>io
     </span>
   </>
