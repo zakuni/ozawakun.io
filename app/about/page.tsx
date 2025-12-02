@@ -6,9 +6,9 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="uk-container uk-container-small uk-width-3-4@s uk-margin-remove-top">
+    <div className="uk-container uk-container-small uk-width-3-4@s mt-0">
       <main>
-        <section id="about" className="uk-section uk-margin-remove-bottom">
+        <section id="about" className="uk-section mb-0">
           <PageTitle>About</PageTitle>
           <div className="uk-margin-medium-bottom">
             <p>
